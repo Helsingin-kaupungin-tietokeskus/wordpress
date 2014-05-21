@@ -1,0 +1,20 @@
+This directory includes the patches applied to WP core ("core hacks"). 
+These patches must be applied always when the WP version is updated, because
+the upgrade process replaces all the files in wp-include, wp-admin and
+wp-content.
+
+Please document below what each patch does.
+
+  ms-settings_201301082151.patch
+--------------------------------
+WP multisite configuration doesn't allow running WP on different port than
+80 or 443. This patch fixes the problem.
+
+The patch wasn't yet included in WP 3.8.1, and we apply it manually.
+
+https://core.trac.wordpress.org/ticket/15936
+
+
+  Joku toinen tiedosto FIXME
+----------------------------
+yksi include lisää wp-settings.php:ssä?

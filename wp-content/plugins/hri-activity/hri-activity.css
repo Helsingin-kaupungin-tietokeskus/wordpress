@@ -1,0 +1,38 @@
+/*
+ * deprecated
+ *
+
+.recent-item{clear:both;}
+
+#hri_activity .avatar,
+#widget_recent_ajax .avatar{float:left;margin:0 10px 15px 0;}
+
+#hri_activity .timestamp, #widget_recent_ajax .timestamp {margin:0;}
+
+#hri_activity .comment-meta {line-height:16px;margin:0;}
+#hri_activity h4 {margin-bottom:10px;}
+#hri_recent_checkboxes {padding-bottom:10px}
+.hri_recent_label{white-space:nowrap;float:left;margin:5px;}
+#hri_activity label{padding-left:5px;font-weight:bold;}
+
+#widget_recent_ajax>div:first-child{border-top:none;padding-top:0;}
+#widget_recent_ajax .recent-item{padding-bottom:16px;}
+#widget_recent_ajax h4 {width:auto;padding-right:20px;margin:0 -1px 0 0;border:0;line-height:15px;}
+#widget_recent_ajax .recent_date {height:14px;border:none;margin-top:0;line-height:15px;}
+#widget_recent_ajax a.clear {display:block;}
+
+#recent_ajax>div:first-child{border-top:none;padding-top:0;}
+#hri_activity .recent-item{padding-bottom:10px;}
+#hri_activity .recent-item>p{margin-bottom:6px;}
+#hri_activity h4 {width:auto;padding-right:20px;margin:0 -1px 0 0;border:0;line-height:15px;}
+#hri_activity .recent_date {height:14px;border:none;margin-top:0;line-height:15px;}
+#hri_activity a.clear {display:block;}
+/* some styles in HRI theme style.css */
+
+/*
+#hri_recent_checkboxes {border-bottom:1px solid #e5e5e5;position:relative;margin-bottom:40px}
+#hri_recent_checkboxes .cb{ background: url(../../themes/hri/images/hri_checkbox.png) no-repeat 0 -23px;padding:1px 5px 1px 16px;width:94px;white-space:nowrap;display:block;float:left; }
+#hri_recent_checkboxes .cb:hover{color:inherit;text-decoration:none;}
+#hri_recent_checkboxes .cba{background-position:0 7px;}
+#hri_recent_update{width:70px;position:absolute;bottom:-10px;right:0;text-align:right;background:#fff url('../../themes/hri/images/hri_checkbox.png') no-repeat 10px -59px;color:#33a4db;}
+*/

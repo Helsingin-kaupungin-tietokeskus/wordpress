@@ -1,0 +1,3 @@
+.image-overlay{background:transparent url(img/ie/overlay1.png) repeat-x;}
+article:hover .image-overlay{background-image:url(img/ie/overlay2.png)}
+.hri-ie-placeholder{color:#444;position:absolute;top:33%;left:15px;z-index:99;}

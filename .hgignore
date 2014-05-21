@@ -1,0 +1,9 @@
+syntax: glob
+.project
+.settings
+*~
+*.swp
+.DS_Store
+wp-config.php
+blogs.dir
+

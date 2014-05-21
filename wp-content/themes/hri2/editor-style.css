@@ -1,0 +1,312 @@
+body{
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:14px;
+	line-height:23px;
+}
+
+h2{color:#6fbf69;font-size:23px}
+h3{color:#6fbf69;font-size:20px}
+h4{color:#6fbf69;font-size:18px}
+
+.plainbox{
+	background:top right no-repeat;border:1px solid #dcdcdc;border-radius:3px;float:right;font-size:13px;line-height:20px;margin:0 0 20px 40px;padding:20px;width:198px;
+}
+.plainbox strong{display:block;}
+
+.arrow{background:url(img/sprites.png) no-repeat 0 -914px;font-size:14px;font-weight:bold;display:block;float:left;line-height:23px;padding-left:20px;margin-right:40px}
+
+.plainbox .arrow{
+	background-position:0 -802px;font-size:13px
+}
+
+.green{color:#6fbf69}
+
+.plainbox-icon-app{background-image:url(img/plainbox/app.png)}
+.plainbox-icon-database{background-image:url(img/plainbox/database.png)}
+.plainbox-icon-discuss{background-image:url(img/plainbox/discuss.png)}
+.plainbox-icon-download{background-image:url(img/plainbox/download.png)}
+.plainbox-icon-exc{background-image:url(img/plainbox/exc.png)}
+.plainbox-icon-hri{background-image:url(img/plainbox/hri.png)}
+.plainbox-icon-info{background-image:url(img/plainbox/info.png)}
+.plainbox-icon-left{background-image:url(img/plainbox/left.png)}
+.plainbox-icon-minus{background-image:url(img/plainbox/minus.png)}
+.plainbox-icon-phone{background-image:url(img/plainbox/phone.png)}
+.plainbox-icon-plus{background-image:url(img/plainbox/plus.png)}
+.plainbox-icon-question{background-image:url(img/plainbox/question.png)}
+.plainbox-icon-random{background-image:url(img/plainbox/random.png)}
+.plainbox-icon-right{background-image:url(img/plainbox/right.png)}
+.plainbox-icon-share{background-image:url(img/plainbox/share.png)}
+.plainbox-icon-up{background-image:url(img/plainbox/up.png)}
+
+blockquote {
+	color:#AE4598;font-size:17px;font-style:italic;line-height:27px;width:260px;
+}
+
+.right-quote{
+	float:right;width:260px;
+}
+
+p.caption{
+	display:block;font-size:16px;font-weight:bold;line-height:26px;margin:18px 0;
+}
+
+.plus-link{background:url(img/submit_btn.png) 0 0 no-repeat;border:none;color:#4895a7;display:inline-block;font-size:13px;font-weight:bold;outline:none;height:35px;line-height:35px;padding-left:46px;}
+
+/* infoboxes */
+.infobox {
+  border: 1px solid #dcdcdc;
+  border-radius: 3px;
+  float: right;
+  padding: 0 18px 18px 18px;
+  margin: 25px;
+  width: 202px;}
+  .infobox .heading {
+    background: #f0f0f0 url(img/gradient1.png) repeat-x;
+    border-bottom: 1px solid #dcdcdc;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    min-height: 43px;
+    margin: 0 -18px; }
+    .infobox .heading h3 {
+      clear: none;
+      font-size: 13px;
+      line-height: 43px;
+      text-indent: 15px;
+      margin-bottom: 0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+  .infobox .multiline h3 {
+    line-height: 18px;
+    padding: 18px;
+    text-indent: 0;
+    white-space: normal; }
+  .infobox .arrow {
+    background: url(img/sprites.png) no-repeat 0 -805px;
+    font-size: 13px;
+    line-height: 20px;
+    padding-left: 20px;
+    margin-right: 0; }
+  .infobox h5 {
+    clear: none;
+    margin-top: 18px; }
+  .infobox .attachment-thumbnail {
+    margin-top: 18px;
+    float: left; }
+
+.infobox-icon {
+  background: url(img/icons-small.png) no-repeat;
+  border-right: 1px solid #dcdcdc;
+  float: left;
+  height: 43px;
+  width: 44px; }
+
+.infobox-icon- {
+  display: none; }
+
+.infobox-icon-hri {
+  background-position: 0 0; }
+
+.infobox-icon-excl {
+  background-position: -50px 0; }
+
+.infobox-icon-app {
+  background-position: -100px 0; }
+
+.infobox-icon-left {
+  background-position: -150px 0; }
+
+.infobox-icon-minus {
+  background-position: -200px 0; }
+
+.infobox-icon-download {
+  background-position: -250px 0; }
+
+.infobox-icon-right {
+  background-position: -300px 0; }
+
+.infobox-icon-up {
+  background-position: -350px 0; }
+
+.infobox-icon-data {
+  background-position: -400px 0; }
+
+.infobox-icon-phone {
+  background-position: -450px 0; }
+
+.infobox-icon-share {
+  background-position: -500px 0; }
+
+.infobox-icon-tools {
+  background-position: 0 -50px; }
+
+.infobox-icon-find {
+  background-position: -50px -50px; }
+
+.infobox-icon-stats {
+  background-position: -100px -50px; }
+
+.infobox-icon-idea {
+  background-position: -150px -50px; }
+
+.infobox-icon-search {
+  background-position: -200px -50px; }
+
+.infobox-icon-mail {
+  background-position: -250px -50px; }
+
+.infobox-icon-ok {
+  background-position: -300px -50px; }
+
+.infobox-icon-discuss {
+  background-position: -350px -50px; }
+
+.infobox-icon-info {
+  background-position: -400px -50px; }
+
+.infobox-icon-plus {
+  background-position: -450px -50px; }
+
+.bluebox .infobox-icon {
+  border: none; }
+.bluebox .infobox-icon-hri {
+  background-position: 0 -100px; }
+.bluebox .infobox-icon-excl {
+  background-position: -50px -100px; }
+.bluebox .infobox-icon-app {
+  background-position: -100px -100px; }
+.bluebox .infobox-icon-left {
+  background-position: -150px -100px; }
+.bluebox .infobox-icon-minus {
+  background-position: -200px -100px; }
+.bluebox .infobox-icon-download {
+  background-position: -250px -100px; }
+.bluebox .infobox-icon-right {
+  background-position: -300px -100px; }
+.bluebox .infobox-icon-up {
+  background-position: -350px -100px; }
+.bluebox .infobox-icon-data {
+  background-position: -400px -100px; }
+.bluebox .infobox-icon-phone {
+  background-position: -450px -100px; }
+.bluebox .infobox-icon-share {
+  background-position: -500px -100px; }
+.bluebox .infobox-icon-tools {
+  background-position: 0 -150px; }
+.bluebox .infobox-icon-find {
+  background-position: -50px -150px; }
+.bluebox .infobox-icon-stats {
+  background-position: -100px -150px; }
+.bluebox .infobox-icon-idea {
+  background-position: -150px -150px; }
+.bluebox .infobox-icon-search {
+  background-position: -200px -150px; }
+.bluebox .infobox-icon-mail {
+  background-position: -250px -150px; }
+.bluebox .infobox-icon-ok {
+  background-position: -300px -150px; }
+.bluebox .infobox-icon-discuss {
+  background-position: -350px -150px; }
+.bluebox .infobox-icon-info {
+  background-position: -400px -150px; }
+.bluebox .infobox-icon-plus {
+  background-position: -450px -150px; }
+
+.circle-icon {
+  background: url(img/icons-big.png) no-repeat;
+  height: 93px;
+  margin: 22px auto;
+  width: 93px; }
+
+.circle-icon- {
+  display: none; }
+
+.circle-icon-tools {
+  background-position: 0 0; }
+
+.circle-icon-find {
+  background-position: -100px 0; }
+
+.circle-icon-ok {
+  background-position: -200px 0; }
+
+.circle-icon-stats {
+  background-position: -300px 0; }
+
+.circle-icon-idea {
+  background-position: -400px 0; }
+
+.circle-icon-search {
+  background-position: 0 -100px; }
+
+.circle-icon-mail {
+  background-position: -100px -100px; }
+
+.circle-icon-info {
+  background-position: -200px -100px; }
+
+.circle-icon-random {
+  background-position: -300px -100px; }
+
+.circle-icon-excl {
+  background-position: -400px -100px; }
+
+.circle-icon-app {
+  background-position: 0 -200px; }
+
+.circle-icon-download {
+  background-position: -100px -200px; }
+
+.circle-icon-discuss {
+  background-position: -200px -200px; }
+
+.circle-icon-left {
+  background-position: -300px -200px; }
+
+.circle-icon-right {
+  background-position: -400px -200px; }
+
+.circle-icon-up {
+  background-position: 0 -300px; }
+
+.circle-icon-data {
+  background-position: -100px -300px; }
+
+.circle-icon-plus {
+  background-position: -200px -300px; }
+
+.circle-icon-minus {
+  background-position: -300px -300px; }
+
+.circle-icon-share {
+  background-position: -400px -300px; }
+
+.circle-icon-phone {
+  background-position: 0 -400px; }
+
+.circle-icon-hri {
+  background-position: -100px -400px; }
+
+.bluebox {
+  background: #0a4a74;
+  border: none;
+  color: #fff; }
+  .bluebox .heading {
+    background: #0c3d5f;
+    border-bottom: 1px solid #174d73; }
+    .bluebox .heading .icon {
+      border-right: none; }
+  .bluebox .arrow {
+    background: url(img/sprites.png) no-repeat 0 -454px;
+    color: #f6944b; }
+  .bluebox h3, .bluebox h4, .bluebox h5, .bluebox h6 {
+    color: #fff; }
+  .bluebox ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    .bluebox ul li {
+      margin: 0 -18px;
+      padding: 12px 18px 0 18px; }
+    .bluebox ul li + li {
+      border-top: 1px solid #1d5277; }

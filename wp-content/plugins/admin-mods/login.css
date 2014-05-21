@@ -1,0 +1,23 @@
+/*
+	Customizations for login screen
+	Creator: Hallanvaara
+*/
+
+html {background: #eef0ef;}
+.login {border: none;}
+
+.login #login h1 {position: relative; width: 212px; height: 69px; background: url(images/adminlogo.png) no-repeat; overflow: hidden; margin: 0 0 15px -20px; z-index: 1000;}
+.login #login h1 a {display: none;}
+form {padding: 30px 30px 30px 30px; margin-left: -20px; width: 300px; border: none; 
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-box-shadow: 0px 3px 15px #b3aeab;
+	-webkit-box-shadow: 0px 3px 15px #b3aeab;
+	box-shadow: 0px 3px 15px #b3aeab;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=15, Direction=90, Color='#b3aeab')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=15, Direction=90, Color='#b3aeab');
+}
+#backtoblog {display: none;}

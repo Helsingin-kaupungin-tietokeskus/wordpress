@@ -1,0 +1,1302 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Twenty Ten 1.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/twentyten\n"
+"POT-Creation-Date: 2010-07-14 16:21+0000\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:16
+#: loop-apps.php:57
+#: loop-data-requests.php:36
+#: loop-other.php:57
+#: loop.php:36
+#@ twentyten
+msgid "Not Found"
+msgstr ""
+
+#: 404.php:18
+#@ twentyten
+msgid "Apologies, but the page you requested could not be found. Perhaps searching will help."
+msgstr ""
+
+#: archive.php:35
+#, php-format
+#@ twentyten
+msgid "Daily Archives: <span>%s</span>"
+msgstr ""
+
+#: archive.php:37
+#, php-format
+#@ twentyten
+msgid "Monthly Archives: <span>%s</span>"
+msgstr ""
+
+#: archive.php:39
+#, php-format
+#@ twentyten
+msgid "Yearly Archives: <span>%s</span>"
+msgstr ""
+
+#: archive.php:41
+#@ twentyten
+msgid "Blog Archives"
+msgstr ""
+
+#: attachment.php:18
+#, php-format
+#@ twentyten
+msgid "Return to %s"
+msgstr ""
+
+#. translators: %s - title of parent post
+#: attachment.php:20
+#, php-format
+#@ twentyten
+msgid "<span class=\"meta-nav\">&larr;</span> %s"
+msgstr ""
+
+#: attachment.php:29
+#, php-format
+#@ twentyten
+msgid "<span class=\"%1$s\">By</span> %2$s"
+msgstr ""
+
+#: attachment.php:33
+#, php-format
+#@ twentyten
+msgid "View all posts by %s"
+msgstr ""
+
+#: attachment.php:40
+#, php-format
+#@ twentyten
+msgid "<span class=\"%1$s\">Published</span> %2$s"
+msgstr ""
+
+#: attachment.php:50
+#, php-format
+#@ twentyten
+msgid "Full size is %s pixels"
+msgstr ""
+
+#: attachment.php:53
+#@ twentyten
+msgid "Link to full-size image"
+msgstr ""
+
+#: attachment.php:60
+#: attachment.php:106
+#: loop-apps.php:118
+#: loop-data-requests.php:91
+#: loop-other.php:118
+#: loop.php:98
+#: loop.php:123
+#: loop.php:178
+#: onecolumn-page.php:27
+#: page-ilmoita-data.php:38
+#: page.php:28
+#: single-application.php:59
+#: single-data-request.php:56
+#: single-data.php:352
+#: single-discussion.php:66
+#: single-help-page.php:87
+#: single.php:81
+#@ twentyten
+msgid "Edit"
+msgstr ""
+
+#: attachment.php:100
+#: loop-apps.php:76
+#: loop-data-requests.php:57
+#: loop-other.php:76
+#: loop.php:114
+#: loop.php:144
+#@ twentyten
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: attachment.php:101
+#: loop-apps.php:77
+#: loop-data-requests.php:58
+#: loop-other.php:77
+#: loop.php:145
+#: onecolumn-page.php:26
+#: page-ilmoita-data.php:37
+#: page.php:27
+#: single-application.php:35
+#: single-data-request.php:70
+#: single-data.php:371
+#: single-discussion.php:33
+#: single-help-page.php:27
+#: single.php:23
+#@ twentyten
+msgid "Pages:"
+msgstr ""
+
+#: author.php:27
+#, php-format
+#@ twentyten
+msgid "Author Archives: %s"
+msgstr ""
+
+#: author.php:37
+#, php-format
+#@ twentyten
+msgid "About %s"
+msgstr ""
+
+#: comments.php:18
+#: comments_ratings.php:19
+#@ twentyten
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:42
+#: comments.php:61
+#: comments_ratings.php:39
+#: comments_ratings.php:50
+#@ twentyten
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr ""
+
+#: comments.php:43
+#: comments.php:62
+#: comments_ratings.php:40
+#: comments_ratings.php:51
+#@ twentyten
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: functions.php:812
+#@ twentyten
+msgid "Primary Navigation"
+msgstr ""
+
+#: functions.php:252
+#: functions.php:909
+#@ twentyten
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:259
+#: functions.php:917
+#, php-format
+#@ twentyten
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:260
+#: functions.php:918
+#: functions.php:935
+#@ twentyten
+msgid "(Edit)"
+msgstr ""
+
+#: functions.php:280
+#: functions.php:935
+#@ twentyten
+msgid "Pingback:"
+msgstr ""
+
+#: functions.php:977
+#@ twentyten
+msgid "The primary widget area"
+msgstr ""
+
+#: functions.php:999
+#@ twentyten
+msgid "The first footer widget area"
+msgstr ""
+
+#: functions.php:988
+#@ twentyten
+msgid "The second footer widget area"
+msgstr ""
+
+#: header.php:41
+#, php-format
+#@ twentyten
+msgid "Page %s"
+msgstr ""
+
+#: loop-apps.php:49
+#: loop-apps.php:134
+#: loop-data-requests.php:28
+#: loop-data-requests.php:107
+#: loop-other.php:49
+#: loop-other.php:134
+#: loop.php:28
+#: loop.php:196
+#@ twentyten
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: loop-apps.php:50
+#: loop-apps.php:135
+#: loop-data-requests.php:29
+#: loop-data-requests.php:108
+#: loop-other.php:50
+#: loop-other.php:135
+#: loop.php:29
+#: loop.php:197
+#@ twentyten
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: loop-apps.php:59
+#: loop-data-requests.php:38
+#: loop-other.php:59
+#: loop.php:38
+#@ twentyten
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr ""
+
+#: loop.php:62
+#: loop.php:95
+#@ twentyten
+msgctxt "gallery category slug"
+msgid "gallery"
+msgstr ""
+
+#: loop-apps.php:68
+#: loop-data-requests.php:47
+#: loop-other.php:68
+#: loop.php:69
+#: loop.php:86
+#: loop.php:132
+#, php-format
+#@ twentyten
+msgid "Permalink to %s"
+msgstr ""
+
+#: loop.php:85
+#, php-format
+#@ twentyten
+msgid "This gallery contains <a %1$s>%2$s photos</a>."
+msgstr ""
+
+#: loop.php:95
+#@ twentyten
+msgid "View posts in the Gallery category"
+msgstr ""
+
+#: loop.php:95
+#@ twentyten
+msgid "More Galleries"
+msgstr ""
+
+#: loop.php:97
+#: loop.php:122
+#@ twentyten
+msgid "Leave a comment"
+msgstr ""
+
+#: loop-apps.php:109
+#: loop-data-requests.php:86
+#: loop-other.php:109
+#: loop.php:97
+#: loop.php:122
+#: loop.php:173
+#: single-application.php:54
+#: single-discussion.php:57
+#: single-help-page.php:82
+#: single.php:76
+#@ twentyten
+msgid "1 Comment"
+msgstr ""
+
+#: loop-apps.php:109
+#: loop-data-requests.php:86
+#: loop-other.php:109
+#: loop.php:97
+#: loop.php:122
+#: loop.php:173
+#: single-application.php:54
+#: single-discussion.php:57
+#: single-help-page.php:82
+#: single.php:76
+#@ twentyten
+msgid "% Comments"
+msgstr ""
+
+#: loop.php:104
+#@ twentyten
+msgctxt "asides category slug"
+msgid "asides"
+msgstr ""
+
+#: tag.php:16
+#, php-format
+#@ twentyten
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: functions.php:645
+#@ blank
+msgid "Professional information"
+msgstr ""
+
+#: functions.php:648
+#: page-new-app-idea.php:128
+#: page-new-app.php:156
+#: page-new-data-request.php:123
+#: page-new-discussion.php:147
+#: page-search-data.php:599
+#: page-search.php:198
+#@ default
+#@ twentyten
+msgid "Title"
+msgstr ""
+
+#: functions.php:651
+#@ default
+msgid "Your professional title or position in your organization."
+msgstr ""
+
+#: functions.php:655
+#@ default
+msgid "Organization"
+msgstr ""
+
+#: functions.php:658
+#@ default
+msgid "The name of your company or organization."
+msgstr ""
+
+#: functions.php:662
+#@ default
+msgid "Organization home page"
+msgstr ""
+
+#: functions.php:665
+#@ default
+msgid "The URL of your organization's home page. Remember to include <strong>http://</strong>"
+msgstr ""
+
+#: functions.php:951
+#@ twentyten
+msgid "Big front page Widget Area"
+msgstr ""
+
+#: functions.php:953
+#@ twentyten
+msgid "The big front page widget area"
+msgstr ""
+
+#: pagesidebar.php:137
+#@ twentyten
+msgid "and"
+msgstr "och"
+
+#: single-help-page.php:37
+#: single.php:33
+#@ twentyten
+msgid "Article author"
+msgstr ""
+
+#: single-help-page.php:38
+#: single.php:34
+#, php-format
+#@ twentyten
+msgid "%s"
+msgstr ""
+
+#: comments.php:37
+#: loop-apps.php:106
+#: loop-data-requests.php:85
+#: loop-other.php:106
+#: loop.php:172
+#: single-application.php:50
+#: single-discussion.php:52
+#: single-help-page.php:81
+#: single.php:75
+#@ twentyten
+msgid "Comments"
+msgstr ""
+
+#: comments.php:83
+#@ twentyten
+msgid "Reply"
+msgstr ""
+
+#: comments.php:85
+#: comments_ratings.php:78
+#: page-new-app-idea.php:151
+#: page-new-app.php:229
+#: page-new-data-request.php:135
+#: page-new-discussion.php:174
+#: single-data.php:253
+#: single-data.php:435
+#@ twentyten
+msgid "Name"
+msgstr ""
+
+#: comments.php:86
+#: comments_ratings.php:79
+#: page-new-app-idea.php:153
+#: page-new-app.php:231
+#: page-new-data-request.php:137
+#: page-new-discussion.php:176
+#: single-data.php:258
+#@ twentyten
+msgid "Email"
+msgstr ""
+
+#: comments_ratings.php:35
+#: single-data.php:497
+#@ twentyten
+msgid "Comments and ratings"
+msgstr ""
+
+#: comments_ratings.php:73
+#: comments_ratings.php:75
+#: loop-apps.php:109
+#: loop-data-requests.php:86
+#: loop-other.php:109
+#: loop.php:173
+#: single-application.php:54
+#: single-data.php:183
+#: single-data.php:240
+#: single-data.php:245
+#: single-data.php:506
+#: single-discussion.php:57
+#: single-help-page.php:82
+#: single.php:76
+#@ twentyten
+msgid "Comment"
+msgstr ""
+
+#: comments_ratings.php:74
+#@ twentyten
+msgid "Post"
+msgstr ""
+
+#: comments_ratings.php:76
+#@ twentyten
+msgid "Your email address will not be published."
+msgstr ""
+
+#: comments_ratings.php:76
+#, php-format
+#@ twentyten
+msgid "Required fields are marked %s"
+msgstr ""
+
+#: comments_ratings.php:86
+#@ twentyten
+msgid "Rate"
+msgstr ""
+
+#: comments_ratings.php:87
+#@ twentyten
+msgid "Open"
+msgstr ""
+
+#: comments_ratings.php:91
+#@ twentyten
+msgid "Close"
+msgstr ""
+
+#: comments_ratings.php:99
+#: single-data.php:534
+#@ twentyten
+msgid "Description"
+msgstr ""
+
+#: comments_ratings.php:101
+#: single-data.php:543
+#@ twentyten
+msgid "Are data description and information comprehensive and accurate?"
+msgstr ""
+
+#: comments_ratings.php:104
+#: single-data.php:546
+#@ twentyten
+msgid "Relevance"
+msgstr ""
+
+#: comments_ratings.php:106
+#: single-data.php:555
+#@ twentyten
+msgid "Does the data provide useful information?"
+msgstr ""
+
+#: comments_ratings.php:109
+#: single-data.php:558
+#@ twentyten
+msgid "Usability"
+msgstr ""
+
+#: comments_ratings.php:111
+#: single-data.php:567
+#@ twentyten
+msgid "Is the data in practical format and structure?"
+msgstr ""
+
+#: comments_ratings.php:114
+#: single-data.php:570
+#@ twentyten
+msgid "Overall rating"
+msgstr ""
+
+#: comments_ratings.php:119
+#@ twentyten
+msgid "Overall based on your ratings"
+msgstr ""
+
+#: functions.php:65
+#@ default
+msgid "&laquo; Back"
+msgstr ""
+
+#: functions.php:86
+#@ default
+msgid "WordPress &rsaquo; Error"
+msgstr ""
+
+#. translators: 1: date, 2: time
+#: functions.php:258
+#: functions.php:916
+#: functions.php:1046
+#: page-new-app-idea.php:197
+#: page-new-app.php:280
+#: page-new-data-request.php:183
+#: page-new-discussion.php:222
+#@ twentyten
+msgid "ago"
+msgstr ""
+
+#: functions.php:264
+#: functions.php:846
+#: functions.php:922
+#@ twentyten
+msgid "Report this comment"
+msgstr ""
+
+#: functions.php:688
+#@ twentyten
+msgid "Moderation notifications"
+msgstr ""
+
+#: functions.php:693
+#: functions.php:698
+#@ twentyten
+msgid "Receive notifications on flagged comments"
+msgstr ""
+
+#: functions.php:694
+#@ twentyten
+msgid "Receive an instant email notification when comment is flagged as offensive."
+msgstr ""
+
+#: functions.php:702
+#@ twentyten
+msgid "Never"
+msgstr ""
+
+#: functions.php:703
+#@ twentyten
+msgid "Daily"
+msgstr ""
+
+#: functions.php:704
+#@ twentyten
+msgid "Weekly"
+msgstr ""
+
+#: functions.php:718
+#@ twentyten
+msgid "How often moderation digest emails are sent."
+msgstr ""
+
+#: functions.php:822
+#: sidebar-data.php:37
+#: sidebar-data.php:93
+#@ twentyten
+msgid "Read more"
+msgstr ""
+
+#: functions.php:835
+#@ twentyten
+msgid "Report offensive content"
+msgstr ""
+
+#: functions.php:835
+#@ twentyten
+msgid "Tell us why you think this content should be removed."
+msgstr ""
+
+#: functions.php:835
+#: single-data.php:437
+#@ twentyten
+msgid "Your email"
+msgstr ""
+
+#: functions.php:835
+#: page-new-app.php:244
+#@ twentyten
+msgid "Submit"
+msgstr ""
+
+#: functions.php:855
+#@ twentyten
+msgid "Cancel"
+msgstr ""
+
+#: functions.php:975
+#@ twentyten
+msgid "Subpage: Sidebar"
+msgstr ""
+
+#: functions.php:986
+#@ twentyten
+msgid "Footer: Logo area"
+msgstr ""
+
+#: functions.php:997
+#@ twentyten
+msgid "Footer: Left column"
+msgstr ""
+
+#: functions.php:1008
+#@ twentyten
+msgid "Footer: Right column"
+msgstr ""
+
+#: functions.php:1010
+#@ twentyten
+msgid "The thrird footer widget area"
+msgstr ""
+
+#: functions.php:1127
+#: functions.php:1140
+#: functions.php:1205
+#: functions.php:1218
+#: functions.php:1226
+#@ twentyten
+msgid "No search results"
+msgstr ""
+
+#: functions.php:1262
+#: functions.php:1268
+#: functions.php:1272
+#: single-data.php:240
+#: single-data.php:253
+#: single-data.php:258
+#@ twentyten
+msgid "Fill the field"
+msgstr ""
+
+#: loop-apps.php:86
+#: loop-data-requests.php:68
+#: loop-other.php:86
+#: loop.php:155
+#: single-discussion.php:39
+#: single-help-page.php:62
+#: single.php:56
+#, php-format
+#@ twentyten
+msgid "<span class=\"%1$s\">Categories</span> %2$s"
+msgstr ""
+
+#: loop-apps.php:100
+#: loop-data-requests.php:79
+#: loop-other.php:100
+#: loop.php:166
+#: single-discussion.php:47
+#: single-help-page.php:75
+#: single.php:69
+#, php-format
+#@ twentyten
+msgid "<span class=\"%1$s\">Tags</span> %2$s"
+msgstr ""
+
+#: page-home.php:22
+#: page-search-data.php:367
+#: single-data.php:299
+#@ twentyten
+msgid "Data search"
+msgstr ""
+
+#: page-home.php:30
+#@ twentyten
+msgid "Search term"
+msgstr ""
+
+#: page-home.php:30
+#: page-list-discussion.php:185
+#: page-search-data.php:402
+#: page-search.php:176
+#@ twentyten
+msgid "Search"
+msgstr ""
+
+#: page-home.php:31
+#@ twentyten
+msgid "Advanced search"
+msgstr ""
+
+#: page-home.php:37
+#@ twentyten
+msgid "Popular tags"
+msgstr ""
+
+#: page-home.php:68
+#@ twentyten
+msgid "Newest data"
+msgstr ""
+
+#: page-list-discussion.php:72
+#: page-search-data.php:63
+#: page-search-data.php:199
+#@ twentyten
+msgid "Change"
+msgstr ""
+
+#: page-list-discussion.php:74
+#@ twentyten
+msgid "All"
+msgstr ""
+
+#: page-list-discussion.php:187
+#@ twentyten
+msgid "search"
+msgstr ""
+
+#: page-list-discussion.php:194
+#: page-new-app-idea.php:135
+#: page-new-app.php:163
+#: page-new-discussion.php:154
+#: page-search-data.php:596
+#@ twentyten
+msgid "Data"
+msgstr ""
+
+#: page-list-discussion.php:231
+#: sidebar-data.php:24
+#@ twentyten
+msgid "Discussions"
+msgstr ""
+
+#: page-list-discussion.php:237
+#: page-new-discussion.php:125
+#: sidebar-data.php:71
+#@ twentyten
+msgid "Start a new discussion"
+msgstr ""
+
+#: page-new-app-idea.php:13
+#@ twentyten
+msgid "A new application idea submitted successfully"
+msgstr ""
+
+#: page-new-app-idea.php:13
+#@ twentyten
+msgid "The application idea is held for moderation and will be published soon."
+msgstr ""
+
+#: page-new-app-idea.php:28
+#: page-new-app.php:32
+#: page-new-data-request.php:28
+#: page-new-discussion.php:33
+#@ twentyten
+msgid "Name must be atleast three characters"
+msgstr ""
+
+#: page-new-app-idea.php:29
+#: page-new-app.php:33
+#: page-new-data-request.php:29
+#: page-new-discussion.php:34
+#@ twentyten
+msgid "Email is required"
+msgstr ""
+
+#: page-new-app-idea.php:101
+#@ twentyten
+msgid "All application ideas"
+msgstr ""
+
+#: page-new-app-idea.php:112
+#@ twentyten
+msgid "Submit a new application idea"
+msgstr ""
+
+#: page-new-app-idea.php:120
+#: page-new-app.php:148
+#: page-new-data-request.php:115
+#: page-new-discussion.php:139
+#@ twentyten
+msgid "Logged in as"
+msgstr ""
+
+#: page-new-app-idea.php:123
+#: page-new-app.php:151
+#: page-new-data-request.php:118
+#: page-new-discussion.php:142
+#@ twentyten
+msgid "Log out?"
+msgstr ""
+
+#: page-new-app-idea.php:134
+#@ twentyten
+msgid "Is this application idea related to a data? Search with data title."
+msgstr ""
+
+#: page-new-app-idea.php:143
+#: page-new-app.php:171
+#: page-new-data-request.php:128
+#: page-new-discussion.php:162
+#: page-search-data.php:460
+#: page-search-data.php:464
+#: single-application.php:44
+#: single-data-request.php:36
+#: single-data.php:332
+#@ twentyten
+msgid "Tags"
+msgstr ""
+
+#: page-new-app-idea.php:183
+#@ twentyten
+msgid "Latest application ideas"
+msgstr ""
+
+#: page-new-app-idea.php:195
+#: page-new-app.php:279
+#: page-new-data-request.php:182
+#: page-new-discussion.php:221
+#@ twentyten
+msgid "Started"
+msgstr ""
+
+#: page-new-app.php:15
+#@ twentyten
+msgid "A new application created successfully"
+msgstr ""
+
+#: page-new-app.php:15
+#@ twentyten
+msgid "The application is held for moderation and will be published soon."
+msgstr ""
+
+#: page-new-app.php:129
+#: single-application.php:20
+#@ twentyten
+msgid "All applications"
+msgstr ""
+
+#: page-new-app.php:140
+#@ twentyten
+msgid "Application submission"
+msgstr ""
+
+#: page-new-app.php:162
+#@ twentyten
+msgid "Is this application related to a data? Search with data title."
+msgstr ""
+
+#: page-new-app.php:183
+#: page-search-data.php:435
+#: page-search-data.php:439
+#@ twentyten
+msgid "Category"
+msgstr ""
+
+#: page-new-app.php:236
+#: single-application.php:77
+#@ twentyten
+msgid "Application's URL"
+msgstr ""
+
+#: page-new-app.php:238
+#: single-application.php:78
+#@ twentyten
+msgid "Author"
+msgstr ""
+
+#: page-new-app.php:240
+#: single-application.php:79
+#@ twentyten
+msgid "Author's URL"
+msgstr ""
+
+#: page-new-app.php:265
+#@ twentyten
+msgid "Latest applications"
+msgstr ""
+
+#: page-new-data-request.php:13
+#@ twentyten
+msgid "A new data request created successfully"
+msgstr ""
+
+#: page-new-data-request.php:13
+#@ twentyten
+msgid "The data request is held for moderation and will be published soon."
+msgstr ""
+
+#: page-new-data-request.php:93
+#: page-new-data-request.php:94
+#@ hri-ckan
+msgid "data-requests"
+msgstr ""
+
+#: page-new-data-request.php:96
+#@ twentyten
+msgid "All data requests"
+msgstr ""
+
+#: page-new-data-request.php:107
+#@ twentyten
+msgid "Submit a new data request"
+msgstr ""
+
+#: page-new-data-request.php:166
+#@ twentyten
+msgid "Latest data requests"
+msgstr ""
+
+#: page-new-discussion.php:15
+#@ twentyten
+msgid "A new discussion started successfully"
+msgstr ""
+
+#: page-new-discussion.php:16
+#@ twentyten
+msgid "The discussion is held for moderation and will be published soon."
+msgstr ""
+
+#: page-new-discussion.php:114
+#@ twentyten
+msgid "All discussions"
+msgstr ""
+
+#: page-new-discussion.php:153
+#@ twentyten
+msgid "Is this discussion related to a data? Search with data title."
+msgstr ""
+
+#: page-new-discussion.php:205
+#@ twentyten
+msgid "Latest discussions"
+msgstr ""
+
+#: page-report.php:80
+#@ twentyten
+msgid "Something failed."
+msgstr ""
+
+#: page-report.php:81
+#@ twentyten
+msgid "Notification mailed to administrators."
+msgstr ""
+
+#: page-search-data.php:201
+#: page-search-data.php:407
+#: page-search-data.php:436
+#: page-search-data.php:461
+#: page-search-data.php:488
+#: page-search-data.php:535
+#@ twentyten
+msgid "No filter"
+msgstr ""
+
+#: page-search-data.php:380
+#: page-search-data.php:396
+#: page-search.php:152
+#@ twentyten
+msgid "Search text"
+msgstr ""
+
+#: page-search-data.php:396
+#@ twentyten
+msgid "Clear"
+msgstr ""
+
+#: page-search-data.php:400
+#: page-search-data.php:426
+#: page-search-data.php:451
+#: page-search-data.php:477
+#: page-search-data.php:504
+#: page-search-data.php:552
+#@ twentyten
+msgid "OK"
+msgstr ""
+
+#: page-search-data.php:406
+#: page-search-data.php:411
+#@ twentyten
+msgid "Area"
+msgstr ""
+
+#: page-search-data.php:411
+#: page-search-data.php:440
+#: page-search-data.php:465
+#: page-search-data.php:491
+#: page-search-data.php:538
+#@ twentyten
+msgid "Select none"
+msgstr ""
+
+#: page-search-data.php:411
+#: page-search-data.php:440
+#: page-search-data.php:465
+#: page-search-data.php:491
+#: page-search-data.php:538
+#@ twentyten
+msgid "Select all"
+msgstr ""
+
+#: page-search-data.php:487
+#: page-search-data.php:491
+#@ twentyten
+msgid "Filetype"
+msgstr ""
+
+#: page-search-data.php:534
+#: page-search-data.php:538
+#@ twentyten
+msgid "Producer"
+msgstr ""
+
+#: page-search-data.php:560
+#@ twentyten
+msgid "Clear all"
+msgstr ""
+
+#: page-search-data.php:598
+#: page-search.php:197
+#@ twentyten
+msgid "Sort by"
+msgstr ""
+
+#: page-search-data.php:600
+#: page-search.php:199
+#@ twentyten
+msgid "Date"
+msgstr ""
+
+#: page-search-data.php:601
+#@ twentyten
+msgid "Rating"
+msgstr ""
+
+#: page-search-data.php:605
+#@ twentyten
+msgid "The latest comment"
+msgstr ""
+
+#: page-search-data.php:605
+#@ twentyten
+msgid "The latest discussion"
+msgstr ""
+
+#: page-search-data.php:605
+#: sidebar-data.php:82
+#@ twentyten
+msgid "Applications"
+msgstr ""
+
+#: page-search.php:186
+#@ twentyten
+msgid "Search results"
+msgstr ""
+
+#: page-search.php:200
+#@ twentyten
+msgid "Latest comment"
+msgstr ""
+
+#: page-search.php:210
+#@ twentyten
+msgid "Search results from data"
+msgstr ""
+
+#: searchform.php:9
+#@ twentyten
+msgid "Search from entire HRI"
+msgstr ""
+
+#: sidebar-data.php:50
+#@ twentyten
+msgid "See all discussions"
+msgstr ""
+
+#: sidebar-data.php:108
+#@ twentyten
+msgid "See all applications"
+msgstr ""
+
+#: sidebar-data.php:128
+#@ twentyten
+msgid "New application submission"
+msgstr ""
+
+#: single-application.php:74
+#: single-data.php:408
+#@ twentyten
+msgid "Information"
+msgstr ""
+
+#: single-application.php:88
+#@ twentyten
+msgid "This application is linked to data"
+msgstr ""
+
+#: single-data-request.php:28
+#@ twentyten
+msgid "Back to data requests"
+msgstr ""
+
+#: single-data.php:84
+#: single-data.php:86
+#@ twentyten
+msgid "Close the form"
+msgstr ""
+
+#: single-data.php:89
+#: single-data.php:426
+#@ twentyten
+msgid "Contact maintainer"
+msgstr ""
+
+#: single-data.php:205
+#@ twentyten
+msgid "Review"
+msgstr ""
+
+#: single-data.php:245
+#@ twentyten
+msgid "Your comment is too short"
+msgstr ""
+
+#: single-data.php:298
+#@ twentyten
+msgid "Back to search results"
+msgstr ""
+
+#: single-data.php:305
+#@ twentyten
+msgid "Categories"
+msgstr ""
+
+#: single-data.php:378
+#@ twentyten
+msgid "Downloads & links"
+msgstr ""
+
+#: single-data.php:413
+#@ twentyten
+msgid "Modified"
+msgstr ""
+
+#: single-data.php:415
+#: single-data.php:473
+#@ twentyten
+msgid "Source"
+msgstr ""
+
+#: single-data.php:417
+#@ twentyten
+msgid "License"
+msgstr ""
+
+#: single-data.php:419
+#: single-data.php:420
+#@ twentyten
+msgid "Maintainer"
+msgstr ""
+
+#: single-data.php:439
+#@ twentyten
+msgid "Subject"
+msgstr ""
+
+#: single-data.php:441
+#@ twentyten
+msgid "Message"
+msgstr ""
+
+#: single-data.php:444
+#@ twentyten
+msgid "Send"
+msgstr ""
+
+#: single-data.php:469
+#@ twentyten
+msgid "Agency"
+msgstr ""
+
+#: single-data.php:470
+#@ twentyten
+msgid "Department"
+msgstr ""
+
+#: single-data.php:471
+#@ twentyten
+msgid "Geographic coverage"
+msgstr ""
+
+#: single-data.php:472
+#@ twentyten
+msgid "Geographic granularity"
+msgstr ""
+
+#: single-data.php:474
+#@ twentyten
+msgid "Update frequency"
+msgstr ""
+
+#: single-data.php:475
+#@ twentyten
+msgid "Temporal granularity"
+msgstr ""
+
+#: single-data.php:476
+#@ twentyten
+msgid "Temporal coverage"
+msgstr ""
+
+#: single-data.php:477
+#@ twentyten
+msgid "Temporal coverage from"
+msgstr ""
+
+#: single-data.php:478
+#@ twentyten
+msgid "Temporal coverage to"
+msgstr ""
+
+#: single-data.php:479
+#@ twentyten
+msgid "Other"
+msgstr ""
+
+#: single-data.php:485
+#@ twentyten
+msgid "External reference"
+msgstr ""
+
+#: single-data.php:498
+#@ twentyten
+msgid "Ratings"
+msgstr ""
+
+#: single-discussion.php:87
+#@ twentyten
+msgid "This discussion is linked to data:"
+msgstr ""
+

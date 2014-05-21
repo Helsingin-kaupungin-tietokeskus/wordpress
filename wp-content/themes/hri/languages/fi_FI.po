@@ -1,0 +1,1510 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Twenty Ten\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-01-23 14:04+0200\n"
+"Last-Translator: Oskari Kokko <oskari@barabra.fi>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: functions.php:1305
+#@ twentyten
+msgid "Primary Navigation"
+msgstr "Ensisijainen navigointi"
+
+#: comments-discussion.php:24
+#: comments-discussion.php:35
+#: comments.php:38
+#: comments.php:49
+#: comments_ratings.php:35
+#: comments_ratings.php:46
+#@ twentyten
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Uudemmat kommentit <span class=\"meta-nav\">&rarr;</span>"
+
+#: comments-discussion.php:23
+#: comments-discussion.php:34
+#: comments.php:37
+#: comments.php:48
+#: comments_ratings.php:34
+#: comments_ratings.php:45
+#@ twentyten
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr "<span class=\"meta-nav\">&larr;</span> Vanhemmat kommentit"
+
+#: comments-discussion.php:13
+#: comments.php:13
+#: comments_ratings.php:14
+#@ twentyten
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Tämä kommentti on salasanasuojattu. Syötä salasana nähdäksesi kommentit."
+
+#: author.php:37
+#, php-format
+#@ twentyten
+msgid "About %s"
+msgstr "Tietoja %s"
+
+#: author.php:27
+#, php-format
+#@ twentyten
+msgid "Author Archives: %s"
+msgstr "Kirjoittajan arkistot:%s"
+
+#: attachment.php:101
+#: loop-apps.php:70
+#: loop-data-requests.php:57
+#: loop.php:153
+#: onecolumn-page.php:26
+#: page-ilmoita-data.php:41
+#: page.php:31
+#: single-application.php:47
+#: single-help-page.php:27
+#: single.php:23
+#@ twentyten
+msgid "Pages:"
+msgstr "Sivut:"
+
+#: attachment.php:100
+#: loop-apps.php:69
+#: loop-data-requests.php:56
+#: loop.php:122
+#: loop.php:152
+#@ twentyten
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Lue loppuun <span class=\"meta-nav\">&rarr;</span>"
+
+#: attachment.php:60
+#: attachment.php:106
+#: loop-apps.php:111
+#: loop-data-requests.php:90
+#: loop.php:106
+#: loop.php:131
+#: loop.php:186
+#: onecolumn-page.php:27
+#: page-ilmoita-data.php:43
+#: page.php:33
+#: single-application.php:102
+#: single-data-request.php:46
+#: single-data.php:416
+#: single-help-page.php:87
+#: single.php:81
+#@ twentyten
+msgid "Edit"
+msgstr "Muokkaa"
+
+#: attachment.php:53
+#@ twentyten
+msgid "Link to full-size image"
+msgstr "Linkki täysikokoiseen kuvaan"
+
+#: attachment.php:50
+#, php-format
+#@ twentyten
+msgid "Full size is %s pixels"
+msgstr "Täysi koko on %s pikseliä"
+
+#: attachment.php:40
+#, php-format
+#@ twentyten
+msgid "<span class=\"%1$s\">Published</span> %2$s"
+msgstr "<span class=\"%1$s\">Julkaistu</span>%2$s"
+
+#: attachment.php:33
+#, php-format
+#@ twentyten
+msgid "View all posts by %s"
+msgstr "Näytä kaikki artikkelit kirjoittajalta %s"
+
+#: attachment.php:29
+#, php-format
+#@ twentyten
+msgid "<span class=\"%1$s\">By</span> %2$s"
+msgstr "<span class=\"%1$s\">Kirjoittanut</span> %2$s"
+
+#. translators: %s - title of parent post
+#: attachment.php:20
+#, php-format
+#@ twentyten
+msgid "<span class=\"meta-nav\">&larr;</span> %s"
+msgstr "<span class=\"meta-nav\">&larr;</span> %s"
+
+#: attachment.php:18
+#, php-format
+#@ twentyten
+msgid "Return to %s"
+msgstr "Palaa kohteeseen %s"
+
+#: archive.php:41
+#@ twentyten
+msgid "Blog Archives"
+msgstr "Blogin arkistot"
+
+#: archive.php:39
+#, php-format
+#@ twentyten
+msgid "Yearly Archives: <span>%s</span>"
+msgstr "Vuosittainen arkisto: <span>%s</span>"
+
+#: archive.php:37
+#, php-format
+#@ twentyten
+msgid "Monthly Archives: <span>%s</span>"
+msgstr "Kuukausittainen arkisto:<span>%s</span>"
+
+#: archive.php:35
+#, php-format
+#@ twentyten
+msgid "Daily Archives: <span>%s</span>"
+msgstr "Päivittäinen arkisto: <span>%s</span>"
+
+#: 404.php:18
+#@ twentyten
+msgid "Apologies, but the page you requested could not be found. Perhaps searching will help."
+msgstr "Valitettavasti etsimääsi ei löytynyt. Ehkä hakutoiminnosta voisi olla apua."
+
+#: 404.php:16
+#: loop-apps.php:38
+#: loop-data-requests.php:35
+#: loop.php:36
+#@ twentyten
+msgid "Not Found"
+msgstr "Ei löytynyt"
+
+#: header.php:42
+#, php-format
+#@ twentyten
+msgid "Page %s"
+msgstr "Sivu %s"
+
+#: functions.php:412
+#: functions.php:464
+#@ twentyten
+msgid "Your comment is awaiting moderation."
+msgstr "Kommenttisi on arvioitavana."
+
+#: functions.php:418
+#: functions.php:470
+#: functions.php:488
+#@ twentyten
+msgid "(Edit)"
+msgstr "(Muokkaa)"
+
+#: functions.php:437
+#: functions.php:488
+#@ twentyten
+msgid "Pingback:"
+msgstr "Päivitysilmoitus:"
+
+#: functions.php:1465
+#@ twentyten
+msgid "The primary widget area"
+msgstr "Ensisijainen vimpainalue"
+
+#: functions.php:1487
+#@ twentyten
+msgid "The first footer widget area"
+msgstr "Ensimmäinen alapalkin vimpainalue"
+
+#: functions.php:1476
+#@ twentyten
+msgid "The second footer widget area"
+msgstr "Toinen alapalkin vimpainalue"
+
+#: loop-apps.php:30
+#: loop-apps.php:125
+#: loop-data-requests.php:27
+#: loop-data-requests.php:104
+#: loop.php:28
+#: loop.php:202
+#@ twentyten
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Vanhemmat artikkelit"
+
+#: loop-apps.php:31
+#: loop-apps.php:126
+#: loop-data-requests.php:28
+#: loop-data-requests.php:105
+#: loop.php:29
+#: loop.php:203
+#@ twentyten
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Uudemmat artikkelit <span class=\"meta-nav\">&rarr;</span>"
+
+#: loop-apps.php:40
+#: loop-data-requests.php:37
+#: loop.php:38
+#@ twentyten
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr "Valitettavasti tuloksia pyydetylle arkistolle ei löytynyt. Ehkä haku auttaa sinua löytämään aiheeseen liittyvän artikkelin."
+
+#: loop.php:72
+#: loop.php:103
+#@ twentyten
+msgctxt "gallery category slug"
+msgid "gallery"
+msgstr "galleria"
+
+#: loop-apps.php:54
+#: loop-apps.php:59
+#: loop-data-requests.php:46
+#: loop.php:77
+#: loop.php:94
+#: loop.php:140
+#, php-format
+#@ twentyten
+msgid "Permalink to %s"
+msgstr "Kestolinkki: %s"
+
+#: loop.php:93
+#, php-format
+#@ twentyten
+msgid "This gallery contains <a %1$s>%2$s photos</a>."
+msgstr "Tässä galleriassa on <a %1$s>%2$s kuvaa</a>."
+
+#: loop.php:103
+#@ twentyten
+msgid "View posts in the Gallery category"
+msgstr "Näytä kaikki artikkelit aiheessa galleria"
+
+#: loop.php:103
+#@ twentyten
+msgid "More Galleries"
+msgstr "Lisää gallerioita"
+
+#: loop.php:105
+#: loop.php:130
+#@ twentyten
+msgid "Leave a comment"
+msgstr "Jätä kommentti"
+
+#: loop-apps.php:102
+#: loop-data-requests.php:85
+#: loop.php:105
+#: loop.php:130
+#: loop.php:181
+#: single-application.php:93
+#: single-help-page.php:82
+#: single.php:76
+#@ twentyten
+msgid "1 Comment"
+msgstr "1 kommentti"
+
+#: loop-apps.php:102
+#: loop-data-requests.php:85
+#: loop.php:105
+#: loop.php:130
+#: loop.php:181
+#: single-application.php:93
+#: single-help-page.php:82
+#: single.php:76
+#@ twentyten
+msgid "% Comments"
+msgstr "% kommenttia"
+
+#: loop.php:112
+#@ twentyten
+msgctxt "asides category slug"
+msgid "asides"
+msgstr "asides"
+
+#: tag.php:16
+#, php-format
+#@ twentyten
+msgid "Tag Archives: %s"
+msgstr "Avainsana-arkisto: %s"
+
+#: functions.php:1157
+#@ blank
+msgid "Professional information"
+msgstr ""
+
+#: functions.php:1160
+#: page-list-discussion.php:220
+#: page-search-data.php:606
+#: page-search.php:159
+#@ default
+#@ twentyten
+msgid "Title"
+msgstr "Otsikko"
+
+#: functions.php:1163
+#@ default
+msgid "Your professional title or position in your organization."
+msgstr ""
+
+#: functions.php:1167
+#@ default
+msgid "Organization"
+msgstr ""
+
+#: functions.php:1170
+#@ default
+msgid "The name of your company or organization."
+msgstr ""
+
+#: functions.php:1174
+#@ default
+msgid "Organization home page"
+msgstr ""
+
+#: functions.php:1177
+#@ default
+msgid "The URL of your organization's home page. Remember to include <strong>http://</strong>"
+msgstr ""
+
+#: functions.php:1429
+#@ twentyten
+msgid "Big front page Widget Area"
+msgstr "Etusivun suuri vimpainalue"
+
+#: functions.php:1431
+#@ twentyten
+msgid "The big front page widget area"
+msgstr "Etusivun suuri vimpainalue"
+
+#: functions.php:1463
+#@ twentyten
+msgid "Subpage: Sidebar"
+msgstr "Alasivut: sivupalsta"
+
+#: functions.php:1485
+#@ twentyten
+msgid "Footer: Left column"
+msgstr "Alatunniste: vasen palsta"
+
+#: functions.php:1496
+#@ twentyten
+msgid "Footer: Right column"
+msgstr "Alatunniste: oikea palsta"
+
+#: functions.php:1498
+#@ twentyten
+msgid "The thrird footer widget area"
+msgstr "Alatunniste: kolmas vimpainalue"
+
+#: functions.php:687
+#: functions.php:691
+#@ twentyten
+msgid "ago"
+msgstr "sitten"
+
+#: pagesidebar.php:139
+#@ twentyten
+msgid "and"
+msgstr "ja"
+
+#: single-help-page.php:37
+#: single.php:33
+#@ twentyten
+msgid "Article author"
+msgstr "Artikkelin kirjoittaja"
+
+#: single-help-page.php:38
+#: single.php:34
+#, php-format
+#@ twentyten
+msgid "%s"
+msgstr ""
+
+#: single-data.php:364
+#@ twentyten
+msgid "Back to search results"
+msgstr "Takaisin hakutuloksiin"
+
+#: functions.php:856
+#@ twentyten
+msgid "See all discussions"
+msgstr "Näytä kaikki keskustelut"
+
+#: page-list-discussion.php:140
+#: page-new-discussion.php:133
+#@ twentyten
+msgid "Start a new discussion"
+msgstr "Aloita uusi keskustelu"
+
+#: comments.php:32
+#: loop-apps.php:99
+#: loop-data-requests.php:84
+#: loop.php:180
+#: single-application.php:90
+#: single-help-page.php:81
+#: single.php:75
+#@ twentyten
+msgid "Comments"
+msgstr "Kommentit"
+
+#: comments_ratings.php:68
+#: comments_ratings.php:70
+#: loop-apps.php:102
+#: loop-data-requests.php:85
+#: loop.php:181
+#: single-application.php:93
+#: single-data.php:286
+#: single-data.php:290
+#: single-data.php:293
+#: single-help-page.php:82
+#: single.php:76
+#@ twentyten
+msgid "Comment"
+msgstr "Kommentoi"
+
+#: page-home.php:22
+#: page-search-data.php:374
+#: single-data.php:365
+#@ twentyten
+msgid "Data search"
+msgstr "Hae dataa"
+
+#: page-home.php:30
+#: page-list-discussion.php:155
+#: page-search-data.php:409
+#: page-search.php:137
+#@ twentyten
+msgid "Search"
+msgstr "Haku"
+
+#: page-search-data.php:413
+#: page-search-data.php:418
+#@ twentyten
+msgid "Area"
+msgstr "Alue"
+
+#: page-search-data.php:418
+#: page-search-data.php:447
+#: page-search-data.php:472
+#: page-search-data.php:498
+#: page-search-data.php:545
+#@ twentyten
+msgid "Select all"
+msgstr "Valitse kaikki"
+
+#: page-search-data.php:418
+#: page-search-data.php:447
+#: page-search-data.php:472
+#: page-search-data.php:498
+#: page-search-data.php:545
+#@ twentyten
+msgid "Select none"
+msgstr "Poista valinnat"
+
+#: page-new-app.php:241
+#: page-search-data.php:442
+#: page-search-data.php:446
+#@ twentyten
+msgid "Category"
+msgstr "Kategoria"
+
+#: page-new-app.php:226
+#: page-new-data-request.php:147
+#: page-search-data.php:467
+#: page-search-data.php:471
+#: single-application.php:84
+#: single-data-request.php:38
+#: single-data.php:408
+#@ twentyten
+msgid "Tags"
+msgstr "Avainsanat"
+
+#: page-search-data.php:494
+#: page-search-data.php:498
+#@ twentyten
+msgid "Filetype"
+msgstr "Tiedostomuoto"
+
+#: page-search-data.php:541
+#: page-search-data.php:545
+#@ twentyten
+msgid "Producer"
+msgstr "Ylläpitäjä"
+
+#: page-search-data.php:612
+#@ twentyten
+msgid "The latest comment"
+msgstr "Viimeisin kommentti"
+
+#: page-search-data.php:612
+#@ twentyten
+msgid "The latest discussion"
+msgstr "Viimeisin keskustelu"
+
+#: sidebar-data.php:65
+#@ twentyten
+msgid "Applications"
+msgstr "Sovellukset"
+
+#: page-search-data.php:213
+#: page-search-data.php:414
+#: page-search-data.php:443
+#: page-search-data.php:468
+#: page-search-data.php:495
+#: page-search-data.php:542
+#@ twentyten
+msgid "No filter"
+msgstr "Ei suodatusta"
+
+#: page-list-discussion.php:157
+#@ twentyten
+msgid "search"
+msgstr "hae"
+
+#: comments_ratings.php:105
+#: single-data.php:645
+#@ twentyten
+msgid "Usability"
+msgstr "Käytettävyys"
+
+#: comments_ratings.php:95
+#: single-data.php:621
+#@ twentyten
+msgid "Description"
+msgstr "Kuvaus"
+
+#: comments_ratings.php:100
+#: single-data.php:633
+#@ twentyten
+msgid "Relevance"
+msgstr "Hyödyllisyys"
+
+#: comments_ratings.php:97
+#: single-data.php:630
+#@ twentyten
+msgid "Are data description and information comprehensive and accurate?"
+msgstr "Ovatko datan kuvaus ja tiedot kattavia ja paikkansapitäviä?"
+
+#: comments_ratings.php:102
+#: single-data.php:642
+#@ twentyten
+msgid "Does the data provide useful information?"
+msgstr "Tarjoaako data hyödyllistä tietoa?"
+
+#: comments_ratings.php:107
+#: single-data.php:654
+#@ twentyten
+msgid "Is the data in practical format and structure?"
+msgstr "Onko data hyvin käytettävässä muodossa?"
+
+#: functions.php:1792
+#: functions.php:1798
+#: functions.php:1802
+#: single-data.php:286
+#: single-data.php:300
+#: single-data.php:307
+#@ twentyten
+msgid "Fill the field"
+msgstr "Täytä kenttä"
+
+#: comments-discussion.php:44
+#: comments.php:72
+#: comments_ratings.php:73
+#: page-new-app-idea.php:170
+#: page-new-app.php:300
+#: page-new-data-request.php:132
+#: page-new-discussion.php:158
+#: single-data.php:300
+#: single-data.php:303
+#: single-data.php:520
+#@ twentyten
+msgid "Name"
+msgstr "Nimi"
+
+#: comments-discussion.php:45
+#: comments.php:73
+#: comments_ratings.php:74
+#: functions.php:578
+#: page-new-app-idea.php:177
+#: page-new-app.php:306
+#: page-new-data-request.php:139
+#: page-new-discussion.php:165
+#: single-data.php:307
+#: single-data.php:313
+#: single-data.php:316
+#@ twentyten
+msgid "Email"
+msgstr "Sähköposti"
+
+#: single-data.php:290
+#@ twentyten
+msgid "Your comment is too short"
+msgstr "Kommenttisi on liian lyhyt"
+
+#: functions.php:1657
+#: functions.php:1670
+#: functions.php:1735
+#: functions.php:1748
+#: functions.php:1756
+#@ twentyten
+msgid "No search results"
+msgstr "Tuloksia ei löytynyt"
+
+#: page-search-data.php:387
+#: page-search-data.php:403
+#: page-search.php:128
+#@ twentyten
+msgid "Search text"
+msgstr "Hakusana"
+
+#: searchform.php:9
+#@ twentyten
+msgid "Search from entire HRI"
+msgstr "Hae koko HRIstä"
+
+#: page-home.php:30
+#@ twentyten
+msgid "Search term"
+msgstr "Hakusana"
+
+#: page-home.php:31
+#@ twentyten
+msgid "Advanced search"
+msgstr "Tarkennettu haku"
+
+#: page-search-data.php:68
+#: page-search-data.php:211
+#@ twentyten
+msgid "Change"
+msgstr "Muuta"
+
+#: comments-discussion.php:42
+#: comments.php:70
+#@ twentyten
+msgid "Reply"
+msgstr "Vastaa"
+
+#: functions.php:1474
+#@ twentyten
+msgid "Footer: Logo area"
+msgstr ""
+
+#: page-home.php:37
+#@ twentyten
+msgid "Popular tags"
+msgstr "Yleisimmät avainsanat"
+
+#: page-home.php:68
+#@ twentyten
+msgid "Newest data"
+msgstr "Viimeisin data"
+
+#: loop-apps.php:79
+#: loop-data-requests.php:67
+#: loop.php:163
+#: single-help-page.php:62
+#: single.php:56
+#, php-format
+#@ twentyten
+msgid "<span class=\"%1$s\">Categories</span> %2$s"
+msgstr "<span class=\"%1$s\">Kategoriat</span> %2$s"
+
+#: loop-apps.php:93
+#: loop-data-requests.php:78
+#: loop.php:174
+#: single-discussion.php:31
+#: single-help-page.php:75
+#: single.php:69
+#, php-format
+#@ twentyten
+msgid "<span class=\"%1$s\">Tags</span> %2$s"
+msgstr "<span class=\"%1$s\">Avainsanat</span> %2$s"
+
+#: page-new-app-idea.php:30
+#: page-new-app.php:36
+#: page-new-data-request.php:29
+#: page-new-discussion.php:35
+#@ twentyten
+msgid "Name must be atleast three characters"
+msgstr "Nimessä tulee olla vähintään kolme merkkiä"
+
+#: page-new-app-idea.php:31
+#: page-new-app.php:37
+#: page-new-data-request.php:30
+#: page-new-discussion.php:36
+#@ twentyten
+msgid "Email is required"
+msgstr "Sähköposti on vaadittu"
+
+#: page-new-discussion.php:122
+#@ twentyten
+msgid "All discussions"
+msgstr "Kaikki keskustelut"
+
+#: functions.php:1350
+#@ twentyten
+msgid "Logged in as"
+msgstr "Olet kirjautunut sisään nimellä"
+
+#: functions.php:1352
+#@ twentyten
+msgid "Log out?"
+msgstr "Kirjaudu ulos?"
+
+#: functions.php:1314
+#@ twentyten
+msgid "Read more"
+msgstr "Lue lisää"
+
+#: page-search-data.php:403
+#@ twentyten
+msgid "Clear"
+msgstr "Tyhjennä"
+
+#: page-new-app-idea.php:141
+#: page-new-app.php:210
+#: page-new-app.php:215
+#: page-new-discussion.php:172
+#: page-search-data.php:603
+#@ twentyten
+msgid "Data"
+msgstr "Data"
+
+#: page-search-data.php:407
+#: page-search-data.php:433
+#: page-search-data.php:458
+#: page-search-data.php:484
+#: page-search-data.php:511
+#: page-search-data.php:559
+#@ twentyten
+msgid "OK"
+msgstr "OK"
+
+#: page-search.php:147
+#@ twentyten
+msgid "Search results"
+msgstr "Hakutulokset"
+
+#: page-new-app-idea.php:112
+#@ twentyten
+msgid "All application ideas"
+msgstr "Kaikki sovellusideat"
+
+#: page-new-discussion.php:17
+#@ twentyten
+msgid "A new discussion started successfully"
+msgstr "Uusi keskusteluaihe avattu"
+
+#: page-new-discussion.php:18
+#@ twentyten
+msgid "The discussion is held for moderation and will be published soon."
+msgstr "Keskustelu tarkistetaan ja julkaistaan pian."
+
+#: single-data.php:87
+#: single-data.php:89
+#@ twentyten
+msgid "Close the form"
+msgstr "Sulje lomake"
+
+#: single-data.php:92
+#: single-data.php:511
+#@ twentyten
+msgid "Contact maintainer"
+msgstr "Ota yhteyttä ylläpitäjään"
+
+#: single-data.php:457
+#@ twentyten
+msgid "Downloads & links"
+msgstr "Ladattavat tiedostot & linkit"
+
+#: single-application.php:115
+#: single-data.php:484
+#@ twentyten
+msgid "Information"
+msgstr "Lisätiedot"
+
+#: single-data.php:489
+#@ twentyten
+msgid "Modified"
+msgstr "Muokattu"
+
+#: single-data.php:564
+#@ twentyten
+msgid "Source"
+msgstr "Lähde"
+
+#: single-data.php:492
+#@ twentyten
+msgid "License"
+msgstr "Lisenssi"
+
+#: single-data.php:504
+#: single-data.php:505
+#@ twentyten
+msgid "Maintainer"
+msgstr "Ylläpitäjä"
+
+#: page-new-data-request.php:120
+#: page-new-discussion.php:145
+#: single-data.php:524
+#@ twentyten
+msgid "Subject"
+msgstr "Aihe"
+
+#: single-data.php:526
+#@ twentyten
+msgid "Message"
+msgstr "Viesti"
+
+#: single-data.php:529
+#@ twentyten
+msgid "Send"
+msgstr "Lähetä"
+
+#: page-search-data.php:567
+#@ twentyten
+msgid "Clear all"
+msgstr "Tyhjennä kaikki"
+
+#: comments_ratings.php:110
+#: single-data.php:657
+#@ twentyten
+msgid "Overall rating"
+msgstr "Yleisarvosana"
+
+#: single-data.php:380
+#@ twentyten
+msgid "Categories"
+msgstr "Kategoriat"
+
+#: single-data.php:562
+#@ twentyten
+msgid "Geographic coverage"
+msgstr "Maantieteellinen alue"
+
+#: single-data.php:560
+#@ twentyten
+msgid "Agency"
+msgstr "Virasto"
+
+#: single-data.php:563
+#@ twentyten
+msgid "Geographic granularity"
+msgstr "Maantieteellinen tarkkuus"
+
+#: single-data.php:565
+#@ twentyten
+msgid "Update frequency"
+msgstr "Päivitysväli"
+
+#: single-data.php:566
+#@ twentyten
+msgid "Temporal granularity"
+msgstr "Aikajakson tarkkuus"
+
+#: comments_ratings.php:71
+#@ twentyten
+msgid "Your email address will not be published."
+msgstr "Sähköpostiasi ei julkaista."
+
+#: comments_ratings.php:71
+#, php-format
+#@ twentyten
+msgid "Required fields are marked %s"
+msgstr "Vaaditut kentät ovat merkitty %s-merkillä"
+
+#: functions.php:214
+#@ default
+msgid "&laquo; Back"
+msgstr ""
+
+#: functions.php:235
+#@ default
+msgid "WordPress &rsaquo; Error"
+msgstr ""
+
+#: single-data.php:567
+#@ twentyten
+msgid "Temporal coverage"
+msgstr "Aikasarja alkaa"
+
+#: single-data.php:568
+#@ twentyten
+msgid "Temporal coverage from"
+msgstr "Aikasarjan alku"
+
+#: single-data.php:569
+#@ twentyten
+msgid "Temporal coverage to"
+msgstr "Aikasarjan loppu"
+
+#: single-data.php:570
+#@ twentyten
+msgid "Other"
+msgstr "Muu"
+
+#: page-new-app-idea.php:15
+#@ twentyten
+msgid "A new application idea submitted successfully"
+msgstr "Uusi sovellusidea lähetetty onnistuneesti"
+
+#: page-new-app-idea.php:15
+#@ twentyten
+msgid "The application idea is held for moderation and will be published soon."
+msgstr "Sovellusidea on tarkastettavana ja julkaistaan pian."
+
+#: page-new-app-idea.php:123
+#@ twentyten
+msgid "Submit a new application idea"
+msgstr "Lähetä uusi sovellusidea"
+
+#: page-new-app.php:19
+#@ twentyten
+msgid "A new application created successfully"
+msgstr "Uusi sovellus ilmoitettu onnistuneesti"
+
+#: page-new-app.php:170
+#: single-application.php:18
+#@ twentyten
+msgid "All applications"
+msgstr "Kaikki sovellukset"
+
+#: page-new-app.php:181
+#@ twentyten
+msgid "Application submission"
+msgstr "Ilmoita uusi sovellus"
+
+#: page-new-app.php:207
+#: single-application.php:118
+#@ twentyten
+msgid "Application's URL"
+msgstr "Sovelluksen www-osoite"
+
+#: page-new-app.php:282
+#: single-application.php:119
+#@ twentyten
+msgid "Author"
+msgstr "Ylläpitäjä"
+
+#: single-application.php:120
+#@ twentyten
+msgid "Author's URL"
+msgstr "Ylläpitäjän URL"
+
+#: page-new-data-request.php:14
+#@ twentyten
+msgid "A new data request created successfully"
+msgstr "Uusi datatoive luotu onnistuneesti"
+
+#: page-new-data-request.php:14
+#@ twentyten
+msgid "The data request is held for moderation and will be published soon."
+msgstr "Datatoive on tarkistettavana ja julkaistaan pian"
+
+#: page-new-data-request.php:103
+#@ twentyten
+msgid "All data requests"
+msgstr "Kaikki datatoiveet"
+
+#: page-new-data-request.php:114
+#@ twentyten
+msgid "Submit a new data request"
+msgstr "Lähetä uusi datatoive"
+
+#: single-application.php:129
+#@ twentyten
+msgid "This application is linked to data"
+msgstr "Tämä sovellus liittyy dataan"
+
+#: single-data-request.php:30
+#@ twentyten
+msgid "Back to data requests"
+msgstr "Takaisin datatoiveisiin"
+
+#: single-data.php:561
+#@ twentyten
+msgid "Department"
+msgstr "Viraston osasto"
+
+#: single-data.php:576
+#@ twentyten
+msgid "External reference"
+msgstr "Ulkoinen linkki"
+
+#: comments_ratings.php:115
+#@ twentyten
+msgid "Overall based on your ratings"
+msgstr "Antamiesi arvosanojen keskiarvo"
+
+#: functions.php:589
+#: functions.php:1372
+#: page-new-app-idea.php:195
+#: page-new-app.php:322
+#: page-new-data-request.php:158
+#: page-new-discussion.php:205
+#@ twentyten
+msgid "Submit"
+msgstr "Lähetä"
+
+#: page-search-data.php:605
+#: page-search.php:158
+#@ twentyten
+msgid "Sort by"
+msgstr "Järjestä"
+
+#: page-search-data.php:607
+#: page-search.php:160
+#@ twentyten
+msgid "Date"
+msgstr "Päivämäärä"
+
+#: page-search.php:161
+#@ twentyten
+msgid "Latest comment"
+msgstr "Viimeisin kommentti"
+
+#: page-search-data.php:608
+#@ twentyten
+msgid "Rating"
+msgstr "Arvosana"
+
+#: functions.php:1372
+#: single-data.php:522
+#@ twentyten
+msgid "Your email"
+msgstr "Sähköpostiosoitteesi"
+
+#: comments_ratings.php:69
+#@ twentyten
+msgid "Post"
+msgstr "Lähetä"
+
+#: page-search.php:171
+#@ twentyten
+msgid "Search results from data"
+msgstr "Hakutulokset datasta"
+
+#: sidebar-data.php:114
+#@ twentyten
+msgid "New application submission"
+msgstr "Uuden sovelluksen ilmoitus"
+
+#: comments_ratings.php:30
+#: single-data.php:589
+#@ twentyten
+msgid "Comments and ratings"
+msgstr "Kommentit ja arvostelut"
+
+#: comments_ratings.php:82
+#@ twentyten
+msgid "Rate"
+msgstr "Arvostele"
+
+#: comments_ratings.php:83
+#@ twentyten
+msgid "Open"
+msgstr "Avaa"
+
+#: comments_ratings.php:87
+#@ twentyten
+msgid "Close (no ratings)"
+msgstr "Sulje (ei arvostelua)"
+
+#: functions.php:421
+#: functions.php:474
+#: functions.php:1383
+#@ twentyten
+msgid "Report this comment"
+msgstr "Raportoi tämä kommentti"
+
+#: functions.php:1200
+#@ twentyten
+msgid "Moderation notifications"
+msgstr ""
+
+#: functions.php:1214
+#@ twentyten
+msgid "Never"
+msgstr "Ei koskaan"
+
+#: functions.php:1215
+#@ twentyten
+msgid "Daily"
+msgstr "Päivittäin"
+
+#: functions.php:1216
+#@ twentyten
+msgid "Weekly"
+msgstr "Viikoittain"
+
+#: functions.php:1372
+#@ twentyten
+msgid "Report offensive content"
+msgstr "Ilmoita epäasiallinen sisältö"
+
+#: functions.php:1372
+#@ twentyten
+msgid "Tell us why you think this content should be removed."
+msgstr "Kerro, miksi tämä sisältö pitäisi mielestäsi poistaa."
+
+#: functions.php:1392
+#@ twentyten
+msgid "Cancel"
+msgstr "Peruuta"
+
+#: page-report.php:102
+#@ twentyten
+msgid "Notification mailed to administrators."
+msgstr "Ilmoitus lähetetty ylläpitäjille"
+
+#: single-data.php:588
+#@ twentyten
+msgid "Comment or rate"
+msgstr "Kommentoi tai arvostele"
+
+#: single-data.php:313
+#@ twentyten
+msgid "Fill valid email"
+msgstr "Täytä oikea sähköpostiosoite"
+
+#: functions.php:1203
+#@ twentyten
+msgid "Comment notifications"
+msgstr "Kommentti-ilmoitukset"
+
+#: functions.php:1205
+#@ twentyten
+msgid "Instant email notifications on flagged comments."
+msgstr ""
+
+#: functions.php:1210
+#@ twentyten
+msgid "Moderation digest"
+msgstr ""
+
+#: functions.php:1230
+#@ twentyten
+msgid "Email digest for all pending content."
+msgstr ""
+
+#: functions.php:1451
+#@ twentyten
+msgid "Add new application: Sidebar"
+msgstr "Lisää sovellus: sivupalkki"
+
+#: functions.php:1453
+#@ twentyten
+msgid "The widget area for new application form"
+msgstr "Uusi sovellus-lomakkeen sovelma-alue."
+
+#: functions.php:1515
+#@ twentyten
+msgid "Default"
+msgstr "Oletus"
+
+#: functions.php:1516
+#@ twentyten
+msgid "Facebook"
+msgstr "Facebook"
+
+#: functions.php:1517
+#@ twentyten
+msgid "Feedback"
+msgstr "Palaute"
+
+#: functions.php:1522
+#@ twentyten
+msgid "CSS class"
+msgstr "CSS-luokka"
+
+#: page-new-app-idea.php:173
+#: page-new-data-request.php:135
+#: page-new-discussion.php:161
+#@ twentyten
+msgid "Your name is published in the new discussion."
+msgstr "Nimesi julkaistaan keskustelunavauksen yhteydessä."
+
+#: page-new-app-idea.php:180
+#: page-new-app.php:309
+#: page-new-data-request.php:142
+#: page-new-discussion.php:168
+#@ twentyten
+msgid "Your email won't be published."
+msgstr "Sähköpostiosoitettasi ei julkaista."
+
+#: page-new-discussion.php:174
+#@ twentyten
+msgid "Is this discussion related to a data published in HRI."
+msgstr "Liittyykö tämä keskustelu HRI-palvelussa julkaistuun dataan?"
+
+#: page-new-app-idea.php:147
+#: page-new-discussion.php:177
+#@ twentyten
+msgid "Search by data name"
+msgstr "Hae datan nimellä"
+
+#: page-new-app-idea.php:155
+#: page-new-discussion.php:187
+#@ twentyten
+msgid "Find by data title. You can add discussion to multiple data by doing multiple queryes."
+msgstr "Etsi datan otsikolla. Voit liittää keskustelun useisiin data-aineistoihin tekemällä useita hakuja."
+
+#: page-new-discussion.php:200
+#@ twentyten
+msgid "New discussions are moderated before publishing."
+msgstr "Keskustelunavaukset arvioidaan ja niitä saatetaan muokata ennen julkaisua."
+
+#: single-discussion.php:102
+#@ twentyten
+msgid "Related data"
+msgstr "Liittyvä data"
+
+#: sidebar-data.php:36
+#: sidebar-data.php:51
+#: single-discussion.php:119
+#@ twentyten
+msgid "Start a new discussion from this data"
+msgstr "Aloita uusi keskustelu tästä datasta"
+
+#: functions.php:795
+#@ twentyten
+msgid "Related discussions"
+msgstr "Liittyvät keskustelut"
+
+#: single-discussion.php:155
+#@ twentyten
+msgid "Related applications"
+msgstr "Liittyvät sovellukset"
+
+#: page-new-data-request.php:124
+#@ twentyten
+msgid "Your request"
+msgstr "Toiveesi"
+
+#: page-new-data-request.php:154
+#@ twentyten
+msgid "Your data request is moderated and it can be merged with other similar requests. Moderated requests are published here and are (within possibilities) sended to people responsible of the data."
+msgstr "Datatoiveesi arvioidaan, sitä saatetaan muokata ja se saatetaan yhdistää muihin vastaaviin toiveisiin. Muokatut toiveet julkaistaan tällä sivustolla ja välitetään mahdollisuuksien mukaan datasta vastaavalle taholle."
+
+#: page-new-app-idea.php:129
+#@ twentyten
+msgid "Idea name"
+msgstr "Idean nimi"
+
+#: page-new-app-idea.php:134
+#@ twentyten
+msgid "Idea description"
+msgstr "Idean kuvaus"
+
+#: page-new-app-idea.php:142
+#@ twentyten
+msgid "Is this idea related to a data published in HRI."
+msgstr "Liittyykö ideasi HRI-palvelussa julkaistuun dataan?"
+
+#: page-new-app-idea.php:167
+#: page-new-app.php:297
+#@ twentyten
+msgid "Your info"
+msgstr "Omat tietosi"
+
+#: page-new-app-idea.php:185
+#: page-new-app.php:315
+#@ twentyten
+msgid "Other / Your message to HRI admins"
+msgstr "Muuta / Terveisesi HRI-ylläpidolle"
+
+#: page-new-app-idea.php:191
+#@ twentyten
+msgid "Your idea is moderated and it can be merged to other similar ideas. Chosen ideas are published on this website."
+msgstr "Ilmoitustasi saatetaan muokata ja se saatetaan yhdistää muihin vastaaviin ideoihin. Valitut ideat julkaistaan tällä sivustolla."
+
+#: page-new-app-idea.php:137
+#@ twentyten
+msgid "Describe your idea as informative as you can."
+msgstr "Kuvaile ideaasi mahdollisimman informatiivisesti."
+
+#: page-new-app-idea.php:188
+#@ twentyten
+msgid "Other information related to the idea or special instructions related to publishing."
+msgstr "Muuta ideaan liittyvää tietoa tai erityisohjeita julkaisuun liittyen."
+
+#: page-list-discussion.php:222
+#@ twentyten
+msgid "Latest message"
+msgstr "Viimeisin viesti"
+
+#: single-data.php:432
+#: single-data.php:674
+#@ twentyten
+msgid "Back to discussions"
+msgstr "Takaisin keskusteluihin"
+
+#: page-new-app.php:195
+#@ twentyten
+msgid "Describe your application as informative as you can. Keep the description short."
+msgstr "Kuvaile ideaasi mahdollisimman informatiivisesti. Pidäthän kuvauksen lyhyenä."
+
+#: page-new-app.php:211
+#@ twentyten
+msgid "Is this application related to a data?"
+msgstr "Liittyykö sovellus dataan?"
+
+#: page-new-app.php:222
+#@ twentyten
+msgid "Find by data title. You can add application to multiple data by doing multiple queryes."
+msgstr "Etsi datan otsikolla. Voit liittää sovelluksen useisiin data-aineistoihin tekemällä useita hakuja."
+
+#: page-new-app.php:318
+#@ twentyten
+msgid "Other information related to the application or special instructions related to publishing."
+msgstr "Muuta sovellukseen liittyvää tietoa tai erityisohjeita julkaisuun liittyen."
+
+#: page-report.php:101
+#@ twentyten
+msgid "Something failed."
+msgstr "Virhe."
+
+#: page-new-app.php:187
+#@ twentyten
+msgid "Application name"
+msgstr "Sovelluksen nimi"
+
+#: page-new-app.php:192
+#@ twentyten
+msgid "Application description"
+msgstr "Sovelluksen kuvaus"
+
+#: page-new-app.php:284
+#@ twentyten
+msgid "Application author"
+msgstr "Sovelluksen ylläpitäjä"
+
+#: page-new-app.php:288
+#@ twentyten
+msgid "Application author's URL"
+msgstr "Sovelluksen ylläpitäjän www-osoite"
+
+#: functions.php:103
+#@ twentyten
+msgid "Error: Zero byte file"
+msgstr "Virhe: Tyhjä tiedosto"
+
+#: functions.php:104
+#@ twentyten
+msgid "Error: Max file size exceeded"
+msgstr "Virhe: Suurin sallittu koko ylittyi"
+
+#: functions.php:105
+#@ twentyten
+msgid "Error: File processing failed"
+msgstr "Virhe: Tiedoston prosessointi epäonnistui"
+
+#: functions.php:565
+#@ twentyten
+msgid "Subscribe without commenting or unsubribe"
+msgstr "Tilaa kommentoimatta tai peru tilaus"
+
+#: functions.php:585
+#@ twentyten
+msgid "Subscribe to this"
+msgstr "Tilaa ilmoitukset uusista viesteistä tähän keskusteluun"
+
+#: functions.php:586
+#@ twentyten
+msgid "Unsubscribe from this"
+msgstr "Peru ilmoitukset tämän keskustelun viesteistä"
+
+#: functions.php:587
+#@ twentyten
+msgid "Unsubscribe from all"
+msgstr "Peru ilmoitukset kaikista HRI-keskusteluista"
+
+#: functions.php:593
+#@ twentyten
+msgid "Close"
+msgstr "Sulje"
+
+#: functions.php:710
+#@ hri-ckan
+msgid "Previous"
+msgstr ""
+
+#: functions.php:751
+#@ hri-ckan
+msgid "Next"
+msgstr ""
+
+#: page-list-discussion.php:164
+#@ twentyten
+msgid "Related to data"
+msgstr "Liittyvä data"
+
+#: page-subscribe.php:22
+#@ twentyten
+msgid "Invalid email address"
+msgstr "Epäkelpo sähköpostiosoite"
+
+#: page-subscribe.php:27
+#@ twentyten
+msgid "Incorrect option"
+msgstr "Epäkelpo valinta"
+
+#: page-subscribe.php:32
+#@ twentyten
+msgid "Error"
+msgstr "Virhe"
+
+#: page-subscribe.php:57
+#@ twentyten
+msgid "Subscribed to comments succesfully"
+msgstr "Ilmoitus kommenteista tilattu onnistuneesti."
+
+#: page-new-app.php:19
+#@ twentyten
+msgid "Admins of HRI will moderate your application submission and if needed, will be in touch with you. You can reach HRI-admins from address <a href=\"mailto:hri-info@forumvirium.fi\">hri-info@forumvirium.fi</a>."
+msgstr "HRI-ylläpito käy ilmoituksesi läpi ja ottaa tarvittaessa yhteyttä antamaasi sähköpostiosoitteeseen. Tavoitat ylläpidon osoitteesta <a href=\"mailto:hri-info@forumvirium.fi\">hri-info@forumvirium.fi</a>."
+
+#: functions.php:137
+#@ twentyten
+msgid "Select Images"
+msgstr "Lisää kuva"
+
+#: sidebar-data.php:126
+#@ twentyten
+msgid "New application submission from this data"
+msgstr "Ilmoita uusi sovellus tästä datasta"
+
+#: functions.php:106
+#@ twentyten
+msgid "All images received."
+msgstr "Kaikki kuvat vastaanotettu."
+
+#: functions.php:107
+#@ twentyten
+msgid "Featured image"
+msgstr "Kansikuva"
+
+#: functions.php:108
+#@ twentyten
+msgid "Delete"
+msgstr "Poista"
+
+#: page-new-app.php:203
+#@ twentyten
+msgid "Approved filetypes: jpg, gif, png. Max size 1 MB. Featured image will be cropped to square."
+msgstr "Hyväksytyt tiedosto tyypit: jpg, gif, png. Suurin sallittu koko 1 Mt. Kansikuva leikataan automaattisesti neliön muotoiseksi."
+
+#: single-data.php:536
+#@ twentyten
+msgid "Maintainer page"
+msgstr "Ylläpitäjän www-sivu"
+
+#: single-data.php:487
+#@ twentyten
+msgid "Created"
+msgstr "Luotu"
+
+#: page-search-data.php:612
+#@ twentyten
+msgid "The latest application"
+msgstr "Viimeisin sovellus"
+

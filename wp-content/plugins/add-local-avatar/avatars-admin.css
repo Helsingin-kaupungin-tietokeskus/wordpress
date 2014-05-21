@@ -1,0 +1,37 @@
+#avatar_profile_box {
+	position: absolute;
+	top: 300px;
+	right: 24px;
+	padding: 0 10px 10px;
+	width: 156px;
+	background: #eee;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+.avatar_avatar {
+	margin-right: 8px;
+}
+
+.avatar_avatar img {
+	background: white;
+	padding: 8px;
+}
+
+.avatar_text {
+	margin-top: 8px;
+	display: block;
+	clear: both;
+}
+
+#avatar_upload {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#avatar_preview_div {
+	float: left;
+	position: relative;
+	overflow: hidden;
+	border: 1px gray solid;
+}

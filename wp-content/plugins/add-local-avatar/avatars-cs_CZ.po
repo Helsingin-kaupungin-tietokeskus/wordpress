@@ -1,0 +1,411 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Add local avatar v7.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-08-24 01:24+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Peter <peter@sterling-adventures.co.uk>\n"
+"Language-Team:  <onix@onix.name>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Ukrainian\n"
+"X-Poedit-Country: UKRAINE\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: avatars.php:183
+msgid "Visit"
+msgstr "Jít na"
+
+#: avatars.php:204
+#: avatars.php:279
+#: avatars.php:341
+msgid "Avatar"
+msgstr "Avatar"
+
+#: avatars.php:204
+msgid "removed"
+msgstr "smazáno"
+
+#: avatars.php:204
+msgid "updated"
+msgstr "aktualizováno"
+
+#: avatars.php:228
+msgid "Options saved"
+msgstr "Uloženo"
+
+#: avatars.php:247
+msgid "Avatar Settings"
+msgstr "Nastavení avatarů"
+
+#: avatars.php:249
+msgid "Please visit the author's site,"
+msgstr "Prosím podívejte se na autorovu stránku,"
+
+#: avatars.php:249
+msgid "and say \"Hi\""
+msgstr "a řekněte \"Hi\""
+
+#: avatars.php:250
+msgid "Control the behaviour of the avatar plug-in."
+msgstr "Nastavit plugin Avatary."
+
+#: avatars.php:252
+msgid "User Avatars"
+msgstr "Uživatelské avatary"
+
+#: avatars.php:279
+msgid "Username"
+msgstr "Uživatelské jméno"
+
+#: avatars.php:279
+msgid "Name (Nickname)"
+msgstr "Jméno (přezdívka)"
+
+#: avatars.php:279
+#: avatars.php:341
+msgid "e-Mail"
+msgstr "e-mail"
+
+#: avatars.php:279
+#: avatars.php:292
+msgid "Local"
+msgstr "Lokální"
+
+#: avatars.php:279
+msgid "Type"
+msgstr "Typ"
+
+#: avatars.php:279
+msgid "Action"
+msgstr "Akce"
+
+#: avatars.php:292
+msgid "Global"
+msgstr "Globální"
+
+#: avatars.php:293
+msgid "Update"
+msgstr "Aktualizovat"
+
+#: avatars.php:308
+msgid "Not showing avatars for commenters."
+msgstr "Nezobrazovat avatary komentátorů."
+
+#: avatars.php:308
+#: avatars.php:309
+msgid "Click here"
+msgstr "Klikněte sem"
+
+#: avatars.php:308
+msgid "to show commenter avatars."
+msgstr "pro zobrazení avatarů komentátorů."
+
+#: avatars.php:309
+msgid "Showing avatars for commenters."
+msgstr "Zobrazuji avatary komentátorů."
+
+#: avatars.php:309
+msgid "to hide commenter avatars."
+msgstr "pro skrytí avatarů komentátorů."
+
+#: avatars.php:329
+msgid "Commenter Avatars"
+msgstr "Avatary komentátorů"
+
+#: avatars.php:341
+msgid "Name"
+msgstr "Jméno"
+
+#: avatars.php:368
+msgid "Avatar Options"
+msgstr "Nastavení avatara"
+
+#: avatars.php:372
+msgid "Show avatars:"
+msgstr "Zobrazovat avatary:"
+
+#: avatars.php:372
+#: avatars.php:376
+msgid "Repeated from <i>Settings  &raquo;  Discussion</i>"
+msgstr "Zopakováno z <i>Nastavení  &raquo;  Komentáře</i>"
+
+#: avatars.php:376
+msgid "Avatar rating:"
+msgstr "Hodnocení avatarů:"
+
+#: avatars.php:384
+msgid "Suitable for all audiences"
+msgstr "Pro všechny věkové kategorie"
+
+#: avatars.php:385
+msgid "Possibly offensive, usually for audiences 13 and above"
+msgstr "Od 13 let"
+
+#: avatars.php:386
+msgid "Intended for adult audiences above 17"
+msgstr "Od 17 let"
+
+#: avatars.php:387
+msgid "Even more mature than above"
+msgstr "Pouze dospělí"
+
+#: avatars.php:391
+msgid "Size:"
+msgstr "Velikost:"
+
+#: avatars.php:402
+msgid "Gravatar default:"
+msgstr "Původní Gravatar"
+
+#: avatars.php:402
+msgid "Enhanced repeat from <i>Settings &raquo; Discussion</i>"
+msgstr "Rozšířené opakování z <i>Nastavení &raquo; Komentáře</i>"
+
+#: avatars.php:406
+msgid "none"
+msgstr "nic"
+
+#: avatars.php:407
+msgid "Mystery Man"
+msgstr "Tajemný muž"
+
+#: avatars.php:408
+msgid "Blank"
+msgstr "Prázdné"
+
+#: avatars.php:409
+msgid "Logo"
+msgstr "Logo"
+
+#: avatars.php:415
+msgid "Give users without Global or Local avatars a unique avatar."
+msgstr "Nastavit uživatelům bez Globálního nebo Lokálního avatara unikátního avatara."
+
+#: avatars.php:419
+msgid "Default image:"
+msgstr "Výchozí obrázek:"
+
+#: avatars.php:424
+msgid "The default avatar (a working URI) for users without Global or Local avatars.  Used for trackbacks."
+msgstr "Defaultní avatar (fungující URI) pro uživatele bez Globálních nebo Lokálních avatarů."
+
+#: avatars.php:428
+msgid "Use Snapshots:"
+msgstr "Používat Snapshots:"
+
+#: avatars.php:430
+msgid "If you have enabled"
+msgstr "Pokud povoleno"
+
+#: avatars.php:430
+msgid "clearing this will disable them for avatar links."
+msgstr "odškrtnutí tohohle je zakáže pro odkazy na avatary."
+
+#: avatars.php:433
+msgid "Avatars in posts:"
+msgstr "Avatary v příspěvcích"
+
+#: avatars.php:435
+msgid "Replaces"
+msgstr "Nahrazuje"
+
+#: avatars.php:435
+msgid "with an avatar for that email address in post content."
+msgstr "avatar pro tuto emailovou adresu v komentářích"
+
+#: avatars.php:438
+msgid "User uploads:"
+msgstr "Uživatelský upload:"
+
+#: avatars.php:443
+msgid "If allowed, use this directory for user avatar uploads, e.g."
+msgstr "Pokud povoleno, použijte tuto složku pro upload uživ. avatarů, např."
+
+#: avatars.php:443
+msgid "Must have write access and is relative to your web root, i.e. "
+msgstr "Musí mít právo zápisu a je relativní ke kořenu webu, tedy"
+
+#: avatars.php:447
+msgid "Resize uploads:"
+msgstr "Změnit velikost uploadů:"
+
+#: avatars.php:449
+msgid "Non-square uploads will be cropped."
+msgstr "Nepodporované avatary budou smazány"
+
+#: avatars.php:452
+msgid "Resize uploads size:"
+msgstr "Velikost pro zmenšení nahraných avatarů:"
+
+#: avatars.php:466
+msgid "Enable user profile widget:"
+msgstr "Povolit widget uživatelských profilů:"
+
+#: avatars.php:468
+msgid "Enable the user profile widget; configure the widget at <i>Appearance &raquo; Widgets</i>."
+msgstr "Povolit widget uživatelských profilů; konfigurujte widget ve <i>Vzhled &raquo; Widgety</i>."
+
+#: avatars.php:470
+msgid "Get the user profile widget at the <a href=\"http://www.sterling-adventures.co.uk/blog/2008/03/01/avatars-plugin/\">Avatars Home Page</a>, and enable avatar upload from your blog sidebar."
+msgstr "Získejte uploadovací widget na <a href=\"http://www.sterling-adventures.co.uk/blog/2008/03/01/avatars-plugin/\">Domácí stránce pluginu Avatar</a> a povolte uploadování avatarů z vašeho postranního menu."
+
+#: avatars.php:474
+msgid "Nickname:"
+msgstr "Přezdívka:"
+
+#: avatars.php:479
+msgid "User's nickname used for avatar titles (tooltip)."
+msgstr "Uživatelské jméno užívané pro titulky avatarů."
+
+#: avatars.php:483
+msgid "Credit:"
+msgstr "Credits:"
+
+#: avatars.php:485
+msgid "Includes an invisible credit to"
+msgstr "Zahrnout neviditelnou reklamu"
+
+#: avatars.php:488
+msgid "Update Avatar Options"
+msgstr "Uložit nastavení"
+
+#: avatars.php:491
+msgid "Avatars Usage"
+msgstr "Používání pluginu Avatars"
+
+#: avatars.php:492
+msgid "Put this code in your template files where you want avatars to appear:"
+msgstr "Zahrňte tento kód ve Vaší šabloně, tam kde chcete, aby se avatary zobrazili:"
+
+#: avatars.php:494
+msgid "The function takes the following parameters:"
+msgstr "Funkce vykonává tyto parametry:"
+
+#: avatars.php:496
+msgid "Identifier; required, a blog user ID, an e-mail address, or a comment object from a WordPress comment loop (for comments)."
+msgstr "Identifikátor; požadováno, ID uživatele, emailová adresa nebo komentář."
+
+#: avatars.php:497
+msgid "Size (pixels); optional, defaulted to value set above."
+msgstr "Velikost (pixely); volitelné, defaultně hodnota nastavena výše."
+
+#: avatars.php:498
+msgid "Default image if no Global (public) or Local (private) avatar found; optional, defaulted to value set above."
+msgstr "Defaultní obrázek pokud není žádný Globální nebo Lokální avatar; volitelné, defaultně hodnota nastavena výše."
+
+#: avatars.php:500
+msgid "Apply format to the avatars with something like the following in your"
+msgstr "Použít formát avatarů ve vaší"
+
+#: avatars.php:500
+msgid "theme file:"
+msgstr "šabloně:"
+
+#: avatars.php:501
+msgid "For comment avatars,"
+msgstr "Pro avatary u komentářů."
+
+#: avatars.php:502
+msgid "For avatars in post content,"
+msgstr "Pro avatary v obsahu příspěvků,"
+
+#: avatars.php:504
+msgid "Examples for your theme's template files:"
+msgstr "Příklady pro soubory ve vaší šabloně:"
+
+#: avatars.php:506
+msgid "In"
+msgstr "V"
+
+#: avatars.php:506
+msgid "declare"
+msgstr "deklarovat"
+
+#: avatars.php:506
+msgid "if not already declared and then use"
+msgstr "pokud ještě není deklarováno, potom použijte"
+
+#: avatars.php:506
+msgid "to show the post author's avatar."
+msgstr "pro zobrazení přispěvatelova avatara."
+
+#: avatars.php:507
+msgid "Inside the comment loop of"
+msgstr "Uvnitř komentářů"
+
+#: avatars.php:507
+msgid "use"
+msgstr "použít"
+
+#: avatars.php:507
+msgid "to show the comment author's avatar."
+msgstr "k zobrazení komentátorova avatara."
+
+#: avatars.php:523
+msgid "Avatars"
+msgstr "Avatary"
+
+#: avatars.php:562
+msgid "Avatar Upload"
+msgstr "Nahrát avatar"
+
+#: avatars.php:574
+msgid "Upload error:"
+msgstr "Chyba nahrávání:"
+
+#: avatars.php:580
+msgid "Current Avatar"
+msgstr "Současný avatar"
+
+#: avatars.php:602
+msgid "Global avatar, override with a local avatar..."
+msgstr "Globální avatar, přepsán lokálním....."
+
+#: avatars.php:609
+msgid "Hints: Square images make better avatars."
+msgstr "Tip: Čtvercový obrázek funguje jako avatar lépe."
+
+#: avatars.php:611
+msgid "Small image files are best for avatars, e.g. approx. 10K or smaller."
+msgstr "Malé obrázky jsou pro avatary nejlepší, např. 10kb nebo méně."
+
+#: avatars.php:617
+msgid "Local avatar, delete to revert to global avatar."
+msgstr "Lokální avatar, smažte pro globální avatary."
+
+#: avatars.php:620
+msgid "delete local avatar."
+msgstr "smazat lokálního avatara."
+
+#: avatars.php:624
+msgid "Current avatar, contact blog administrator to change."
+msgstr "Současný avatar, kontaktujte admina pro změnu."
+
+#: avatars.php:625
+msgid "Avatar uploads not allowed (Administrator may set on <i>Users &raquo; Avatars</i> page)."
+msgstr "Upload vlastních avatarů není povolen."
+
+#: avatars.php:677
+msgid "Upload directory doesn't exist."
+msgstr "Složka pro upload neexistuje."
+
+#: avatars.php:693
+msgid "Too many tries to find non-existent file."
+msgstr "Příliš pokusů najít neexistující soubor."
+
+#: avatars.php:698
+msgid "File upload failed."
+msgstr "Upload souboru selhal."
+
+#: avatars.php:709
+msgid "Unable to resize image."
+msgstr "Nepovedlo se změnit velikost obrázku."
+
+#: avatars.php:713
+msgid "Wrong type."
+msgstr "Špatný typ."
+

@@ -1,0 +1,338 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CKAN for Helsinki Region Infoshare v0.00.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2011-03-18 02:46+0000\n"
+"Last-Translator: admin <hri-webmaster@forumvirium.fi>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Finnish\n"
+"X-Poedit-Country: FINLAND\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: function_ajax_search.php:640
+#: hri_ckan_query_class.php:119
+#@ hri-ckan
+msgid "Previous"
+msgstr "Edellinen"
+
+#: function_ajax_search.php:651
+#: hri_ckan_query_class.php:133
+#@ hri-ckan
+msgid "Next"
+msgstr "Seuraava"
+
+#: function_ajax_discussions.php:189
+#@ hri-ckan
+msgid "No discussions found."
+msgstr "Keskusteluita ei löytynyt"
+
+#: function_ajax_search.php:259
+#: function_ajax_search.php:406
+#@ hri-ckan
+msgid "Modified"
+msgstr "Muokattu"
+
+#: function_ajax_search.php:267
+#: function_ajax_search.php:414
+#@ hri-ckan
+msgid "Produced by"
+msgstr "Tuottaja"
+
+#: function_ajax_search.php:326
+#@ hri-ckan
+msgid "All discussions"
+msgstr "Kaikki keskustelut"
+
+#: function_ajax_discussions.php:125
+#: function_ajax_discussions.php:144
+#: function_ajax_search.php:501
+#: function_widget.php:488
+#@ twentyten
+msgid "ago"
+msgstr "sitten"
+
+#: hri-ckan.php:24
+#@ hri-ckan
+msgid "Data"
+msgstr ""
+
+#: hri-ckan.php:30
+#@ hri-ckan
+msgid "data"
+msgstr ""
+
+#: hri-ckan.php:39
+#@ hri-ckan
+msgid "Discussions"
+msgstr "Keskustelut"
+
+#: hri-ckan.php:40
+#@ hri-ckan
+msgid "Discussion"
+msgstr "Keskustelu"
+
+#: hri-ckan.php:46
+#@ hri-ckan
+msgid "discussions"
+msgstr "keskustelut"
+
+#: hri-ckan.php:55
+#@ hri-ckan
+msgid "Applications"
+msgstr "Sovellukset"
+
+#: hri-ckan.php:56
+#@ hri-ckan
+msgid "Application"
+msgstr "Sovellus"
+
+#: function_widget.php:475
+#: hri-ckan.php:62
+#@ hri-ckan
+msgid "applications"
+msgstr "sovellukset"
+
+#: function_ajax_search.php:224
+#@ hri-ckan
+msgid "results"
+msgstr "hakuosumaa"
+
+#: function_ajax_search.php:359
+#: function_ajax_search.php:440
+#: function_ajax_search.php:441
+#@ hri-ckan
+msgid "Data matching your search was not found"
+msgstr "Hakuasi vastaavaa dataa ei löytynyt"
+
+#: function_admin_extras.php:97
+#@ hri-ckan
+msgid "Linked data"
+msgstr ""
+
+#: function_admin_extras.php:151
+#: function_admin_extras.php:165
+#: function_ajax_search.php:668
+#@ hri-ckan
+msgid "No search results"
+msgstr "Ei hakutuloksia"
+
+#: function_admin_extras.php:223
+#@ default
+msgid "Add new linked data"
+msgstr ""
+
+#: function_ajax_search.php:438
+#@ hri-ckan
+msgid "More search results and advanced search"
+msgstr "Enemmän hakutuloksia ja tarkempi haku"
+
+#: function_ajax_search.php:609
+#@ hri-ckan
+msgid "Comments"
+msgstr "Kommentit"
+
+#: function_ajax_search.php:287
+#: function_ajax_search.php:612
+#@ hri-ckan
+msgid "comment"
+msgstr "kommentti"
+
+#: function_ajax_search.php:288
+#: function_ajax_search.php:613
+#@ hri-ckan
+msgid "comments"
+msgstr "kommenttia"
+
+#: function_widget.php:7
+#@ hri-ckan
+msgid "Random data"
+msgstr ""
+
+#: function_widget.php:21
+#: function_widget.php:147
+#: function_widget.php:357
+#: function_widget.php:438
+#@ hri-ckan
+msgid "Title"
+msgstr "Otsikko"
+
+#: function_widget.php:24
+#: function_widget.php:441
+#@ hri-ckan
+msgid "Count"
+msgstr ""
+
+#: function_widget.php:28
+#@ hri-ckan
+msgid "Show description"
+msgstr ""
+
+#: function_widget.php:31
+#: function_widget.php:165
+#@ hri-ckan
+msgid "Description length"
+msgstr ""
+
+#: function_widget.php:31
+#@ hri-ckan
+msgid "Number of words to display from description, leave empty to display entire description"
+msgstr ""
+
+#: function_widget.php:34
+#@ hri-ckan
+msgid "Show rating"
+msgstr ""
+
+#: function_widget.php:125
+#@ hri-ckan
+msgid "Editor's pick"
+msgstr ""
+
+#: function_widget.php:150
+#: function_widget.php:360
+#@ hri-ckan
+msgid "Text:"
+msgstr ""
+
+#: function_widget.php:153
+#@ hri-ckan
+msgid "Editor's name"
+msgstr ""
+
+#: function_widget.php:156
+#@ hri-ckan
+msgid "Editor's title"
+msgstr ""
+
+#: function_widget.php:159
+#@ hri-ckan
+msgid "Show titles"
+msgstr ""
+
+#: function_widget.php:162
+#@ hri-ckan
+msgid "Show descriptions"
+msgstr ""
+
+#: function_widget.php:165
+#@ hri-ckan
+msgid "Number of words to display from descriptions, leave empty to display entire description"
+msgstr ""
+
+#: function_widget.php:168
+#@ hri-ckan
+msgid "Show ratings"
+msgstr ""
+
+#: function_widget.php:185
+#@ hri-ckan
+msgid "Pick"
+msgstr ""
+
+#: function_widget.php:195
+#@ hri-ckan
+msgid "Free text"
+msgstr ""
+
+#: hri-ckan.php:87
+#@ default
+msgid "Application category"
+msgstr ""
+
+#: hri-ckan.php:97
+#@ hri-ckan
+msgid "Application ideas"
+msgstr "Sovellusideat"
+
+#: hri-ckan.php:98
+#@ hri-ckan
+msgid "Application idea"
+msgstr "Sovellusidea"
+
+#: hri-ckan.php:105
+#@ hri-ckan
+msgid "application-ideas"
+msgstr "sovellusideat"
+
+#: hri-ckan.php:114
+#@ hri-ckan
+msgid "Data requests"
+msgstr "Datatoiveet"
+
+#: hri-ckan.php:115
+#@ hri-ckan
+msgid "Data request"
+msgstr "Datatoive"
+
+#: hri-ckan.php:122
+#@ hri-ckan
+msgid "data-requests"
+msgstr "datatoiveet"
+
+#: hri-ckan.php:131
+#@ hri-ckan
+msgid "Help pages"
+msgstr "Ohjesivut"
+
+#: hri-ckan.php:132
+#@ hri-ckan
+msgid "Help page"
+msgstr "Ohjesivu"
+
+#: function_admin_extras.php:80
+#@ hri-ckan
+msgid "HRI help pages"
+msgstr ""
+
+#: function_widget.php:337
+#@ hri-ckan
+msgid "Visualisointiblogi widget"
+msgstr ""
+
+#: function_widget.php:337
+#@ hri-ckan
+msgid "Displays the latest post from visualization blog."
+msgstr ""
+
+#: function_widget.php:418
+#@ hri-ckan
+msgid "Latest applications"
+msgstr ""
+
+#: function_widget.php:418
+#@ hri-ckan
+msgid "Displays latest applications."
+msgstr ""
+
+#: function_ajax_discussions.php:123
+#@ hri-ckan
+msgid "Started"
+msgstr "Aloitettu"
+
+#: function_ajax_discussions.php:156
+#@ hri-ckan
+msgid "No messages"
+msgstr "Ei viestejä"
+
+#: function_ajax_discussions.php:157
+#: function_ajax_discussions.php:162
+#@ hri-ckan
+msgid "message"
+msgstr "viesti"
+
+#: function_ajax_discussions.php:158
+#: function_ajax_discussions.php:163
+#@ hri-ckan
+msgid "messages"
+msgstr "viestiä"
+

@@ -1,0 +1,508 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: add-local-avatar\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-07-01 12:58+0330\n"
+"PO-Revision-Date: \n"
+"Last-Translator: mostafa1990 <mostafa.s1990@gmail.com>\n"
+"Language-Team:  <mostafa.s1990@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Persian\n"
+"X-Poedit-Country: IRAN, ISLAMIC REPUBLIC OF\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:181
+msgid "Visit"
+msgstr "دیدن"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:202
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:279
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:343
+msgid "Avatar"
+msgstr "نماد"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:202
+msgid "removed"
+msgstr "حذف شد"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:202
+msgid "updated"
+msgstr "به روز رسانی شد"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:226
+msgid "Options saved"
+msgstr "تنظیمات ذخیره شد"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:245
+msgid "Avatar Settings"
+msgstr "تنظیمات نمادها"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:247
+msgid "Please visit the author's site,"
+msgstr "لطفا به سایت نویسنده مراجعه کنید,"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:247
+msgid "and say \"Hi\""
+msgstr "سلام \"Hi\""
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:248
+msgid "Control the behaviour of the avatar plug-in."
+msgstr "برای کنترل و کارکرد افزونه"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:250
+msgid "User Avatars"
+msgstr "نماد کاربران"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:279
+msgid "Username"
+msgstr "نام کاربری"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:279
+msgid "Name (Nickname)"
+msgstr "نام (نام کوچک)"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:279
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:343
+msgid "e-Mail"
+msgstr "پست الکترونیک"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:279
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:292
+msgid "Local"
+msgstr "محلی"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:279
+msgid "Type"
+msgstr "نوع"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:279
+msgid "Action"
+msgstr "اقدام"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:292
+msgid "Global"
+msgstr "جهانی"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:293
+msgid "Update"
+msgstr "به روز رسانی"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:310
+msgid "Not showing avatars for commenters."
+msgstr "نمادها در نظرات نمایش داده نشده اند."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:310
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:311
+msgid "Click here"
+msgstr "کلیک کنید"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:310
+msgid "to show commenter avatars."
+msgstr "برای نمایش نمادها در نظرات."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:311
+msgid "Showing avatars for commenters."
+msgstr "نمادها در نظرات نمایش داده میشوند."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:311
+msgid "to hide commenter avatars."
+msgstr "برای مخفی کردن نمادها در نظرات."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:331
+msgid "Commenter Avatars"
+msgstr "نمادهای نظرات"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:343
+msgid "Name"
+msgstr "نام"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:370
+msgid "Avatar Options"
+msgstr "تنظیمات نماد"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:374
+msgid "Show avatars:"
+msgstr "نمایش نمادها:"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:374
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:378
+msgid "Repeated from <i>Settings  &raquo;  Discussion</i>"
+msgstr "تکرار از <i>تنظیمات  &raquo;  بحث</i>"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:378
+msgid "Avatar rating:"
+msgstr "درجه های نماد:"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:386
+msgid "Suitable for all audiences"
+msgstr "مناسب برای همه مخاطبان"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:387
+msgid "Possibly offensive, usually for audiences 13 and above"
+msgstr "ممکن است دارای محتوای نامناسب باشد، معمولا برای سنین ۱۳ به بالا"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:388
+msgid "Intended for adult audiences above 17"
+msgstr "برای مخاطبان بالای ۱۷ سال"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:389
+msgid "Even more mature than above"
+msgstr "دارای محتوای نامناسب، بیشتر از بقیه رتبه‌ها"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:393
+msgid "Size:"
+msgstr "اندازه:"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:404
+msgid "Gravatar default:"
+msgstr "گراواتار پیشفرض:"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:404
+msgid "Enhanced repeat from <i>Settings &raquo; Discussion</i>"
+msgstr "بالا بردن تکرار از <i>تنظیمات &raquo; بحث</i>"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:408
+msgid "none"
+msgstr "هیچ کدام"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:409
+msgid "Mystery Man"
+msgstr "Mystery Man"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:410
+msgid "Blank"
+msgstr "Blank"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:411
+msgid "Logo"
+msgstr "لوگو"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:417
+msgid "Give users without Global or Local avatars a unique avatar."
+msgstr "دادن اعضای جهانی بدون آواتار های محلی و یا یک کاربر منحصر به فرد."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:421
+msgid "Default image:"
+msgstr "تصویر پیشفرض:"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:426
+msgid "The default avatar (a working URI) for users without Global or Local avatars.  Used for trackbacks."
+msgstr "این آواتار پیش فرض (یک نوع پیوند) برای کاربران بدون نمادهای جهانی یا محلی. مورد استفاده برای بازتاب ها."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:430
+msgid "Use Snapshots:"
+msgstr "استفاده از عکس فوری:"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:432
+msgid "If you have enabled"
+msgstr "اگر شما فعال کنید"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:432
+msgid "clearing this will disable them for avatar links."
+msgstr "پیوندهای نماد غیرفعال و پاکسازی میشود."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:435
+msgid "Avatars in posts:"
+msgstr "نمادها در نوشته ها:"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:437
+msgid "Replaces"
+msgstr "جایگزین"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:437
+msgid "with an avatar for that email address in post content."
+msgstr "با پست الکترونیک کاربری که نوشته را ارسال کرده است."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:440
+msgid "User uploads:"
+msgstr "آدرس بارگزاری کاربران:"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:445
+msgid "If allowed, use this directory for user avatar uploads, e.g."
+msgstr "اگر اجازه داده شد, میتوانید از این شاخه برای ارسال نمادها استفاده کنید, به عنوان مثال"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:445
+msgid "Must have write access and is relative to your web root, i.e. "
+msgstr "باید به پوشه دسترسی نوشتن بدهید و در ریشه وب root نیر باشد."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:449
+msgid "Resize uploads:"
+msgstr "تغییر اندازه بارگزاری ها:"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:451
+msgid "Non-square uploads will be cropped."
+msgstr "تصاویر بارگزاری شده ای که مربعی نیستند, لبه های آن بریده میشود."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:454
+msgid "Resize uploads size:"
+msgstr "حجم تغییر اندازه بارگزاری ها:"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:468
+msgid "Enable user profile widget:"
+msgstr "فعال کردن مشخصات کاربر در ابزارک:"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:470
+msgid "Enable the user profile widget; configure the widget at <i>Appearance &raquo; Widgets</i>."
+msgstr "فعال کردن مشخصات کاربر در ابزارک; پیکربندی در ابزارک <i>نمایش &raquo; ابزارک ها</i>."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:472
+msgid "Get the user profile widget at the <a href=\"http://www.sterling-adventures.co.uk/blog/2008/03/01/avatars-plugin/\">Avatars Home Page</a>, and enable avatar upload from your blog sidebar."
+msgstr "دریافت مشخصات کاربر در ابزارک <a href=\"http://www.sterling-adventures.co.uk/blog/2008/03/01/avatars-plugin/\">صفحه خانگی نمادها</a>,و بارگزاری نماد در ابزارم وبلاگ خود را فعال کنید."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:476
+msgid "Nickname:"
+msgstr "نام کوچک:"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:481
+msgid "User's nickname used for avatar titles (tooltip)."
+msgstr "نام مستعار کاربر برای عناوین آواتار (tooltip) استفاده می شود."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:485
+msgid "Credit:"
+msgstr "سازنده:"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:487
+msgid "Includes an invisible credit to"
+msgstr "یک سازنده نا معلوم"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:490
+msgid "Update Avatar Options"
+msgstr "تنظیمات به روز رسانی نماد"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:493
+msgid "Avatars Usage"
+msgstr "استفاده از نمادها"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:494
+msgid "Put this code in your template files where you want avatars to appear:"
+msgstr "برای نمایش نماد در وبلاگ خود, از کد زیر در قالب خود استفاده کنید:"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:496
+msgid "The function takes the following parameters:"
+msgstr "تابع از پارامترهای زیر استفاده میکند:"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:498
+msgid "Identifier; required, a blog user ID, an e-mail address, or a comment object from a WordPress comment loop (for comments)."
+msgstr "شناسه ؛ یک کاربر وبلاگ ، یک آدرس ایمیل ، یا یک شیء را از نظر یک حلقه در وردپرس (برای نظر). "
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:499
+msgid "Size (pixels); optional, defaulted to value set above."
+msgstr "اندازه (پیکسل) ؛ اختیاری است ، به ارزش قرار دادن در مجموعه های فوق"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:500
+msgid "Default image if no Global (public) or Local (private) avatar found; optional, defaulted to value set above."
+msgstr "تصویر پیش فرض است و هیچ نمادی (عمومی) و یا محلی (خصوصی) ندارد ؛ اختیاری است ، به ارزش قرار دادن مجموعه فوق"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:502
+msgid "Apply format to the avatars with something like the following in your"
+msgstr "استایل نماد با چیزی شبیه به استایل زیر را قرار دارد در "
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:502
+msgid "theme file:"
+msgstr "نام پوسته:"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:503
+msgid "For comment avatars,"
+msgstr "نمادها برای نظرات,"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:504
+msgid "For avatars in post content,"
+msgstr "نمادها برای محتوای نوشته ها,"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:506
+msgid "Examples for your theme's template files:"
+msgstr "نمونه هایی از قالب ها برای شما در فایل های پوسته :"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:508
+msgid "In"
+msgstr "در"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:508
+msgid "declare"
+msgstr "اعلان کنید"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:508
+msgid "if not already declared and then use"
+msgstr "اگر از قبل اعلام شده است و سپس استفاده کنید"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:508
+msgid "to show the post author's avatar."
+msgstr "برای نمایش نماد نویسنده در نوشته های های ارسال شده."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:509
+msgid "Inside the comment loop of"
+msgstr "در داخل حلقه نظرات"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:509
+msgid "use"
+msgstr "استفاده کنید از"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:509
+msgid "to show the comment author's avatar."
+msgstr "برای نشان دادن نماد نویسنده نظر."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:525
+msgid "Avatars"
+msgstr "نمادها"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:564
+msgid "Avatar Upload"
+msgstr "بارگزاری نماد"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:576
+msgid "Upload error:"
+msgstr "خطای بارگزاری:"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:582
+msgid "Current Avatar"
+msgstr "نماد فعلی"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:603
+msgid "Global avatar, override with a local avatar..."
+msgstr "آواتار جهانی ، نادیده گرفتن با یک نماد محلی..."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:609
+msgid "Hints: Square images make better avatars."
+msgstr "تذکر: برای بهتر شدن نماد از تصاویری که مربعی شکل هستند استفاده کنید."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:611
+msgid "Small image files are best for avatars, e.g. approx. 10K or smaller."
+msgstr "فایل های کوچک تصویر برای نماد مناسب هستند, حداقل حجم تصاویر: 10 کیلوبایت است"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:616
+msgid "Local avatar, delete to revert to global avatar."
+msgstr "آواتار محلی ، در صورت حذف آواتار, گراواتار شما نمایش داده میشود.."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:618
+msgid "delete local avatar."
+msgstr "حذف نماد."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:622
+msgid "Current avatar, contact blog administrator to change."
+msgstr "نماد فعلی, برای تغییر با مدیر وبلاگ تماس بگیرید."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:622
+msgid "Avatar uploads not allowed (Administrator may set on <i>Users &raquo; Avatars</i> page)."
+msgstr "بارگزاری نماد غیرممکن است (امکان دارد مدیر قرار داده است در <i>کاربران  &raquo; نمادها</i> برگه)."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:673
+msgid "Upload directory doesn't exist."
+msgstr "فهرست بارگزاری عمل نمیکند."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:689
+msgid "Too many tries to find non-existent file."
+msgstr "بیش از حد بسیاری تلاش میکنند برای پیدا کردن فایل های غیر وجود."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:694
+msgid "File upload failed."
+msgstr "بارگزاری فایل با مشکل مواجه شد."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:705
+msgid "Unable to resize image."
+msgstr "تصویر را نمیتواند تغییر اندازه بدهد."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:709
+msgid "Wrong type."
+msgstr "نوع نا درست"
+

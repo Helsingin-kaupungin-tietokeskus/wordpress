@@ -1,0 +1,50 @@
+/*
+forms.css
+
+Gravity Forms Open Edition
+
+v 0.22
+
+*/
+
+.gform_wrapper {font-family: sans-serif;}
+
+.gform_body ul {list-style-type:none; padding:0;margin:10px 0;}
+.validation_message {font-weight:bold; color: red;}
+.gform_validation_container {display:none !important}
+#gforms_confirmation_message {margin:10px 0; border: 1px solid #ccc3fd;padding:10px;background:#f0eaff;}
+
+.gform_body label {color:#111; margin-top:12px;display:block}
+.gfield_label {font-weight: bold;}
+.gform_wrapper .gform_body input {margin-bottom:2px; line-height:18px !important; height: 18px;}
+
+input[type="checkbox"],input[type="radio"] {display: inline;}
+input[type="checkbox"] + label, input[type="radio"] + label {display: inline; margin-left: 5px;}
+
+.gform_wrapper .small {width:250px;}
+.gform_wrapper .medium {width:300px;}
+.gform_wrapper .large {width:350px;}
+
+
+/* label placements */
+
+.left_label label, .right_label label {float:left; width: 30%; margin: 0 !important;}
+.left_label label {text-align:left;}
+.left_label li, .right_label li {clear:both;margin-bottom:12px;}
+.right_label label {text-align:right; margin-right:12px !important;}
+
+/* datepicker */
+
+#ui-datepicker-div {border: 1px solid #888;background:#fff;padding:12px;}
+.ui-datepicker td {padding: 4px 6px;}
+.ui-datepicker-days-cell {background:#eee;border:2px solid #fff; text-align:center;}
+.ui-datepicker-days-cell:hover {background:#ddd;}
+
+.ui-datepicker-prev a, .ui-datepicker-next a {text-indent:-9999px;border: 1px solid #aaa;width:16px;height:16px;background: no-repeat center;display:block;}
+.ui-datepicker-prev a:hover, .ui-datepicker-next a:hover {border: 1px solid #999;background-color:#eee;}
+.ui-datepicker-prev a{float:left;background-image: url('../images/datepicker_arrow_left.gif');}
+.ui-datepicker-next a{float:right;background-image: url('../images/datepicker_arrow_right.gif');}
+.ui-datepicker-new-month,.ui-datepicker-new-year  {height:18px;border: 1px solid #aaa;vertical-align:top;}
+.ui-datepicker-new-month {margin-left: 12px;}
+.ui-datepicker-current {display:none;}
+.ui-datepicker-control {display:none;}

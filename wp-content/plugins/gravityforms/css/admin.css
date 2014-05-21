@@ -1,0 +1,135 @@
+/*
+admin.css
+
+Gravity Forms Open Edition
+
+v 0.22
+
+*/
+
+select { margin: 5px 0; }
+
+.clear { clear: both; }
+.button { margin-bottom: 6px;}
+
+.inline {display:inline !important;}
+
+.fieldwidth-1 {width:100%;}
+.fieldwidth-2 {width:320px;}
+.fieldwidth-3{width:380px;}
+.fieldheight-1 {height:200px;}
+.fieldheight-2{height:100px;}
+
+/* helps */
+.tooltip { background: url(../images/icon-question.png) no-repeat; width:16px;height:16px;text-indent:-9999px;display:inline-block; }
+.tooltip_entries_conversion, #sidebarmenu1 .tooltip_left { background: url(../images/help_embed.png) no-repeat; width:16px;height:16px;text-indent:-9999px;position:absolute;}
+
+/* sidebar */
+#add_fields {text-align:left; width:285px; padding:0 20px 0 15px;position:absolute;right: 10px;}
+td>#add_fields {position:fixed;}
+ol.field_type {list-style-type:none;margin-left:12px;}
+#sidebarmenu1 ol.field_type li {width:50%; float:left;clear:none;}
+.gtitle_icon {float:left;margin:12px;}
+#sidebarmenu1 li { border: 1px solid #dfdfdf; border-radius: 6px; oveflow:hidden; clear:both;}
+#sidebarmenu1 li ul li {background:none; border:none; border-radius:0;}
+
+div.add-buttons-title { background: #dfdfdf url('../../../../wp-admin/images/gray-grad.png') repeat-x; padding: 6px 12px 6px; cursor:pointer; margin-bottom: 4px; }
+
+/* --- */
+
+#field_settings ul li label { display: block; margin: 5px 0; }
+
+/* hidden value field*/
+#field_choices li input.field-choice-text { width:312px; }
+#field_choices li  input.field-choice-value { display:none; }
+.gfield_choice_header_label{padding-left: 30px; display:none!important;}
+.gfield_choice_header_value{padding-left: 120px; display:none!important;}
+
+/* visible value field */
+.choice_with_value li input.field-choice-value { width:155px!important; display:inline!important;}
+.choice_with_value li input.field-choice-text { width:155px!important; }
+.choice_with_value .gfield_choice_header_label, .choice_with_value .gfield_choice_header_value{display:inline!important;}
+
+
+/* */ 
+
+#field_choices { border: 1px solid #ccc; margin: 10px 0; padding: 5px;}
+
+
+/* ---------------- ICONS ---------------- */
+	/* hovers: */
+.field_hover .field_edit_icon, .field_hover .field_delete_icon, .field_hover .form_edit_icon, .field_hover .form_delete_icon, .field_selected .field_edit_icon, .field_selected .field_delete_icon, .field_selected .form_edit_icon, .field_selected .form_delete_icon { display: block !important; }
+	/* hovers end */
+
+	.field_delete_icon,
+	.form_delete_icon,
+	.field_edit_icon,
+	.form_edit_icon,
+	.entries_edit_icon { float:right; text-decoration:none; height:16px; line-height:16px; }
+
+	.field_delete_icon,
+	.form_delete_icon { display:none; padding:0 0 0 18px; background:url(../images/delete.png) no-repeat; }
+
+	.field_edit_icon,.form_edit_icon { display:none; margin-right:6px; padding:0 0 0 18px; }
+	
+	.edit_icon_expanded { background:url(../images/close.png) no-repeat; }
+	.edit_icon_collapsed { background:url(../images/edit.png) no-repeat; }
+
+	.entries_edit_icon {  margin:2px 6px 0 0; padding:0 0 0 18px; background-image:url(../images/edit.png); background-repeat:no-repeat; text-shadow:none; }
+	/* */
+
+	.field_hover { border:1px dotted #1c628e!important; cursor:pointer; }
+	.field_selected { background-color:#eff8fc; border:1px solid #1c628e!important; }
+
+
+/* ---------------- ICONS ENDS ---------------- */
+
+#gform_fields li{ border:1px solid transparent; overflow:hidden; }
+#gform_fields li.gfield { padding: 10px}
+#gfield_settings_choices_container li, .ginput_container li {padding:0;}
+
+.gforms_form_settings li { border:1px solid transparent; padding:10px 0px; overflow:hidden; }
+
+#gform_heading { border:1px solid transparent; padding:10px; width:480px; overflow:hidden; margin-bottom:10px; position:relative; }
+
+#gform_fields { width:500px; padding: 10px; }
+
+.field_selected {padding: 10px;}
+.gfield_label {font-weight: bold; padding: 8px 0; display:block;}
+.gfield_radio input {margin-right:6px;}
+
+/* something else */
+.fieldwidth-3, input.fieldwidth-3 { width: 360px;}
+.installation_item_cell {width:50px;}
+.field_setting { padding-bottom:16px; }
+.active-switch-column {width:20px;}
+.entry-view-field-name {font-weight:bold;}
+
+/* Dialog box (save new form for 1st time) */
+#simplemodal-overlay {background: #000;}
+#simplemodal-container {padding: 24px; background: #fff; border-radius: 6px; text-align: center; box-shadow: 3px 3px 20px rgba(0,0,0,0.3);}
+#after_insert_dialog h3 {padding: 8px 16px; border: 1px solid #8dc63f; background: #deffa9; border-radius:2px;}
+.new-form-option a {padding: 8px; border-radius: 12px; border: 1px solid #ccc; display: block; widht: 200px; margin-bottom: 12px; color: #000; text-decoration: none;}
+
+/* label placements */
+
+.left_label label, .right_label label {float:left; width: 30%; margin: 0 !important;}
+.left_label label {text-align:left;}
+.left_label li, .right_label li {clear:both;margin-bottom:12px;}
+.right_label label {text-align:right; margin-right:12px !important;}
+
+/* datepicker */
+
+#ui-datepicker-div {border: 1px solid #888;background:#fff;padding:12px;}
+.ui-datepicker td {padding: 4px 6px;}
+.ui-datepicker-days-cell {background:#eee;border:2px solid #fff; text-align:center;}
+.ui-datepicker-days-cell:hover {background:#ddd;}
+
+.ui-datepicker-prev a, .ui-datepicker-next a {text-indent:-9999px;border: 1px solid #aaa;width:16px;height:16px;background: no-repeat center;display:block;}
+.ui-datepicker-prev a:hover, .ui-datepicker-next a:hover {border: 1px solid #999;background-color:#eee;}
+.ui-datepicker-prev a{float:left;background-image: url('../images/datepicker_arrow_left.gif');}
+.ui-datepicker-next a{float:right;background-image: url('../images/datepicker_arrow_right.gif');}
+.ui-datepicker-new-month,.ui-datepicker-new-year  {height:18px;border: 1px solid #aaa;vertical-align:top;}
+.ui-datepicker-new-month {margin-left: 12px;}
+.ui-datepicker-current {display:none;}
+.ui-datepicker-control {display:none;}

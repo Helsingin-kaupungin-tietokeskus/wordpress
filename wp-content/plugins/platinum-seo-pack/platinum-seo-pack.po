@@ -1,0 +1,546 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: platinum-seo-pack\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-06-28 13:30+0530\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Rajesh <rrajeshbab@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: E:\\wordpress-2.5\\platinum-seo-pack(2)\\wp-server\\trunk\n"
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:876
+#, php-format
+msgid "Could not download distribution (%s)"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:879
+#, php-format
+msgid "Could not download distribution (%s): %s"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:886
+#, php-format
+msgid "Could not open %s for writing"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:888
+#, php-format
+msgid "Please make sure %s is writable"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:894
+#, php-format
+msgid "Could not write to %s"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1042
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1049
+msgid "Platinum SEO Pack"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1055
+msgid "Click here for Support"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1063
+msgid "Title:"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1067
+msgid "Description:"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1072
+msgid " characters. Most search engines use a maximum of 160 chars for the description."
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1076
+msgid "Keywords (comma separated):"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1082
+msgid "PSP Meta Index and Nofollow Tags:"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1093
+msgid "NOARCHIVE this page/post:"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1101
+msgid "NOSNIPPET of this page/post:"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1109
+msgid "Disable on this page/post:"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1138
+msgid "Platinum SEO"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1171
+msgid "Platinum SEO Options Updated."
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1216
+msgid "Upgraded to newest version. Please revisit the options page to ensure you see the newest version."
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1219
+msgid "Upgrade failed"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1234
+msgid "Platinum SEO Plugin Options"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1236
+msgid "This is version "
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1238
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1239
+msgid "FAQ"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1240
+msgid "Platinum SEO Plugin Feedback"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1241
+msgid "Feedback"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1242
+msgid "Donations for Platinum SEO Plugin"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1243
+msgid "Please Donate"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1252
+msgid "One Click Upgrade"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1253
+msgid "(Remember: Backup early, backup often!)"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1259
+#, php-format
+msgid "Please make sure that %s is writable."
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1275
+msgid "Click on option titles to get help!"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1282
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1298
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1314
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1330
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1346
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1373
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1398
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1420
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1441
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1462
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1483
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1505
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1527
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1547
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1562
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1578
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1594
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1610
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1626
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1642
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1658
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1674
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1690
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1706
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1722
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1738
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1754
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1770
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1786
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1802
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1818
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1834
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1850
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1866
+msgid "Click for Help!"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1283
+msgid "Home Title:"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1290
+msgid "As the name implies, this will be the title of your homepage. This is independent of any other option. If not set, the default blog title will get used."
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1299
+msgid "Home Description:"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1306
+msgid "The META description for your homepage. The default is no META description, if this is not set."
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1315
+msgid "Home Keywords (comma separated):"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1322
+msgid "A comma separated list of the most important keywords for your site homepage. Use optimal number of keywords."
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1331
+msgid "Rewrite Titles:"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1338
+msgid "Note that this is all about the title tag. This is what you see in your browser's window title bar. This is NOT visible on a page, only in the window title bar and of course in the source. If set, all page, post, category, search and archive page titles get rewritten. You can specify the format for most of them. For example: The default templates puts the title tag of posts like this: Blog Archive >> Blog Name >> Post Title. But this is far from optimal. With the default post title format, Rewrite Title rewrites this to Post Title | Blog Name. If you have manually defined a title (in one of the text fields for Platinum SEO Plugin input) this will become the title of your post in the format string."
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1347
+msgid "Post Title Format:"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1354
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1381
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1406
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1428
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1449
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1470
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1491
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1513
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1536
+msgid "The following macros are supported:"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1356
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1383
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1408
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1430
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1451
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1472
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1493
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1515
+msgid "%blog_title% - Your blog title"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1357
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1384
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1409
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1431
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1452
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1473
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1494
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1516
+msgid "%blog_description% - Your blog description"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1358
+msgid "%post_title% - The original title of the post"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1359
+msgid "%category_title% - The (main) category of the post"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1360
+msgid "%category% - Alias for %category_title%"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1361
+msgid "%post_author_login% - This post author's login"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1362
+msgid "%post_author_nicename% - This post author's nicename"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1363
+msgid "%post_author_firstname% - This post author's first name (capitalized)"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1364
+msgid "%post_author_lastname% - This post author's last name (capitalized)"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1374
+msgid "Page Title Format:"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1385
+msgid "%page_title% - The original title of the page"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1386
+msgid "%page_author_login% - This page author's login"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1387
+msgid "%page_author_nicename% - This page author's nicename"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1388
+msgid "%page_author_firstname% - This page author's first name (capitalized)"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1389
+msgid "%page_author_lastname% - This page author's last name (capitalized)"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1399
+msgid "Category Title Format:"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1410
+msgid "%category_title% - The original title of the category"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1411
+msgid "%category_description% - The description of the category"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1421
+msgid "Archive Title Format:"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1432
+msgid "%date% - The original archive title given by wordpress, e.g. \"2007\" or \"2007 August\""
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1442
+msgid "Tag Title Format:"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1453
+msgid "%tag% - The name of the tag"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1463
+msgid "Search Title Format:"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1474
+msgid "%search% - What was searched for"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1484
+msgid "Description Format:"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1495
+msgid "%description% - The original description as determined by the plugin, for e.g. the excerpt if one is set or an auto-generated one, if that option is set"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1496
+msgid "%wp_title% - The original wordpress title, for e.g. post title for posts"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1506
+msgid "404 Title Format:"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1517
+msgid "%request_url% - The original URL path, like \"/url-that-does-not-exist/\""
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1518
+msgid "%request_words% - The URL path in human readable form, like \"Url That Does Not Exist\""
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1528
+msgid "Paged Format:"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1535
+msgid "This string gets appended/prepended to titles when they are for paged index pages (like home or archive pages)."
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1538
+msgid "%page% - The page number"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1548
+msgid "Use Categories for META keywords:"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1554
+msgid "Check this if you want your categories for a given post used as the META keywords for this post (in addition to any keywords and tags you specify on the post edit page)."
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1563
+msgid "Use noindex for Categories:"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1570
+msgid "Check this for excluding category pages from being crawled. Might help to avoid duplicate content."
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1579
+msgid "Use noindex for Date based Archives:"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1586
+msgid "Check this for excluding date based archive pages from being crawled. Useful for avoiding duplicate content."
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1595
+msgid "Use noindex for Tag Archives:"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1602
+msgid "Check this for excluding tag pages from being crawled. Might help to avoid duplicate content."
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1611
+msgid "Use noindex for comments RSS feeds:"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1618
+msgid "Check this for excluding comments RSS feeds from being indexed."
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1627
+msgid "Use noindex for all RSS feeds:"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1634
+msgid "Check this for excluding all RSS feeds from being indexed."
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1643
+msgid "Use noindex for Search result pages on the site:"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1650
+msgid "Check this for excluding all search result pages from being indexed."
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1659
+msgid "Use noindex for sub pages of home:"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1666
+msgid "Check this for excluding all sub pages of home from being indexed."
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1675
+msgid "Use noindex for author archives:"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1682
+msgid "Check this for excluding author archives from being indexed."
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1691
+msgid "Add noodp meta tag:"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1698
+msgid "Check this for adding noopd meta tag."
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1707
+msgid "Add noydir meta tag:"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1714
+msgid "Check this for adding noydir meta tag."
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1723
+msgid "nofollow category listings on pages:"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1730
+msgid "Check this to nofollow category listings on pages."
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1739
+msgid "nofollow category listings on posts:"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1746
+msgid "Check this to nofollow category listings on posts (Not recommended)"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1755
+msgid "nofollow external links on front page:"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1762
+msgid "Check this to nofollow external links on front page including home,category,author,tag and search pages."
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1771
+msgid "nofollow login and registration links:"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1778
+msgid "Check this to nofollow login and registration links"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1787
+msgid "nofollow links to tag pages:"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1794
+msgid "Check this to nofollow links to tag pages"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1803
+msgid "Autogenerate Descriptions:"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1810
+msgid "Check this and your META descriptions will get autogenerated, if there's no excerpt."
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1819
+msgid "Additional Post Headers:"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1826
+msgid "What you enter here will be copied verbatim to your header on post pages. You can enter whatever additional headers you want here, even references to stylesheets or google, yahoo, msn verification links."
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1835
+msgid "Additional Page Headers:"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1842
+msgid "What you enter here will be copied verbatim to your header on pages. You can enter whatever additional headers you want here, even references to stylesheets or google, yahoo, msn verification links"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1851
+msgid "Additional Home Headers:"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1858
+msgid "What you enter here will be copied verbatim to your header on the home page. You can enter whatever additional headers you want here, even references to stylesheets or google, yahoo, msn verification links"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1867
+msgid "Log important events:"
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1874
+msgid "Check this and Platinum SEO pack will create a log of important events (platinum_seo_pack.log) in its plugin directory which might help debugging it. Make sure this directory is writable."
+msgstr ""
+
+#: E:\wordpress-2.5\platinum-seo-pack(2)\wp-server\trunk/platinum_seo_pack.php:1883
+msgid "Update Options"
+msgstr ""
+

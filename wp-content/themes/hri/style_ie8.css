@@ -1,0 +1,7 @@
+#primary ul.xoxo h3,
+#hri_home_widgets h3,
+#hri_home_widgets .twtr-widget h3 {position:relative;behavior: url(/wp-content/themes/hri/PIE.htc)}
+#recent_loader{position:absolute;height:60px;width:480px}
+.options .eo {filter: alpha(opacity=40)}
+.options .eoao {background:#ccc !important}
+.options{display:block}

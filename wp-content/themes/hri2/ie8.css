@@ -1,0 +1,79 @@
+h1,h2,h3,h4,h5,h6{
+	font-style:normal !important;
+}
+
+#searchselect-c select{
+	filter:alpha(opacity=1);
+	height:30px !important;
+	line-height:30px !important;
+	padding:0 !important;
+	position:relative;
+	z-index:99
+}
+
+#data-steps li,
+#data-steps li .number,
+.comment-reply-link,
+.circle,
+.circle-down,
+.hri-cancel,
+div.more,
+div.small-more,
+a.more{
+	behavior: url(/wp-content/themes/hri2/PIE.htc);
+}
+
+div.small-more{
+	background:#6ebe6b url(img/ie/arrow3.png) no-repeat 50% 50%;position:relative;height:18px;width:18px;top:6px;margin-left:6px
+}
+
+.circle{position:relative;}
+.circle-down{background-image:url(img/ie/arrowdown.png);background-position:50% 50%;background-repeat:no-repeat;}
+
+#step-arrow{background:url(img/ie/step.png) no-repeat;border:none !important;width:39px;bottom:-61px}
+#data-step-5{margin:0}
+.page-template-page-sovelladataa-php #data-steps{margin-left:60px}
+
+.pager a,
+.pager .curpage,
+.pager .next,
+.pager .previous,
+.pager .disabled,
+.pager .divider{
+	behavior:url(/wp-content/themes/hri2/PIE.htc);
+	position:relative;
+}
+
+.pager .next{background:#6DB868 url(img/ie/arrow2.png) no-repeat 50% 50%}
+.pager .previous{background:#6DB868 url(img/ie/back2.png) no-repeat 50% 50%;}
+
+.pager .pagedisabled{background-color:#d8edd7}
+
+.carousel-pager .previous{background:#898989 url(img/ie/back1.png) 5px 5px no-repeat;}
+#app-gallery .pager .previous{background:#6DB868 url(img/ie/back1.png) 9px 9px no-repeat;}
+#app-gallery .pager .next{background:#6DB868 url(img/ie/arrow1.png) no-repeat 50% 50%}
+#app-gallery .pager .pagedisabled,
+#app-gallery .pager .pagedisabled:hover{background-color:#3b816e;}
+
+.sticky div.more{background:#f39346 url(img/ie/arrow2.png) 50% 50% no-repeat;}
+
+div .more{background:#6ebe6b url(img/ie/arrow1.png) 50% 50% no-repeat;}
+
+.active-step{display:none}
+
+#data-steps li.current-step .active-step,
+#data-steps li:hover .active-step{display:block}
+
+.icon-discussion{background-image:url(img/ie/discussion.png);background-position:50% 50%}
+
+.circle-icon-quote{background:url(img/ie/quote-left.png) no-repeat 50% 50%}
+.right-quote .circle-icon-quote{background:url(img/ie/quote-right.png) repeat;background-position:50% 50% !important;}
+
+.items .application .content{background:transparent url(img/ie/app-bg.png) repeat}
+
+.icon-back-arrow{background:url(img/ie/orangebackarrow.png) no-repeat 0 10px;height:25px}
+
+.filters_on .circle-down{background-image:url(img/ie/arrowup.png);}
+.top-scroll a{background:url(img/ie/backtotop.png) no-repeat 0 0;display:none;}
+.top-scroll a:hover{background:url(img/ie/backtotop.png) no-repeat 0 -67px;}
+.top-scroll-visible a{display:block;}

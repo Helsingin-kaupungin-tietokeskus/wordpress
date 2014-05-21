@@ -1,0 +1,31 @@
+Index: wp-includes/ms-settings.php
+===================================================================
+--- wp-includes/ms-settings.php	(revision 23294)
++++ wp-includes/ms-settings.php	(working copy)
+@@ -22,19 +22,14 @@
+ 
+ if ( !isset( $current_site ) || !isset( $current_blog ) ) {
+ 
++	// We don't know if $_SERVER['HTTP_HOST'] or $_SERVER['SERVER_NAME'] is set
++	$domain = $_SERVER['HTTP_HOST'];
++	if ( ! isset( $domain ) && ! empty( $_SERVER['SERVER_NAME'] ) ) {
++		$domain = $_SERVER['SERVER_NAME'];
++	}
++	$domain = preg_replace( '|:\d+$|', '', $domain );
+ 	$domain = addslashes( $_SERVER['HTTP_HOST'] );
+-	if ( false !== strpos( $domain, ':' ) ) {
+-		if ( substr( $domain, -3 ) == ':80' ) {
+-			$domain = substr( $domain, 0, -3 );
+-			$_SERVER['HTTP_HOST'] = substr( $_SERVER['HTTP_HOST'], 0, -3 );
+-		} elseif ( substr( $domain, -4 ) == ':443' ) {
+-			$domain = substr( $domain, 0, -4 );
+-			$_SERVER['HTTP_HOST'] = substr( $_SERVER['HTTP_HOST'], 0, -4 );
+-		} else {
+-			wp_load_translations_early();
+-			wp_die( __( 'Multisite only works without the port number in the URL.' ) );
+-		}
+-	}
++	$_SERVER['HTTP_HOST'] = $_SERVER['SERVER_NAME'] = $domain;
+ 
+ 	$domain = rtrim( $domain, '.' );
+ 	$cookie_domain = $domain;

@@ -1,0 +1,505 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Avatars\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Levati Team <levati@mail.ru>\n"
+"Language-Team: LeVaTi Team <levati@mail.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: UKRAINE\n"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:181
+msgid "Visit"
+msgstr "Посетить "
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:202
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:279
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:343
+msgid "Avatar"
+msgstr "Аватар"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:202
+msgid "removed"
+msgstr "Удалено"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:202
+msgid "updated"
+msgstr "Обновлено"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:226
+msgid "Options saved"
+msgstr "Настройки сохранены"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:245
+msgid "Avatar Settings"
+msgstr "Настройки аватара"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:247
+msgid "Please visit the author's site,"
+msgstr "Посетите сайт автора"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:247
+msgid "and say \"Hi\""
+msgstr "И скажите \"Привет\""
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:248
+msgid "Control the behaviour of the avatar plug-in."
+msgstr "Контроль поведения аватар"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:250
+msgid "User Avatars"
+msgstr "Аватары пользователя"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:279
+msgid "Username"
+msgstr "Имя"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:279
+msgid "Name (Nickname)"
+msgstr "Ник"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:279
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:343
+msgid "e-Mail"
+msgstr "e-Mail"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:279
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:292
+msgid "Local"
+msgstr "Свой"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:279
+msgid "Type"
+msgstr "Тип"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:279
+msgid "Action"
+msgstr "Действие"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:292
+msgid "Global"
+msgstr "Общий"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:293
+msgid "Update"
+msgstr "Обновить"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:310
+msgid "Not showing avatars for commenters."
+msgstr "Не показывать аватар в комментарии."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:310
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:311
+msgid "Click here"
+msgstr "Нажмите сюда"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:310
+msgid "to show commenter avatars."
+msgstr "чтобы показать аватары комментатора."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:311
+msgid "Showing avatars for commenters."
+msgstr "Показывать аватары для комментаторов."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:311
+msgid "to hide commenter avatars."
+msgstr "чтобы скрыть аватары комментатора."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:331
+msgid "Commenter Avatars"
+msgstr "Аватары комментатора"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:343
+msgid "Name"
+msgstr "Имя"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:370
+msgid "Avatar Options"
+msgstr "Настройки аватара"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:374
+msgid "Show avatars:"
+msgstr "Показывать аватары:"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:374
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:378
+msgid "Repeated from <i>Settings  &raquo;  Discussion</i>"
+msgstr "Повторять из <i>Настройки &raquo; Обсуждение</i>"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:378
+msgid "Avatar rating:"
+msgstr "Стиль аватары:"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:386
+msgid "Suitable for all audiences"
+msgstr "Для любой аудитории"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:387
+msgid "Possibly offensive, usually for audiences 13 and above"
+msgstr "Ограничение по аудитории 13 и выше"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:388
+msgid "Intended for adult audiences above 17"
+msgstr "Для взрослой аудитории старше 17"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:389
+msgid "Even more mature than above"
+msgstr "Ещё более зрелой, чем предыдущие."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:393
+msgid "Size:"
+msgstr "Размер:"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:404
+msgid "Gravatar default:"
+msgstr "Gravatar по умолчанию:"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:404
+msgid "Enhanced repeat from <i>Settings &raquo; Discussion</i>"
+msgstr "Повторять из <i>Настроки &raquo; Обсуждение</i>"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:408
+msgid "none"
+msgstr "Нет"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:409
+msgid "Mystery Man"
+msgstr "Человек-Загадка"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:410
+msgid "Blank"
+msgstr "Пустой"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:411
+msgid "Logo"
+msgstr "Лого"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:417
+msgid "Give users without Global or Local avatars a unique avatar."
+msgstr "Дать пользователям без общего или своего аватара уникальный аватар."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:421
+msgid "Default image:"
+msgstr "Стандартное изображение:"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:426
+msgid "The default avatar (a working URI) for users without Global or Local avatars.  Used for trackbacks."
+msgstr "Дать пользователям без общего или своего аватара уникальный аватар. Для трекбеков."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:430
+msgid "Use Snapshots:"
+msgstr "Использовать снимки экрана:"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:432
+msgid "If you have enabled"
+msgstr "Если у вас включены"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:432
+msgid "clearing this will disable them for avatar links."
+msgstr "их изменение отключит ссылки для аватар."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:435
+msgid "Avatars in posts:"
+msgstr "Аватары в записи:"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:437
+msgid "Replaces"
+msgstr "Заменяет"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:437
+msgid "with an avatar for that email address in post content."
+msgstr "аватаром для этого адреса электронной почты в содержимом записи."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:440
+msgid "User uploads:"
+msgstr "Загрузки пользователей:"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:445
+msgid "If allowed, use this directory for user avatar uploads, e.g."
+msgstr "При разрешении, использовать эту папку для загрузок аватар пользователей."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:445
+msgid "Must have write access and is relative to your web root, i.e. "
+msgstr "Должна иметь доступ на запись, в т. ч. относительно вашего веб-сервера "
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:449
+msgid "Resize uploads:"
+msgstr "Обрезка рисунка:"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:451
+msgid "Non-square uploads will be cropped."
+msgstr "Обрезать неквадратные рисунки."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:454
+msgid "Resize uploads size:"
+msgstr "Изменять размер рисунка:"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:468
+msgid "Enable user profile widget:"
+msgstr "Включить пользовательский виджет:"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:470
+msgid "Enable the user profile widget; configure the widget at <i>Appearance &raquo; Widgets</i>."
+msgstr "Включите виджет профиля пользователя; настройте виджет в <i>Внешний вид &raquo; Виджеты</i>."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:472
+msgid "Get the user profile widget at the <a href=\"http://www.sterling-adventures.co.uk/blog/2008/03/01/avatars-plugin/\">Avatars Home Page</a>, and enable avatar upload from your blog sidebar."
+msgstr "Получение виджета профиля пользователя с <a href=\"http://www.sterling-adventures.co.uk/blog/2008/03/01/avatars-plugin/\">домашней страницы Avatar</a> позволит загружать аватар в сайдбаре блога."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:476
+msgid "Nickname:"
+msgstr "Ник:"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:481
+msgid "User's nickname used for avatar titles (tooltip)."
+msgstr "Ник используется для оглавления аватары."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:485
+msgid "Credit:"
+msgstr "Прочие данные:"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:487
+msgid "Includes an invisible credit to"
+msgstr "Включать данные"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:490
+msgid "Update Avatar Options"
+msgstr "Обновить настройки Avatar"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:493
+msgid "Avatars Usage"
+msgstr "Использование Аватар"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:494
+msgid "Put this code in your template files where you want avatars to appear:"
+msgstr "Поместите этот код в то место шаблона, где нужно отображать аватары:"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:496
+msgid "The function takes the following parameters:"
+msgstr "Функция имеет следующие параметры:"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:498
+msgid "Identifier; required, a blog user ID, an e-mail address, or a comment object from a WordPress comment loop (for comments)."
+msgstr "Идентификатор; обязательно, ID пользователя блога, e-mail, или объект комментирования из цикла комментирования WordPress (для комментариев)."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:499
+msgid "Size (pixels); optional, defaulted to value set above."
+msgstr "Размер (px); опционально."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:500
+msgid "Default image if no Global (public) or Local (private) avatar found; optional, defaulted to value set above."
+msgstr "Стандартное изображение, если нет глобальной(общей) или Локальной(своей) аватары (по желанию)"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:502
+msgid "Apply format to the avatars with something like the following in your"
+msgstr "Оформите аватары наподобие следующих примеров в файле"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:502
+msgid "theme file:"
+msgstr "активной темы:"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:503
+msgid "For comment avatars,"
+msgstr "Для комментариев,"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:504
+msgid "For avatars in post content,"
+msgstr "Для записи,"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:506
+msgid "Examples for your theme's template files:"
+msgstr "Примеры оформления для активной темы:"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:508
+msgid "In"
+msgstr "В"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:508
+msgid "declare"
+msgstr "объявите"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:508
+msgid "if not already declared and then use"
+msgstr "если этого еще нет, а затем используйте "
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:508
+msgid "to show the post author's avatar."
+msgstr "для отображения аватары автора записи."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:509
+msgid "Inside the comment loop of"
+msgstr "Внутри цикла комментария"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:509
+msgid "use"
+msgstr "используйте"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:509
+msgid "to show the comment author's avatar."
+msgstr "для отображения аватары автора комментария."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:525
+msgid "Avatars"
+msgstr "Аватары"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:564
+msgid "Avatar Upload"
+msgstr "Загрузка Аватары"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:576
+msgid "Upload error:"
+msgstr "Ошибка загрузки:"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:582
+msgid "Current Avatar"
+msgstr "Текущая аватара"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:603
+msgid "Global avatar, override with a local avatar..."
+msgstr "Глобальная аватара заменяется локальной..."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:609
+msgid "Hints: Square images make better avatars."
+msgstr "Подсказка: квадратные рисунки предпочтительнее."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:611
+msgid "Small image files are best for avatars, e.g. approx. 10K or smaller."
+msgstr "Не загружайте большие файлы. Для аватар оптимальный размер - 10kB или меньше."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:616
+msgid "Local avatar, delete to revert to global avatar."
+msgstr "Локальная аватара, удалите её для замены глобальной..."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:618
+msgid "delete local avatar."
+msgstr "удалить локальную аватару."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:622
+msgid "Current avatar, contact blog administrator to change."
+msgstr "Текущая аватара, обратитесь к администратору для изменения"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:622
+msgid "Avatar uploads not allowed (Administrator may set on <i>Users &raquo; Avatars</i> page)."
+msgstr "Загрузка аватар запрещена (Администратор может изменить это на странице <i>Пользователи &raquo; Аватары</i>)."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:673
+msgid "Upload directory doesn't exist."
+msgstr "Папка для закачки не существует."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:689
+msgid "Too many tries to find non-existent file."
+msgstr "Слишком много попыток найти несуществующие файлы."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:694
+msgid "File upload failed."
+msgstr "Загрузка файла завершилась неудачей."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:705
+msgid "Unable to resize image."
+msgstr "Нельзя изменить размер изображения."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\add-local-avatar/avatars.php:709
+msgid "Wrong type."
+msgstr "Неправильный тип. "
+
