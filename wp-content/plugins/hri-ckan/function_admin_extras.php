@@ -276,4 +276,49 @@ function save_details($post_id) {
 
 }
 
+/* -------------------------------------------------------------------------------------------------------------------------------- AJAX functions for CKAN */
+
+/** REST/Ajax function for checking a single user capability. */
+function current_user_can_ajax() {
+	
+	$user_id    = urldecode($_POST['user_id']);
+	$capability = urldecode($_POST['capability']);
+	$capability = strtolower(str_replace(' ', ',', $capability));
+	$user       = wp_get_current_user();
+
+	$retval = 0;
+	// If we're calling the function from www.hri.fi domain we can simply use:
+	if(!empty($user)) {
+
+		if(current_user_can($capability)) { $retval = 1; }
+	}
+	// CKAN will however, at times, technically revert to it's native domain (ckan.hri.fi)
+	// so this function is called from ckan.hri.fi => cross-origin => no valid login given
+	// => wp_get_current_user() and current_user_can() do not work. So simply use provided
+	// $user_id instead.
+	if(!$retval && !empty($user_id)) {
+
+		if(user_can((int)$user_id, $capability)) { $retval = 1; }
+	}
+	
+	die('' . $retval);
+}
+add_action( 'wp_ajax_current_user_can', 'current_user_can_ajax' );
+add_action( 'wp_ajax_nopriv_current_user_can', 'current_user_can_ajax' );
+
+/** REST/Ajax function for checking all user data. */
+function get_current_user_ajax() {
+	
+	// http://stackoverflow.com/questions/49547/making-sure-a-web-page-is-not-cached-across-all-browsers
+	header('Cache-Control: no-cache, no-store, must-revalidate'); // HTTP 1.1.
+	header('Pragma: no-cache'); // HTTP 1.0.
+	header('Expires: 0'); // Proxies.
+	
+	// Warning: All string data must be UTF-8 encoded. http://www.php.net/manual/en/function.json-encode.php
+	$userdata = wp_get_current_user();
+
+	die(json_encode($userdata));
+}
+add_action( 'wp_ajax_get_current_user', 'get_current_user_ajax' );
+add_action( 'wp_ajax_nopriv_get_current_user', 'get_current_user_ajax' );
 ?>

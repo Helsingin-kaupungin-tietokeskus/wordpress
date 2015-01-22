@@ -1,6 +1,9 @@
 
 var $=jQuery.noConflict();
 
+/** http://ecmanaut.blogspot.ca/2006/07/encoding-decoding-utf8-in-javascript.html */
+function decode_utf8(s) { return decodeURIComponent(escape(s)); }
+
 $(document).ready(function() {
 
 	var $=jQuery.noConflict();
@@ -73,6 +76,7 @@ $(document).ready(function() {
 
 	$('html.old-ie input.radio, html.old-ie input.cb').fadeTo(1,0.001);
 
+	if(!HRI_LANG || HRI_LANG == undefined) { HRI_LANG = 'fi'; }
 });
 
 function scroll_nav($) {

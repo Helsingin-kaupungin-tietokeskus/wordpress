@@ -185,7 +185,7 @@ if ( have_posts() ) {
 
 					$linked_data->the_post();
 
-					?><p><a class="bold block nowrap" style="width:100%;overflow:hidden;text-overflow:ellipsis;" href="<?php echo hri_link( get_permalink(), HRI_LANG, 'data' ); ?>"><?php data_title(); ?></a></p><?php
+					?><p><a class="bold block nowrap" style="width:100%;overflow:hidden;text-overflow:ellipsis;" href="<?php echo hri_link( get_permalink(), HRI_LANG, 'dataset' ); ?>"><?php data_title(); ?></a></p><?php
 
 					wp_reset_postdata();
 

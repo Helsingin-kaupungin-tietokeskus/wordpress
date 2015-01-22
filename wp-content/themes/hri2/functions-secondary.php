@@ -602,22 +602,47 @@ function hri_rating( $count = false ) {
  * @param bool $leaveDate
  * @return mixed
  */
-function hri_link( $url, $lang = HRI_LANG, $datatype = null, $leaveDate = false) {
+function hri_link( $url, $lang = HRI_LANG, $datatype = null, $leaveDate = false, $post = null) {
 
 	if ( isset($datatype) ) {
 
 		$url = str_replace( '/blog/', "/$lang/$datatype/", $url );
 
-//		if (strpos( $url, ROOT_URL.'/' . $lang) === false) {
-//			$url = str_replace( ROOT_URL.'/', ROOT_URL.'/' . $lang . '/', $url);
-//		}
+		// For CKAN-URLs we need to remove the last '/'.
+		if($datatype == 'dataset') { 
 
-		global $pattern_url;
+			$url = str_replace( "/{$lang}/dataset/data/", "/data/", $url );
+			$url = str_replace( '/data/', "/{$lang}/dataset/", $url );
+			$url = substr($url, 0, -1);
 
-		if( !preg_match( $pattern_url, $url ) ) {
-			$url = str_replace( ROOT_URL.'/', ROOT_URL."/$lang/", $url);
+			// Bugfix for HRI-134: before, only problematic URLs (ones with dashes or hyphens) were corrected
+			//                     using ckan_url, but the correction is required also for URLs that are
+			//                     changed manually and not derived from the title. So from now on we try to 
+			//                     create all dataset links like this.
+			if(is_integer($post)) { $post = get_post($post); }
+			if(!is_object($post)) { global $post; }
+			if(is_object($post) && !empty($post->ID)) {
+
+				// Find where to cut the old title off.
+				$pos = strpos($url, "/{$lang}/dataset/");
+				$pos += strlen("/{$lang}/dataset/");
+
+				// Dig the post's info for the correct one and add it.
+				$ckan_url = get_post_meta($post->ID, 'ckan_url', true);
+				$pos2 = strpos($ckan_url, "/dataset/");
+				$pos2 += strlen("/dataset/");
+
+				$url = substr($url, 0, $pos) . substr($ckan_url, $pos2);
+			}
 		}
+		else {
 
+			global $pattern_url;
+
+			if( !preg_match( $pattern_url, $url ) ) {
+				$url = str_replace( ROOT_URL.'/', ROOT_URL."/$lang/", $url);
+			}
+		}
 	} else {
 		$url = str_replace( '/blog/', "/$lang/", $url );
 	}
@@ -627,6 +652,8 @@ function hri_link( $url, $lang = HRI_LANG, $datatype = null, $leaveDate = false)
 		$url = str_replace( 'applications', 'sovellukset', $url );
 		$url = str_replace( 'application-ideas', 'sovellusideat', $url );
 		$url = str_replace( 'data-requests', 'datatoiveet', $url );
+		// HRI-115: for some reason the string below haunts the Finnish link.
+		$url = str_replace( 'application/', '', $url );
 	}
 
 	// Remove date ( 1111/11/11 ) from link
@@ -869,9 +896,9 @@ echo '</div>';
  * @param boolean $virtual Is this a post type discussion displayed as comment (true) or a real wordpress comment (false)?
  * @param boolean $is_discussion
  */
-function hri_comment_excerpt( $comment, $virtual = false , $is_discussion = false) {
+function hri_comment_excerpt($comment, $virtual = false, $is_discussion = false, $post_type = '') {
 
-	$link = hri_link( get_permalink( $comment->comment_post_ID ), HRI_LANG, '' );
+	$link = hri_link( get_permalink( $comment->comment_post_ID ), HRI_LANG, ($post_type == 'data') ? 'dataset' : '' );
 ?>
 	<div class="comment hri-comment-excerpt">
 		<a class="hri-comment-excerpt-link" href="<?php echo $link; if( !$virtual ) { ?>#comment-<?php echo $comment->comment_ID; } ?>">
@@ -942,19 +969,17 @@ function hri_author() {
 
 	global $post;
 
-	if( $post->post_author != 1 ) {
+	?><div class="author clear clearfix"><?php
 
-		?><div class="author clear clearfix"><?php
+		echo get_avatar( $post->post_author, 60 );
 
-			echo get_avatar( $post->post_author, 60 );
+		?>
+		<div class="meta"><?php _e( 'Kirjoittaja', 'hri' ); ?></div>
+		<div class="name"><?php echo get_the_author(); ?></div>
+		<div><?php hri_time_since( $post->post_date ); ?></div>
+	</div>
 
-			?>
-			<div class="meta"><?php _e( 'Kirjoittaja', 'hri' ); ?></div>
-			<div class="name"><?php echo get_the_author(); ?></div>
-			<div><?php hri_time_since( $post->post_date_gmt ); ?></div>
-		</div>
-
-	<?php }
+	<?php
 
 }
 

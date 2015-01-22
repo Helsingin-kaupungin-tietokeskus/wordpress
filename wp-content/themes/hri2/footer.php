@@ -17,6 +17,14 @@
 				<em>© Helsinki Region Infoshare</em><?php _e('Joitakin oikeuksia pidätetään.', 'hri'); ?>
 			</div>
 		</div>
+		<?php if(HRI_LANG == 'fi' || HRI_LANG == 'en'): ?>
+		<div id="site-search">
+			<form action="<?php echo home_url() . '/' . HRI_LANG; ?>" id="searchform" method="get" role="search" class="hri-search">
+				<input type="text" placeholder="<?php _e('Hae sivustolta...', 'hri'); ?>" id="s" name="s" value="" class="hri-input">
+				<input type="submit" value="Hae" id="searchsubmit" class="hri-submit">
+			</form>
+		</div>
+		<?php endif; ?>
 		<nav id="footer-nav">
 			<?php
 
@@ -39,12 +47,7 @@
 
 				if( ORIGINAL_BLOG_ID != 3 && ORIGINAL_BLOG_ID != 4 ) {
 
-					?><li><a href="<?php
-
-					echo ROOT_URL;
-					if( ORIGINAL_BLOG_ID == 2 ) echo '/fi/sahkopostilista/';
-
-					?>" class="a-email"><?php _e('Sähköpostilista', 'hri'); ?></a></li><?php
+					?><li><a href="<?php echo home_url() . '/' . HRI_LANG; ?>/uutiskirje" class="a-email"><?php _e('Uutiskirje', 'hri'); ?></a></li><?php
 
 				}
 
@@ -56,8 +59,10 @@
 
 				?>
 				<li><a href="http://www.facebook.com/helsinkiregioninfoshare" class="a-facebook">Facebook</a></li>
-				<li><a href="https://twitter.com/intent/user?screen_name=HRInfoshare" class="a-twitter">Twitter</a></li>
+				<li><a href="https://twitter.com/HRInfoshare" class="a-twitter">Twitter</a></li>
 				<li><a href="http://www.slideshare.net/helsinkiregioninfoshare" class="a-slideshare">Slideshare</a></li>
+				<li><a href="https://www.youtube.com/user/HRInfoshare" class="a-youtube">Youtube</a></li>
+				<li><a href="https://github.com/Helsingin-kaupungin-tietokeskus" class="a-github">Github</a></li>
 			</ul>
 		</nav>
 	</div>

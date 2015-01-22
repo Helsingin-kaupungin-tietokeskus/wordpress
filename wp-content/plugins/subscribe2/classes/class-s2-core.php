@@ -316,6 +316,8 @@ class s2class {
 		// actually send mail
 		if ( isset($batch) && !empty($batch) ) {
 			foreach ( $batch as $bcc ) {
+					// Core-hack by HiQ: SES limit being 5 e-mails per second, we add 300ms delay per send.
+					if ( defined('DOING_S2_CRON') && DOING_S2_CRON ) { usleep(300000); }
 					$newheaders = $headers . "$bcc\n";
 					$status = @wp_mail($this->myemail, $subject, $mailtext, $newheaders, $attachments);
 			}

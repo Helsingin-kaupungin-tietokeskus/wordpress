@@ -106,7 +106,7 @@ function ckan_find_wordpress_post_id($args) {
 
 	global $wpdb;
 	
-	return $wpdb->get_results( "SELECT p.ID FROM $wpdb->posts p WHERE p.post_type = 'data' AND p.guid LIKE 'http://www.hri.fi/blog/data/{$slug}/' OR p.post_name = '{$slug}';" );
+	return $wpdb->get_results( "SELECT DISTINCT p.ID FROM {$wpdb->posts} p JOIN {$wpdb->postmeta} pm ON p.ID = pm.post_id WHERE p.post_type = 'data' AND pm.meta_key = 'ckan_url' AND p.guid LIKE 'http://www.hri.fi/blog/data/{$slug}/' OR p.post_name = '{$slug}' OR pm.meta_value LIKE '%/dataset/{$slug}';" );
 }
 
 /**
@@ -125,12 +125,6 @@ function hri_getComments($args) {
 	$username	= $args[1];
 	$password	= $args[2];
 	$struct		= isset( $args[3] ) ? $args[3] : array();
-
-	/*if ( !$user = $this->login($username, $password) )
-		return $this->error;
-
-	if ( !current_user_can( 'moderate_comments' ) )
-		return new IXR_Error( 401, __( 'Sorry, you cannot edit comments.' ) );*/
 
 	do_action('xmlrpc_call', 'wp.getComments');
 
@@ -176,13 +170,12 @@ function hri_newComment($args) {
 
 	hri_escape($args);
 
-	$blog_id	= (int) $args[0];
-	$username	= $args[1];
-	$password	= $args[2];
-	$post		= $args[3];
+	$blog_id        = (int) $args[0];
+	$username       = $args[1];
+	$password       = $args[2];
+	$post		    = $args[3];
 	$content_struct = $args[4];
-
-	$logged_id      = false;
+	$user_id        = (int) $content_struct['user_id'];
 
 	if ( is_numeric($post) )
 		$post_id = absint($post);
@@ -197,7 +190,7 @@ function hri_newComment($args) {
 
 	$comment['comment_post_ID'] = $post_id;
 
-	if ( $logged_in ) {
+	if ($user_id && $user = get_userdata($user_id)) {
 		$comment['comment_author'] = $wpdb->escape( $user->display_name );
 		$comment['comment_author_email'] = $wpdb->escape( $user->user_email );
 		$comment['comment_author_url'] = $wpdb->escape( $user->user_url );
@@ -277,15 +270,20 @@ function hri_prepare_comment( $comment ) {
 		'parent'           => $comment->comment_parent,
 		'status'           => $comment_status,
 		'content'          => $comment->comment_content,
-		'link'             => get_comment_link($comment),
+		// 'link'             => get_comment_link($comment),
 		'post_id'          => $comment->comment_post_ID,
-		'post_title'       => get_the_title($comment->comment_post_ID),
+		// 'post_title'       => get_the_title($comment->comment_post_ID),
 		'author'           => $comment->comment_author,
 		'author_url'       => $comment->comment_author_url,
-		'author_email'     => $comment->comment_author_email,
-		'author_ip'        => $comment->comment_author_IP,
+		// 'author_email'     => $comment->comment_author_email, // Let's Not return this for anyone (with Firebug etc.) to see.
+		// 'author_ip'        => $comment->comment_author_IP,
 		'type'             => $comment->comment_type,
 	);
+
+	if ( $comment->user_id > 0 && $user = get_userdata($comment->user_id) ) {
+
+		$_comment['avatar_src'] = $user->avatar;
+	}
 
 	return apply_filters( 'xmlrpc_prepare_comment', $_comment, $comment );
 }

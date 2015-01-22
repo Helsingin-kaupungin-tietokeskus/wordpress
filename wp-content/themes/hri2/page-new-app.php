@@ -162,7 +162,18 @@ $(document).ready(function($){
 				if (ORIGINAL_BLOG_ID == 2) echo ROOT_URL, '/fi/sovellukset/';
 				if (ORIGINAL_BLOG_ID == 3) echo ROOT_URL, '/en/applications/';
 
-				?>"><?php _e( 'Kaikki sovellukset', 'hri' ); ?></a></li>
+				?>"><?php _e( 'Kaikki sovellukset', 'hri' ); ?></a>
+			</li>
+			<?php if(ORIGINAL_BLOG_ID == 2): ?>
+			<li>
+				<div class="icon icon-back-arrow"></div><a href="<?php echo ROOT_URL . '/en/submit-new-application/'; ?>">This form in English</a>
+			</li>
+			<?php endif; ?>
+			<?php if(ORIGINAL_BLOG_ID == 3): ?>
+			<li>
+				<div class="icon icon-back-arrow"></div><a href="<?php echo ROOT_URL . '/fi/ilmoita-uusi-sovellus/'; ?>">This form in Finnish</a>
+			</li>
+			<?php endif; ?>
 		</ul>
 	</nav>
 </div>

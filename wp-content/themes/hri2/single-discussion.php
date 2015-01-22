@@ -22,7 +22,8 @@ jQuery('#main-nav').find('.discussion-parent').addClass('current-page-ancestor')
 	<nav>
 		<ul>
 			<li>
-				<div class="icon icon-back-arrow"></div><a href="<?php
+				<div class="icon icon-back-arrow"></div>
+				<a href="<?php
 
 				echo ROOT_URL;
 				if( ORIGINAL_BLOG_ID == 3 ) echo '/en/discussions/';
@@ -33,11 +34,16 @@ jQuery('#main-nav').find('.discussion-parent').addClass('current-page-ancestor')
 				if( strpos( $_SERVER['HTTP_REFERER'], __( 'keskustelut', 'hri' ) ) !== false ) _e( 'Takaisin keskusteluihin', 'hri' );
 				else _e( 'Kaikki keskustelut', 'hri' );
 
-			?></a></li>
+				?>
+				</a>
+			</li>
 		</ul>
 	</nav>
 
-	<a class="with-medium-circle" href="<?php echo NEW_DISCUSSION_URL; ?>"><div class="circle medium green icon-discussion"></div><?php _e( 'Uusi keskustelu', 'hri' ); ?></a>
+	<a class="with-medium-circle" href="<?php echo NEW_DISCUSSION_URL; ?>">
+		<div class="circle medium green icon-discussion"></div>
+		<?php _e( 'Uusi keskustelu', 'hri' ); ?>
+	</a>
 
 	<div class="clear clearfix row">&nbsp;</div>
 <?php
@@ -54,24 +60,39 @@ jQuery('#main-nav').find('.discussion-parent').addClass('current-page-ancestor')
 
 		if ( $linked_data->have_posts() ) {
 
-			?><div class="infobox bluebox">
-			<div class="heading"><div class="infobox-icon infobox-icon-data"></div><h3><?php _e( 'Liittyvää dataa', 'hri' ); ?></h3></div><ul><?php
+			?>
+			<div class="infobox bluebox">
 
-			while ( $linked_data->have_posts() ) {
+				<div class="heading">
+					<div class="infobox-icon infobox-icon-data"></div>
+					<h3><?php _e( 'Liittyvää dataa', 'hri' ); ?></h3>
+				</div>
 
-				$linked_data->the_post();
+				<ul>
+				<?php
 
-				?><li><h5><?php data_title(); ?></h5><?php
+				while ( $linked_data->have_posts() ) {
 
-				echo nl2br( n_words( notes(false,false), 10 ) );
+					$linked_data->the_post();
 
-				?><div class="arrowdiv clearfix"><?php echo hri_link( hri_read_more( 'arrow' ), HRI_LANG, 'data'); ?></div>
-				</li><?php
+					?>
+					<li>
+						<h5><?php data_title(); ?></h5>
 
-			}
+						<?php echo nl2br( n_words( notes(false,false), 10 ) ); ?>
 
-			?></ul></div><?php
+						<div class="arrowdiv clearfix">
+							<a href="<?php echo hri_link( get_permalink(), HRI_LANG, 'dataset' ); ?>" class="readmore arrow"><?php echo __('Lue lisää', 'hri'); ?></a>
+						</div>
+					</li>
+					<?php
+				}
 
+				?>
+				</ul>
+
+			</div>
+			<?php
 		}
 
 		wp_reset_postdata();
@@ -93,21 +114,33 @@ jQuery('#main-nav').find('.discussion-parent').addClass('current-page-ancestor')
 
 	if($related_apps->have_posts()) {
 
-		?><div class="infobox bluebox">
-			<div class="heading"><div class="infobox-icon infobox-icon-app"></div><h3><?php _e( 'Liittyvät sovellukset', 'hri' ); ?></h3></div><?php
-
-			?><ul class="link-list"><?php
+		?>
+		<div class="infobox bluebox">
+			<div class="heading">
+				<div class="infobox-icon infobox-icon-app"></div>
+				<h3><?php _e( 'Liittyvät sovellukset', 'hri' ); ?></h3>
+			</div>
+			<ul class="link-list"><?php
 
 			while ( $related_apps->have_posts() ) {
 
 				$related_apps->the_post();
 
-				?><li><a class="block clearfix" href="<?php echo hri_link( get_permalink(), HRI_LANG, 'application' ); ?>"><?php the_post_thumbnail( 'tiny-square' ); ?>
-					<span class="arrow"><?php the_title(); ?></span></a></li><?php
+				?>
+				
+				<li>
+					<a class="block clearfix" href="<?php echo hri_link( get_permalink(), HRI_LANG, 'application' ); ?>">
+						<?php the_post_thumbnail( 'tiny-square' ); ?>
+						<span class="arrow"><?php the_title(); ?></span>
+					</a>
+				</li>
 
+				<?php
 			}
 
-			?></ul><?php
+			?>
+			</ul>
+		</div><?php
 
 		wp_reset_postdata();
 

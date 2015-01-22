@@ -398,6 +398,13 @@ $(document).ready(function () {
 	</div>
 </div>
 
+<? if(ORIGINAL_BLOG_ID == 3) { 
+	
+	?><h4>The app gallery is only available in Finnish.</h4><?
+
+} // End if(ORIGINAL_BLOG_ID == 3)
+?>
+
 <div id="apps" class="row clear clearfix<?php if( $is_wide ) echo ' apps-wide'; ?>">
 
 	<div id="app-wrapper" class="clearfix">
@@ -434,6 +441,7 @@ $(document).ready(function () {
 				<?php _e( 'Ilmoita oma sovelluksesi', 'hri' ); ?>
 			</a>
 
+			<?php if(ORIGINAL_BLOG_ID == 2): ?>
 			<h2><?php _e( 'Sovellusideat', 'hri' ); ?></h2>
 			<?php
 			
@@ -469,7 +477,9 @@ $(document).ready(function () {
 			}
 			
 			unset( $appidea );
+			endif;
 
+			/* // Removed as agreed on HRI-108.
 			$rss = fetch_feed( 'http://data.gov.uk/apps/%2A/rss.xml' );
 
 			$maxitems = 0;
@@ -499,7 +509,7 @@ $(document).ready(function () {
 
 				}
 
-			}
+			}*/
 
 			?></ul>
 

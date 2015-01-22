@@ -1,0 +1,318 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Really Simple Twitter Feed Widget v2.5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-08-21 10:07:44+0000\n"
+"Last-Translator: Janne Mikkonen <janne.mikkonen@hiq.fi>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Finnish\n"
+"X-Poedit-Country: FINLAND\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: really_simple_twitter_widget.php:34
+#@ rstw
+msgid "Twitter Authentication"
+msgstr ""
+
+#: really_simple_twitter_widget.php:35
+#@ rstw
+msgid "Get them creating your Twitter Application"
+msgstr ""
+
+#: really_simple_twitter_widget.php:35
+#@ rstw
+msgid "here"
+msgstr ""
+
+#: really_simple_twitter_widget.php:49
+#@ rstw
+msgid "Twitter Data"
+msgstr ""
+
+#: really_simple_twitter_widget.php:52
+#@ rstw
+msgid "Twitter Username"
+msgstr ""
+
+#: really_simple_twitter_widget.php:55
+#@ rstw
+msgid "Show # of Tweets"
+msgstr ""
+
+#: really_simple_twitter_widget.php:58
+#@ rstw
+msgid "Skip tweets containing this text"
+msgstr ""
+
+#: really_simple_twitter_widget.php:61
+#@ rstw
+msgid "Skip replies"
+msgstr ""
+
+#: really_simple_twitter_widget.php:64
+#@ rstw
+msgid "Skip retweets"
+msgstr ""
+
+#: really_simple_twitter_widget.php:67
+#@ rstw
+msgid "Advanced Options"
+msgstr ""
+
+#: really_simple_twitter_widget.php:68
+#@ rstw
+msgid "Click to show / hide"
+msgstr ""
+
+#: really_simple_twitter_widget.php:73
+#@ rstw
+msgid "Widget Title"
+msgstr ""
+
+#: really_simple_twitter_widget.php:76
+#@ rstw
+msgid "Title"
+msgstr ""
+
+#: really_simple_twitter_widget.php:77
+#@ rstw
+msgid "Last Tweets"
+msgstr ""
+
+#: really_simple_twitter_widget.php:79
+#@ rstw
+msgid "Show Twitter icon on title"
+msgstr ""
+
+#: really_simple_twitter_widget.php:82
+#@ rstw
+msgid "Show account thumbnail on title"
+msgstr ""
+
+#: really_simple_twitter_widget.php:85
+#@ rstw
+msgid "Link above Title with Twitter user"
+msgstr ""
+
+#: really_simple_twitter_widget.php:88
+#@ rstw
+msgid "Widget Footer"
+msgstr ""
+
+#: really_simple_twitter_widget.php:91
+#@ rstw
+msgid "Show a link to the Twitter user profile"
+msgstr ""
+
+#: really_simple_twitter_widget.php:94
+#@ rstw
+msgid "Link text"
+msgstr ""
+
+#: really_simple_twitter_widget.php:97
+#@ rstw
+msgid "Show a Twitter Follow Me button"
+msgstr ""
+
+#: really_simple_twitter_widget.php:100
+#@ rstw
+msgid "Button text"
+msgstr ""
+
+#: really_simple_twitter_widget.php:103
+#@ rstw
+msgid "Items and Links"
+msgstr ""
+
+#: really_simple_twitter_widget.php:106
+#@ rstw
+msgid "Show this linked text at the end of each Tweet"
+msgstr ""
+
+#: really_simple_twitter_widget.php:109
+#@ rstw
+msgid "Include thumbnail before tweets"
+msgstr ""
+
+#: really_simple_twitter_widget.php:112
+#@ rstw
+msgid "Use author thumb for retweets"
+msgstr ""
+
+#: really_simple_twitter_widget.php:115
+#@ rstw
+msgid "Find and show hyperlinks"
+msgstr ""
+
+#: really_simple_twitter_widget.php:118
+#@ rstw
+msgid "Replace hyperlinks text with fixed text (e.g. \"-->\")"
+msgstr ""
+
+#: really_simple_twitter_widget.php:121
+#@ rstw
+msgid "Find Replies in Tweets"
+msgstr ""
+
+#: really_simple_twitter_widget.php:124
+#@ rstw
+msgid "Create links on new window / tab"
+msgstr ""
+
+#: really_simple_twitter_widget.php:127
+#@ rstw
+msgid "Timestamp"
+msgstr ""
+
+#: really_simple_twitter_widget.php:130
+#@ rstw
+msgid "Show timestamps"
+msgstr ""
+
+#: really_simple_twitter_widget.php:133
+#@ rstw
+msgid "Link timestamp to the actual tweet"
+msgstr ""
+
+#: really_simple_twitter_widget.php:136
+#@ rstw
+msgid "Timestamp format (e.g. M j )"
+msgstr ""
+
+#: really_simple_twitter_widget.php:139
+#@ rstw
+msgid "Debug"
+msgstr ""
+
+#: really_simple_twitter_widget.php:140
+#@ rstw
+msgid "Use them only for a few minutes, when having issues"
+msgstr ""
+
+#: really_simple_twitter_widget.php:142
+#@ rstw
+msgid "Show debug info"
+msgstr ""
+
+#: really_simple_twitter_widget.php:145
+#@ rstw
+msgid "Erase cached data"
+msgstr ""
+
+#: really_simple_twitter_widget.php:148
+#@ rstw
+msgid "Force UTF8 Encode"
+msgstr ""
+
+#: really_simple_twitter_widget.php:175
+#: really_simple_twitter_widget.php:321
+#@ rstw
+msgid "Twitter Authentication data is incomplete"
+msgstr ""
+
+#: really_simple_twitter_widget.php:227
+#@ default
+msgid "CURL extension not found. You need enable it to use this Widget"
+msgstr ""
+
+#: really_simple_twitter_widget.php:258
+#@ rstw
+msgid "Do you like it? I'm supporting it, please support me!"
+msgstr ""
+
+#: really_simple_twitter_widget.php:315
+#@ rstw
+msgid "Twitter username is not configured"
+msgstr ""
+
+#: really_simple_twitter_widget.php:318
+#@ rstw
+msgid "Number of tweets is not valid"
+msgstr ""
+
+#: really_simple_twitter_widget.php:340
+#: really_simple_twitter_widget.php:388
+#@ default
+msgid "Fetching data from Twitter"
+msgstr ""
+
+#: really_simple_twitter_widget.php:341
+#@ default
+msgid "Erase cached data option enabled"
+msgstr ""
+
+#: really_simple_twitter_widget.php:355
+#: really_simple_twitter_widget.php:405
+#@ rstw
+msgid "Error retrieving tweets"
+msgstr ""
+
+#: really_simple_twitter_widget.php:359
+#: really_simple_twitter_widget.php:413
+#@ rstw
+msgid "Twitter data error:"
+msgstr ""
+
+#: really_simple_twitter_widget.php:377
+#@ default
+msgid "Error retrieving twitter rate limit"
+msgstr ""
+
+#: really_simple_twitter_widget.php:389
+#@ default
+msgid "Requested items"
+msgstr ""
+
+#: really_simple_twitter_widget.php:390
+#@ default
+msgid "API calls left"
+msgstr ""
+
+#: really_simple_twitter_widget.php:391
+#@ default
+msgid "Seconds until reset"
+msgstr ""
+
+#: really_simple_twitter_widget.php:417
+#@ default
+msgid "Using cached Twitter data"
+msgstr ""
+
+#: really_simple_twitter_widget.php:420
+#@ rstw
+msgid "Twitter cache error:"
+msgstr ""
+
+#: really_simple_twitter_widget.php:425
+#: really_simple_twitter_widget.php:439
+#@ rstw
+msgid "No public tweets"
+msgstr ""
+
+#: really_simple_twitter_widget.php:433
+#@ rstw
+msgid "Unable to get tweets"
+msgstr ""
+
+#: really_simple_twitter_widget.php:518
+#, php-format
+#@ rstw
+msgid "%s ago"
+msgstr "%s sitten"
+
+#: really_simple_twitter_widget.php:522
+#@ rstw
+msgid "Y/m/d H:i"
+msgstr ""
+

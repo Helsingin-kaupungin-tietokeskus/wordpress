@@ -1,0 +1,22 @@
+User-agent: *
+Crawl-delay: 10
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+# Prevent access to the search With parameters - the problem there is the plethora
+# of combinations for search parameters, causing robots to bomb the site over and over...
+Disallow: /dataset?*
+Disallow: /*/dataset?*
+# Groups and Organizations also have dataset search.
+Disallow: /group/*?*
+Disallow: /*/group/*?*
+Disallow: /organization/*?*
+Disallow: /*/organization/*?*
+# No need to index these.
+Disallow: /revision
+Disallow: /fi/revision
+Disallow: /en/revision
+Disallow: /*/revision*
+Disallow: /tag
+Disallow: /fi/tag
+Disallow: /en/tag
+Disallow: /*/tag*

@@ -250,7 +250,7 @@ ORDER BY t.name ASC" );
 <div id="post-<?php the_ID(); ?>" class="searchpost <?php echo 'nsearch_', ++$nsearch, ' ', ( $nsearch % 2 == 1 ? 'odd' : 'even' ); ?>">
 	<div class="spc">
 		<?php hri_rating(); ?>
-		<h3 class="clearfix"><a href="<?php echo hri_link( get_permalink( $post_id ), $lang, 'data'); ?>"><?php data_title( $lang ); ?></a></h3>
+		<h3 class="clearfix"><a href="<?php echo hri_link( get_permalink( $post_id ), $lang, 'dataset'); ?>"><?php data_title( $lang ); ?></a></h3>
 		<?php
 
 			$notes = notes( false, false, $lang );
@@ -396,7 +396,7 @@ ORDER BY t.name ASC" );
 
 						?>
 <div id="post-<?php the_ID(); ?>" class="searchpost <?php echo 'nsearch_', ++$nsearch, ' ', ( $nsearch % 2 == 1 ? 'odd' : 'even' ); ?>"><?php hri_rating(); ?>
-<h3><a href="<?php echo hri_link( get_permalink( $post->ID ), $lang, 'data' ); ?>"><?php data_title( $lang ); ?></a></h3><?php
+<h3><a href="<?php echo hri_link( get_permalink( $post->ID ), $lang, 'dataset' ); ?>"><?php data_title( $lang ); ?></a></h3><?php
 
 						$notes = notes( false, false, $lang );
 

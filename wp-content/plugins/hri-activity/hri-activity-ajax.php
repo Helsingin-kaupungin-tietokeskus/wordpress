@@ -104,14 +104,17 @@ function hri_recent_activity_ajax() {
 				if( isset($recent->ID) ) {
 					// post
 
-					?><div class="recent-item">
+					?><div class="recent-item" style="border-bottom: 1px dotted #B6B6B6;">
 						<h4><?php echo $post_types[ $recent->post_type ]->labels->singular_name; ?> /</h4>
 						<a class="article-name" href="<?php
 
 						$link = get_permalink( $recent->ID );
-
+						
+						$post = get_post( $recent->ID );
+						setup_postdata( $post );
+						
 						if( $recent->source == 1 ) {
-							$link = hri_link( $link, $lang, $recent->post_type );
+							$link = hri_link( $link, $lang, (($recent->post_type == 'data') ? 'dataset' : $recent->post_type), false, $post );
 						}
 
 						echo $link;
@@ -145,10 +148,12 @@ function hri_recent_activity_ajax() {
 				} else {
 					// comment
 
-					$comment_post_url = hri_link( get_permalink( $recent->comment_post_ID ), $lang, $recent->post_type );
+					$comment_post_type = get_post_type($recent->comment_post_ID);
+					$comment_post_url = hri_link( get_permalink( $recent->comment_post_ID ), $lang, ($comment_post_type == 'data') ? 'dataset' : $comment_post_type, false, (int)$recent->comment_post_ID );
 					$comment_post_title = strip_tags(get_the_title( $recent->comment_post_ID ));
+					if($comment_post_type == 'data' || $comment_post_type == 'dataset') { $comment_post_url .= "#comments"; }
 
-?><div class="recent-item comment">
+?><div class="recent-item comment" style="border-bottom: 1px dotted #B6B6B6;">
 					<h4><?php
 
 						$r1 = get_comment_meta( $recent->comment_ID, '_hri_rating1', true );

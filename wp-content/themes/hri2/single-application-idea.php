@@ -40,7 +40,7 @@ if ( have_posts() ) {
 
 				foreach( $data as $d ) {
 
-					?><a class="block" href="<?php echo hri_link( get_permalink( $d ), HRI_LANG, 'data' ); ?>"><?php echo get_the_title( $d ); ?></a><?php
+					?><a class="block" href="<?php echo hri_link( get_permalink( $d ), HRI_LANG, 'dataset', false, get_post($d) ); ?>"><?php echo get_the_title( $d ); ?></a><?php
 
 				}
 

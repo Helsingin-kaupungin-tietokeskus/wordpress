@@ -120,6 +120,11 @@ class hri_analytics
 //        add_action('parse_request', array($this, 'hri_analytics_parse_request'));
 //        add_filter('query_vars', array($this, 'hri_analytics_query_vars'));
 //        add_filter( 'init', array($this, 'hri_analytics_rewrite_rules'));
+        // Use production settings as fallback.
+        if(!defined('GOOGLE_ANALYTICS_TABLE_ID')) { define('GOOGLE_ANALYTICS_TABLE_ID', 37567144); }
+        if(!defined('GOOGLE_ANALYTICS_CLIENT_ID')) { define('GOOGLE_ANALYTICS_CLIENT_ID', '258479274583.apps.googleusercontent.com'); }
+        if(!defined('GOOGLE_ANALYTICS_SERVICE_ACCOUNT_NAME')) { define('GOOGLE_ANALYTICS_SERVICE_ACCOUNT_NAME', '258479274583@developer.gserviceaccount.com'); }
+        if(!defined('GOOGLE_ANALYTICS_KEY_FILE')) { define('GOOGLE_ANALYTICS_KEY_FILE', '/d3558100d56be098ff190f7d6c2455fa5f69fb7f-privatekey.p12'); }
     }
     
 //    public function hri_analytics_query_vars($vars) {
@@ -152,6 +157,39 @@ class hri_analytics
 //        flush_rewrite_rules();
 //    }
     
+    /** Solves the page name and language from given data. 
+     *
+     * @param mixed reference $parts - Note: referencing is not required, just a little optimization.
+     * @return string reference $page_name
+     * @return string reference $page_lang
+     */
+    private function solveNameAndLangFromParts(&$parts, &$page_name, &$page_lang) {
+        
+        foreach($parts as $part_key => $part) {
+
+            if($part == 'data' || $part == 'dataset') {
+                        
+                $tmp_plus = $part_key + 1;
+                $tmp_minus = $part_key - 1;
+                
+                if(isset($parts[$tmp_plus]) && $parts[$tmp_plus] != '') {
+                    
+                    $page_name = $parts[$tmp_plus];
+                }
+                if(isset($parts[$tmp_minus]) && $parts[$tmp_minus] != '') {
+                    
+                    $page_lang = $parts[$tmp_minus];
+                }
+                // Bugfix: if $tmp_minus was unset, $page_lang retained its default value.
+                //         This sometimes caused values for /fi/dataset/xxx to be overwritten
+                //         with values for /dataset/xxx, essentially wasting most of them.
+                else {
+
+                    $page_lang = '/';
+                }
+            }
+        }
+    }
     
     public function hri_analytics_run_importer_cron_30d($wp) {
         $orginal_blog = get_current_blog_id();
@@ -174,7 +212,7 @@ class hri_analytics
 
         $optParams = array('filters'=>'ga:eventCategory==Ladattavat tiedostot ja linkit', 'dimensions' => 'ga:eventCategory,ga:eventAction,ga:eventLabel', 'sort' => '-ga:totalEvents');
         
-        $result = $service->data_ga->get('ga:37567144', $startDate, $endDate, 'ga:totalEvents,ga:uniqueEvents', $optParams);
+        $result = $service->data_ga->get('ga:' . GOOGLE_ANALYTICS_TABLE_ID, $startDate, $endDate, 'ga:totalEvents,ga:uniqueEvents', $optParams);
         if (!isset($result['rows'])) {
             if ($output) {
                 return 'Error';
@@ -220,9 +258,9 @@ class hri_analytics
     	}
     	
     	
-    	$optParams = array('filters'=>'ga:pagePath=~.*/data/.*', 'dimensions' => 'ga:pagePath', 'sort' => '-ga:pageviews');
+    	$optParams = array('filters'=>'ga:pagePath=~.*/(data|dataset)/.*', 'dimensions' => 'ga:pagePath', 'sort' => '-ga:pageviews');
         
-        $result = $service->data_ga->get('ga:37567144', $startDate, $endDate, 'ga:visits,ga:visitors, ga:pageviews', $optParams);
+        $result = $service->data_ga->get('ga:' . GOOGLE_ANALYTICS_TABLE_ID, $startDate, $endDate, 'ga:visits,ga:visitors, ga:pageviews', $optParams);
         
         if (!isset($result['rows'])) {
             if ($output) {
@@ -238,7 +276,7 @@ class hri_analytics
     	$sql = "TRUNCATE $table_name; ";
 
     	$wpdb->query($sql);
-    	
+    	// throw new Exception(print_r($result['rows'], true)); // DEBUG
     	foreach ($result['rows'] as $row) {
     	    
     	    
@@ -256,39 +294,27 @@ class hri_analytics
             $page_name = '';
             $page_lang = 'fi';
             
-            foreach($parts as $part_key => $part) {
-                if ($part == 'data') {
-                    $tmp_plus = $part_key+1;
-                    $tmp_minus = $part_key-1;
-                    if (   isset($parts[$tmp_plus])
-                        && $parts[$tmp_plus] != '') {
-                        $page_name = $parts[$tmp_plus];
-                    }
-                    if (   isset($parts[$tmp_minus])
-                        && $parts[$tmp_minus] != '') {
-                        $page_lang = $parts[$tmp_minus];
-                    }
-                }
-            }
+            $this->solveNameAndLangFromParts($parts, $page_name, $page_lang);
 
             if ($page_name == '') {
-                echo "empty page name<br />";
+                echo "empty page name for page path: {$page_path}<br />";
                 continue;
             }
-            
 
     	    $post_id = 0;
             $post_arr = $wpdb->get_results("
                 SELECT post.id from wp_posts post 
-                WHERE post.post_name = '".$page_name."'
+                JOIN wp_postmeta meta on post.ID = meta.post_id 
+                WHERE meta.meta_key = 'ckan_url'
+                AND post.post_name = '{$page_name}' OR meta.meta_value LIKE '%{$page_name}'
                 AND post.post_type = 'data' 
                 AND post.post_status = 'publish';
             ");
      
-            if (   count($post_arr) == 0
-                || !isset($post_arr[0]->id)) {
+            if(count($post_arr) == 0 || !isset($post_arr[0]->id)) {
                 continue;
-            } else {
+            }
+            else {
                 $post_id = $post_arr[0]->id;
             }
 
@@ -336,7 +362,7 @@ class hri_analytics
 
         $optParams = array('filters'=>'ga:eventCategory==Ladattavat tiedostot ja linkit', 'dimensions' => 'ga:eventCategory,ga:eventAction,ga:eventLabel', 'sort' => '-ga:totalEvents');
         
-        $result = $service->data_ga->get('ga:37567144', $startDate, $endDate, 'ga:totalEvents,ga:uniqueEvents', $optParams);
+        $result = $service->data_ga->get('ga:' . GOOGLE_ANALYTICS_TABLE_ID, $startDate, $endDate, 'ga:totalEvents,ga:uniqueEvents', $optParams);
         if (!isset($result['rows'])) {
             if ($output) {
                 return 'Error';
@@ -443,7 +469,7 @@ class hri_analytics
 
         $optParams = array('filters'=>'ga:eventCategory==Ladattavat tiedostot ja linkit', 'dimensions' => 'ga:eventCategory,ga:eventAction,ga:eventLabel', 'sort' => '-ga:totalEvents');
         
-        $result = $service->data_ga->get('ga:37567144', $startDate, $endDate, 'ga:totalEvents,ga:uniqueEvents', $optParams);
+        $result = $service->data_ga->get('ga:' . GOOGLE_ANALYTICS_TABLE_ID, $startDate, $endDate, 'ga:totalEvents,ga:uniqueEvents', $optParams);
         if (!isset($result['rows'])) {
             if ($output) {
                 return 'Error';
@@ -535,9 +561,10 @@ class hri_analytics
                 
         $service = hri_analytics::getGoogleAnalyticsService();
 
-        $optParams = array('filters'=>'ga:pagePath=~.*/data/.*', 'dimensions' => 'ga:pagePath', 'sort' => '-ga:pageviews');
+        $optParams = array('filters'=>'ga:pagePath=~.*/(data|dataset)/.*', 'dimensions' => 'ga:pagePath', 'sort' => '-ga:pageviews');
         
-        $result = $service->data_ga->get('ga:37567144', $startDate, $endDate, 'ga:visits,ga:visitors, ga:pageviews', $optParams);
+        $result = $service->data_ga->get('ga:' . GOOGLE_ANALYTICS_TABLE_ID, $startDate, $endDate, 'ga:visits,ga:visitors, ga:pageviews', $optParams);
+        // throw new Exception(print_r($result, true)); // DEBUG
         if (!isset($result['rows'])) {
             if ($output) {
                 return 'Error';
@@ -568,20 +595,7 @@ class hri_analytics
             $page_name = '';
             $page_lang = 'fi';
             
-            foreach($parts as $part_key => $part) {
-                if ($part == 'data') {
-                    $tmp_plus = $part_key+1;
-                    $tmp_minus = $part_key-1;
-                    if (   isset($parts[$tmp_plus])
-                        && $parts[$tmp_plus] != '') {
-                        $page_name = $parts[$tmp_plus];
-                    }
-                    if (   isset($parts[$tmp_minus])
-                        && $parts[$tmp_minus] != '') {
-                        $page_lang = $parts[$tmp_minus];
-                    }
-                }
-            }
+            $this->solveNameAndLangFromParts($parts, $page_name, $page_lang);
 
             if ($page_name == '') {
                 echo "empty page name<br />";
@@ -592,7 +606,9 @@ class hri_analytics
     	    $post_id = 0;
             $post_arr = $wpdb->get_results("
                 SELECT post.id from wp_posts post 
-                WHERE post.post_name = '".$page_name."'
+                JOIN wp_postmeta meta on post.ID = meta.post_id 
+                WHERE meta.meta_key = 'ckan_url'
+                AND post.post_name = '{$page_name}' OR meta.meta_value LIKE '%{$page_name}'
                 AND post.post_type = 'data' 
                 AND post.post_status = 'publish';
             ");
@@ -666,15 +682,6 @@ class hri_analytics
         // Set your client id, service account name, and the path to your private key.
         // For more information about obtaining these keys, visit:
         // https://developers.google.com/console/help/#service_accounts
-        $client_id = '258479274583.apps.googleusercontent.com';
-        define('CLIENT_ID', $client_id);
-        $service_account_name = '258479274583@developer.gserviceaccount.com';
-        define('SERVICE_ACCOUNT_NAME', $service_account_name);
-
-        // Make sure you keep your key.p12 file in a secure location, and isn't
-        // readable by others.
-        $key_file = dirname(__FILE__) . '/d3558100d56be098ff190f7d6c2455fa5f69fb7f-privatekey.p12';
-        define('KEY_FILE', $key_file);
 
         $client = new Google_Client();
         $client->setApplicationName("HRI Google Analytics");
@@ -687,14 +694,16 @@ class hri_analytics
 
         // Load the key in PKCS 12 format (you need to download this from the
         // Google API Console when the service account was created.
-        $key = file_get_contents($key_file);
+        // Make sure you keep your key.p12 file in a secure location, and isn't
+        // readable by others.
+        $key = file_get_contents(GOOGLE_ANALYTICS_KEY_FILE);
         $client->setAssertionCredentials(new Google_AssertionCredentials(
-            $service_account_name,
+            GOOGLE_ANALYTICS_SERVICE_ACCOUNT_NAME,
             array('https://www.googleapis.com/auth/analytics.readonly'),
             $key)
         );
 
-        $client->setClientId($client_id);
+        $client->setClientId(GOOGLE_ANALYTICS_CLIENT_ID);
         $client->setAccessType('offline_access');
         
         $service = new Google_AnalyticsService($client);

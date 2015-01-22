@@ -36,7 +36,7 @@ class hri_activity extends WP_Widget {
 
 		global $hri_post_type_keys;
 		$title = apply_filters('widget_title', $instance['title']);
-		$count = isset($instance['count']) ? absint( $instance['count'] ) : 3;
+		$count = 5;
 
 		extract( $args );
 		// From $args:
@@ -51,7 +51,8 @@ class hri_activity extends WP_Widget {
 		if( ORIGINAL_BLOG_ID == 3 ) $url = ROOT_URL . '/en/activity-stream/';
 		else $url = ROOT_URL . '/fi/aktiviteetti/';
 
-		if ( !empty($title) ) echo '<a href="', $url, '">', $before_title, $title, $after_title, '</a>';
+		// if ( !empty($title) ) echo '<a href="', $url, '">', $before_title, $title, $after_title, '</a>';
+		if(!empty($title)) { echo $before_title . $title . $after_title; }
 
 ?>
 <script type="text/javascript">

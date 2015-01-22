@@ -108,8 +108,8 @@ function hri_discussion_search() {
 						?><div class="result-type"><a href="<?php
 
 							echo ROOT_URL;
-							if( ORIGINAL_BLOG_ID == 2 ) echo '/fi/data-haku/';
-							if( ORIGINAL_BLOG_ID == 3 ) echo '/en/data-search/';
+							if( ORIGINAL_BLOG_ID == 2 ) echo '/fi/dataset?q=&sort=metadata_created+desc';
+							if( ORIGINAL_BLOG_ID == 3 ) echo '/en/dataset?q=&sort=metadata_created+desc';
 
 						?>"><?php
 							echo $post->post_type;
@@ -119,7 +119,7 @@ function hri_discussion_search() {
 
 					?><a class="titlelink" href="<?php
 
-					$url = hri_link( get_permalink(), $lang, $post->post_type );
+					$url = hri_link( get_permalink(), $lang, ($post->post_type == 'data') ? 'dataset' : $post->post_type );
 
 					if ($post->post_type == 'data') $url .= '#comments';
 
@@ -177,7 +177,7 @@ function hri_discussion_search() {
 
 				$comment = $wpdb->get_results( "SELECT * FROM {$wpdb->comments} WHERE comment_post_ID = {$post->ID} AND comment_approved = 1 ORDER BY comment_date DESC LIMIT 0,1" );
 
-				if( $comment ) hri_comment_excerpt( $comment[0] , false, true);
+				if( $comment ) { hri_comment_excerpt( $comment[0] , false, true, $post->post_type ); }
 				else {
 
 					$hri_virtual_comment = array(
@@ -199,7 +199,7 @@ function hri_discussion_search() {
 						$hri_virtual_comment['comment_author_email'] = $userdata->user_email;
 					}
 
-					hri_comment_excerpt( (object) $hri_virtual_comment, true , false );
+					hri_comment_excerpt((object)$hri_virtual_comment, true , false);
 
 				}
 

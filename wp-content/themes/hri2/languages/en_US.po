@@ -1,1477 +1,1565 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: HRI 1.3\n"
+"Project-Id-Version: HRI 2 v2.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-09-12 22:49+0200\n"
-"PO-Revision-Date: 2012-09-12 22:51+0200\n"
+"PO-Revision-Date: 2014-12-16 08:42:05+0000\n"
 "Last-Translator: Timo Sillander <timo.sillander@joynery.com>\n"
 "Language-Team: \n"
-"Language: English\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
-"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-SearchPath-0: /Volumes/Storage/Saitit/HRI Staging/wp-content/themes/"
-"hri2\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: /Volumes/Storage/Saitit/HRI Staging/wp-content/themes/hri2\n"
+"X-Textdomain-Support: yes"
 
-#: /Volumes/Storage/Saitit/HRI Staging/wp-content/themes/hri2/404.php:5
+#: 404.php:5
+#@ hri
 msgid "Virhe 404: Sivua ei löytynyt"
 msgstr "404: Page not found"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/ajankohtaista.php:12
-msgid "Ajankohtaista"
-msgstr "News"
-
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/ajankohtaista.php:21
-msgid "Lisätty"
-msgstr "Added"
-
-#: /Volumes/Storage/Saitit/HRI Staging/wp-content/themes/hri2/archive.php:43
+#: archive.php:75
+#@ hri
 msgid "1 kommentti"
 msgstr "1 comment"
 
-#: /Volumes/Storage/Saitit/HRI Staging/wp-content/themes/hri2/archive.php:47
-#: Staging/wp-content/themes/hri2/comments-ratings.php:28
+#: archive.php:79
+#: comments-ratings.php:28
+#@ hri
 msgid "Ei kommentteja"
 msgstr "No comments"
 
-#: /Volumes/Storage/Saitit/HRI Staging/wp-content/themes/hri2/archive.php:51
+#: archive.php:83
 #, php-format
+#@ hri
 msgid "%s kommenttia"
 msgstr "%s comments"
 
-#: /Volumes/Storage/Saitit/HRI Staging/wp-content/themes/hri2/archive.php:57
-#: Staging/wp-content/themes/hri2/functions-secondary.php:1119
-#: Staging/wp-content/themes/hri2/infoboxes.php:6
-#: Staging/wp-content/themes/hri2/infoboxes.php:36
-#: Staging/wp-content/themes/hri2/infoboxes.php:110
+#: archive.php:90
+#: functions-secondary.php:1147
+#: page-avaadataa.php:104
+#: page-avaadataa.php:240
+#: page-sovelladataa.php:231
+#: page-sovelladataa.php:268
+#@ hri
 msgid "Lue lisää"
 msgstr "Read more"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/comments-discussion.php:22
+#: comments-discussion.php:22
+#@ hri
 msgid "Vastaa"
 msgstr "Reply"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/comments-discussion.php:24
-#: Staging/wp-content/themes/hri2/comments-ratings.php:38
-#: Staging/wp-content/themes/hri2/comments.php:31
-#: Staging/wp-content/themes/hri2/page-new-app-idea.php:168
-#: Staging/wp-content/themes/hri2/page-new-app.php:244
-#: Staging/wp-content/themes/hri2/page-new-data-request.php:132
-#: Staging/wp-content/themes/hri2/page-new-discussion.php:183
-#: Staging/wp-content/themes/hri2/single-data.php:165
-#: Staging/wp-content/themes/hri2/single-data.php:168
-#: Staging/wp-content/themes/hri2/single-data.php:277
+#: comments-discussion.php:24
+#: comments-ratings.php:38
+#: comments.php:31
+#: page-new-app-idea.php:170
+#: page-new-app.php:244
+#: page-new-data-request.php:134
+#: page-new-discussion.php:185
+#: single-data.php:165
+#: single-data.php:168
+#: single-data.php:424
+#@ hri
 msgid "Nimi"
 msgstr "Name"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/comments-discussion.php:25
-#: Staging/wp-content/themes/hri2/comments-ratings.php:40
-#: Staging/wp-content/themes/hri2/comments.php:32
-#: Staging/wp-content/themes/hri2/functions-secondary.php:549
-#: Staging/wp-content/themes/hri2/functions.php:279
-#: Staging/wp-content/themes/hri2/page-new-app-idea.php:175
-#: Staging/wp-content/themes/hri2/page-new-app.php:250
-#: Staging/wp-content/themes/hri2/page-new-data-request.php:140
-#: Staging/wp-content/themes/hri2/page-new-discussion.php:191
-#: Staging/wp-content/themes/hri2/single-data.php:171
-#: Staging/wp-content/themes/hri2/single-data.php:177
+#: comments-discussion.php:25
+#: comments-ratings.php:40
+#: comments.php:32
+#: functions-secondary.php:554
+#: functions.php:290
+#: page-new-app-idea.php:177
+#: page-new-app.php:250
+#: page-new-data-request.php:142
+#: page-new-discussion.php:193
+#: single-data.php:171
+#: single-data.php:177
+#@ hri
 msgid "Sähköposti"
 msgstr "Email"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/comments-ratings.php:4
-#: Staging/wp-content/themes/hri2/comments.php:4
+#: comments-ratings.php:4
+#: comments.php:4
+#@ hri
 msgid "Tämä artikkeli on salasanasuojattu."
 msgstr "This article is password protected."
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/comments-ratings.php:12
+#: comments-ratings.php:12
+#@ hri
 msgid "Kommentit ja arvostelut"
 msgstr "Comments and ratings"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/comments-ratings.php:35
-#: Staging/wp-content/themes/hri2/comments.php:29
+#: comments-ratings.php:35
+#: comments.php:29
+#@ hri
 msgid "Kommentoi"
 msgstr "Comment"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/comments-ratings.php:44
-#: Staging/wp-content/themes/hri2/single-data.php:156
-#: Staging/wp-content/themes/hri2/single-data.php:159
+#: comments-ratings.php:44
+#: single-data.php:156
+#: single-data.php:159
+#@ hri
 msgid "Kommentti"
 msgstr "Comment"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/comments-ratings.php:46
+#: comments-ratings.php:46
+#@ hri
 msgid "Sähköpostiasi ei julkaista. Vaaditut kentät ovat merkitty *-merkillä."
 msgstr "Your email will not be published. Required fields are marked with *"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/comments-ratings.php:58
-#: Staging/wp-content/themes/hri2/single-data.php:124
+#: comments-ratings.php:63
+#: single-data.php:124
+#@ hri
 msgid "Lisää myös arvostelu"
 msgstr "Add a rating"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/comments-ratings.php:59
-#: Staging/wp-content/themes/hri2/single-data.php:125
+#: comments-ratings.php:64
+#: single-data.php:125
+#@ hri
 msgid "Avaa"
 msgstr "Open"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/comments-ratings.php:64
+#: comments-ratings.php:69
+#@ hri
 msgid "Kuvaus"
 msgstr "Description"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/comments-ratings.php:66
+#: comments-ratings.php:71
+#@ hri
 msgid "Ovatko datan kuvaus ja tiedot kattavia ja paikkansapitäviä?"
 msgstr "Are data description and information comprehensive and accurate?"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/comments-ratings.php:69
+#: comments-ratings.php:74
+#@ hri
 msgid "Hyödyllisyys"
 msgstr "Relevance"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/comments-ratings.php:71
+#: comments-ratings.php:76
+#@ hri
 msgid "Tarjoaako data hyödyllistä tietoa?"
 msgstr "Does the data provide useful information?"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/comments-ratings.php:74
+#: comments-ratings.php:79
+#@ hri
 msgid "Käytettävyys"
 msgstr "Usability"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/comments-ratings.php:76
+#: comments-ratings.php:81
+#@ hri
 msgid "Onko data hyvin käytettävässä muodossa?"
 msgstr "Is the data in practical format and structure?"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/comments-ratings.php:79
+#: comments-ratings.php:84
+#@ hri
 msgid "Yleisarvosana"
 msgstr "Overall rating"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/comments-ratings.php:83
+#: comments-ratings.php:88
+#@ hri
 msgid "Antamiesi arvosanojen keskiarvo"
 msgstr "Overall based on your ratings"
 
-#: /Volumes/Storage/Saitit/HRI Staging/wp-content/themes/hri2/comments.php:12
-#: Staging/wp-content/themes/hri2/page-search-data.php:764
+#: comments.php:12
+#: page-search-data.php:821
+#@ hri
 msgid "Kommentit"
 msgstr "Comments"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/english-front-page.php:67
-#: Staging/wp-content/themes/hri2/front-page.php:65
-msgid "Avoin data = Avoin yhteiskunta"
-msgstr "Open data = open society"
-
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/english-front-page.php:68
-#: Staging/wp-content/themes/hri2/front-page.php:66
-msgid "Avoin data = Uutta liiketoimintaa"
-msgstr "Open data = new business"
-
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/english-front-page.php:69
-#: Staging/wp-content/themes/hri2/front-page.php:67
-msgid "Avoin data = Parempia nettipalveluja"
-msgstr "Open data = Better web services"
-
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/english-front-page.php:70
-#: Staging/wp-content/themes/hri2/front-page.php:68
-msgid "Avoin data = Mainioita mobiilisovelluksia"
-msgstr "Open data = great mobile applications"
-
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/english-front-page.php:71
-#: Staging/wp-content/themes/hri2/front-page.php:69
-msgid "Avoin data = Osallistava hallinto"
-msgstr "Open data = participatory government"
-
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/english-front-page.php:72
-#: Staging/wp-content/themes/hri2/front-page.php:70
-msgid "Avoin data = Ennennäkemättömiä oivalluksia"
-msgstr "Open data = Unprecedented ideas"
-
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/english-front-page.php:73
-#: Staging/wp-content/themes/hri2/front-page.php:71
-msgid "Avoin data = Digiajan polttoaine"
-msgstr "Open data = Fuel for the digital age"
-
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/english-front-page.php:80
-#: Staging/wp-content/themes/hri2/front-page.php:78
-msgid "Lisää HRI:stä"
-msgstr "More on HRI"
-
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/english-front-page.php:81
-#: Staging/wp-content/themes/hri2/front-page.php:79
-msgid "Lisää avoimesta datasta"
-msgstr "More on open data"
-
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/english-front-page.php:87
-#: Staging/wp-content/themes/hri2/front-page.php:85
+#: front-page.php:305
+#@ hri
 msgid "Hae dataa..."
 msgstr "Search data…"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/english-front-page.php:90
-#: Staging/wp-content/themes/hri2/front-page.php:88
-msgid "Tarkempi datahaku"
-msgstr "Detailed data search"
-
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/english-front-page.php:135
-#: Staging/wp-content/themes/hri2/front-page.php:133
+#: front-page.php:110
 #, php-format
+#@ hri
 msgid "Lue artikkeli %s"
 msgstr "Read article %s"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/english-front-page.php:149
-#: Staging/wp-content/themes/hri2/front-page.php:147
-msgid "Lisää artikkeleita"
-msgstr "More articles"
-
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/english-front-page.php:157
-#: Staging/wp-content/themes/hri2/front-page.php:155
-msgid "Avaa dataa"
-msgstr "Open up data"
-
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/english-front-page.php:158
-#: Staging/wp-content/themes/hri2/english-front-page.php:212
-#: Staging/wp-content/themes/hri2/front-page.php:156
-#: Staging/wp-content/themes/hri2/front-page.php:210
-msgid "Näin pääset alkuun"
-msgstr "How to get started"
-
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/english-front-page.php:159
-#: Staging/wp-content/themes/hri2/front-page.php:157
-msgid "Miksi datan avaaminen on tärkeää?"
-msgstr "Why open data is important?"
-
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/english-front-page.php:185
-#: Staging/wp-content/themes/hri2/front-page.php:183
-msgid "Uusimmat datat"
-msgstr "Newest datasets"
-
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/english-front-page.php:200
-#: Staging/wp-content/themes/hri2/front-page.php:198
-msgid "Lisää dataa"
-msgstr "More data"
-
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/english-front-page.php:211
-#: Staging/wp-content/themes/hri2/front-page.php:209
-msgid "Käytä dataa"
-msgstr "Use data"
-
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/english-front-page.php:213
-#: Staging/wp-content/themes/hri2/front-page.php:211
-msgid "Työkaluja"
-msgstr "Tools"
-
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/english-front-page.php:229
-#: Staging/wp-content/themes/hri2/front-page.php:227
+#: page-sovelladataa.php:141
+#@ hri
 msgid "Satunnainen sovellus"
 msgstr "Random application"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/english-front-page.php:229
-#: Staging/wp-content/themes/hri2/front-page.php:227
+#: page-sovelladataa.php:141
+#@ hri
 msgid "Sovellukset"
 msgstr "Applications"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/english-front-page.php:254
-#: Staging/wp-content/themes/hri2/front-page.php:252
+#: page-sovelladataa.php:181
+#@ hri
 msgid "Lisää sovelluksia"
 msgstr "More applications"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/english-front-page.php:279
-#: Staging/wp-content/themes/hri2/front-page.php:277
-msgid "Lisää sivuston tapahtumia"
-msgstr "More site updates"
-
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/english-front-page.php:317
-#: Staging/wp-content/themes/hri2/front-page.php:315
-msgid "HRI Facebookissa"
-msgstr "HRI on Facebook"
-
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/english-front-page.php:318
-#: Staging/wp-content/themes/hri2/front-page.php:316
-#, php-format
-msgid ""
-"Helsinki Region Infoshare toimii ja tiedottaa aktiivisesti myös "
-"Facebookissa. <a href=\"%s\">Liity mukaan keskusteluun</a> myös siellä!"
-msgstr ""
-"Helsinki Region Infoshare is active also on Facebook. <a href=\"%s\">Join "
-"the discussion</a>!"
-
-#: /Volumes/Storage/Saitit/HRI Staging/wp-content/themes/hri2/footer.php:17
+#: footer.php:17
+#@ hri
 msgid "Joitakin oikeuksia pidätetään."
 msgstr "Some rights reserved."
 
-#: /Volumes/Storage/Saitit/HRI Staging/wp-content/themes/hri2/footer.php:35
+#: footer.php:36
+#@ hri
 msgid "Seuraa HRI:tä"
 msgstr "Follow HRI"
 
-#: /Volumes/Storage/Saitit/HRI Staging/wp-content/themes/hri2/footer.php:41
+#: footer.php:47
+#@ hri
 msgid "Sähköpostilista"
 msgstr "Subscribe to emails"
 
-#: /Volumes/Storage/Saitit/HRI Staging/wp-content/themes/hri2/footer.php:42
+#: footer.php:53
+#@ hri
 msgid "RSS-syötteet"
 msgstr "RSS feeds"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions-admin.php:68
+#: functions-admin.php:68
+#@ blank
 msgid "Professional information"
 msgstr "Professional information"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions-admin.php:71
+#: functions-admin.php:71
+#@ default
 msgid "Title"
 msgstr "Title"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions-admin.php:74
+#: functions-admin.php:74
+#@ default
 msgid "Your professional title or position in your organization."
 msgstr "Your professional title or position in your organization."
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions-admin.php:78
+#: functions-admin.php:78
+#@ default
 msgid "Organization"
 msgstr "Organization"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions-admin.php:81
+#: functions-admin.php:81
+#@ default
 msgid "The name of your company or organization."
 msgstr "The name of your company or organization."
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions-admin.php:85
+#: functions-admin.php:85
+#@ default
 msgid "Organization home page"
 msgstr "Organization home page"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions-admin.php:88
-msgid ""
-"The URL of your organization's home page. Remember to include <strong>http://"
-"</strong>"
-msgstr ""
-"The URL of your organization's home page. Remember to include <strong>http://"
-"</strong>"
+#: functions-admin.php:88
+#@ default
+msgid "The URL of your organization's home page. Remember to include <strong>http://</strong>"
+msgstr "The URL of your organization's home page. Remember to include <strong>http://</strong>"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions-admin.php:111
+#: functions-admin.php:111
+#@ twentyten
 msgid "Moderation notifications"
 msgstr "Moderation notifications"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions-admin.php:114
+#: functions-admin.php:114
+#@ twentyten
 msgid "Comment notifications"
 msgstr "Comment notifications"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions-admin.php:116
+#: functions-admin.php:116
+#@ twentyten
 msgid "Instant email notifications on flagged comments."
 msgstr "Instant email notifications on flagged comments."
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions-admin.php:121
+#: functions-admin.php:121
+#@ twentyten
 msgid "Moderation digest"
 msgstr "Moderation digest"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions-admin.php:125
+#: functions-admin.php:125
+#@ twentyten
 msgid "Never"
 msgstr "Never"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions-admin.php:126
+#: functions-admin.php:126
+#@ twentyten
 msgid "Daily"
 msgstr "Daily"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions-admin.php:127
+#: functions-admin.php:127
+#@ twentyten
 msgid "Weekly"
 msgstr "Weekly"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions-admin.php:141
+#: functions-admin.php:141
+#@ twentyten
 msgid "Email digest for all pending content."
 msgstr "Email digest for all pending content."
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions-secondary.php:82
-#: Staging/wp-content/themes/hri2/functions-secondary.php:95
-#: Staging/wp-content/themes/hri2/functions-secondary.php:160
-#: Staging/wp-content/themes/hri2/functions-secondary.php:173
-#: Staging/wp-content/themes/hri2/functions-secondary.php:181
+#: functions-secondary.php:82
+#: functions-secondary.php:95
+#: functions-secondary.php:160
+#: functions-secondary.php:173
+#: functions-secondary.php:181
+#@ hri
 msgid "Ei hakutuloksia"
 msgstr "No matches found"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions-secondary.php:217
-#: Staging/wp-content/themes/hri2/functions-secondary.php:223
-#: Staging/wp-content/themes/hri2/functions-secondary.php:227
-#: Staging/wp-content/themes/hri2/single-data.php:156
-#: Staging/wp-content/themes/hri2/single-data.php:165
-#: Staging/wp-content/themes/hri2/single-data.php:171
+#: functions-secondary.php:217
+#: functions-secondary.php:223
+#: functions-secondary.php:227
+#: single-data.php:156
+#: single-data.php:165
+#: single-data.php:171
+#@ hri
 msgid "Täytä kenttä"
 msgstr "Fill in the field"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions-secondary.php:448
+#: functions-secondary.php:453
+#@ hri
 msgid "sitten"
 msgstr "ago"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions-secondary.php:711
+#: functions-secondary.php:736
+#@ hri
 msgid "<span class=\"meta-nav\">&larr;</span> Vanhemmat kommentit"
 msgstr "<span class=\"meta-nav\">&larr;</span> Older comments"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions-secondary.php:712
+#: functions-secondary.php:737
+#@ hri
 msgid "Uudemmat kommentit <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Newer comments <span class=\"meta-nav\">&rarr;</span>"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions-secondary.php:742
-#: Staging/wp-content/themes/hri2/functions-secondary.php:825
+#: functions-secondary.php:767
+#: functions-secondary.php:843
+#@ hri
 msgid "Kommenttisi odottaa hyväksyntää."
 msgstr "Your comment is waiting for moderation."
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions-secondary.php:750
-#: Staging/wp-content/themes/hri2/functions-secondary.php:833
+#: functions-secondary.php:775
+#: functions-secondary.php:851
+#@ hri
 msgid "Muokkaa"
 msgstr "Edit"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions-secondary.php:757
-#: Staging/wp-content/themes/hri2/functions-secondary.php:838
+#: functions-secondary.php:782
+#: functions-secondary.php:856
+#@ hri
 msgid "Ilmoita asiaton kommentti"
 msgstr "Report "
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions-secondary.php:768
-#: Staging/wp-content/themes/hri2/functions-secondary.php:854
-msgid "Pingback:"
-msgstr "Pingback:"
-
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions-secondary.php:946
+#: functions-secondary.php:957
+#@ hri
 msgid "Kirjoittaja"
 msgstr "Author"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions-secondary.php:1077
+#: functions-secondary.php:1105
+#@ hri
 msgid "Ilmoita epäasiallinen sisältö"
 msgstr "Report inappropriate content"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions-secondary.php:1077
+#: functions-secondary.php:1105
+#@ hri
 msgid "Kerro, miksi tämä sisältö pitäisi mielestäsi poistaa."
 msgstr "Tell us why you think this content should be removed."
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions-secondary.php:1077
-#: Staging/wp-content/themes/hri2/single-data.php:279
+#: functions-secondary.php:1105
+#: single-data.php:426
+#@ hri
 msgid "Sähköpostiosoitteesi"
 msgstr "Your email"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions-secondary.php:1077
-#: Staging/wp-content/themes/hri2/functions.php:290
-#: Staging/wp-content/themes/hri2/page-new-app-idea.php:193
-#: Staging/wp-content/themes/hri2/page-new-app.php:266
-#: Staging/wp-content/themes/hri2/page-new-data-request.php:154
-#: Staging/wp-content/themes/hri2/page-new-discussion.php:224
-#: Staging/wp-content/themes/hri2/single-data.php:288
+#: functions-secondary.php:1105
+#: functions.php:301
+#: page-new-app-idea.php:195
+#: page-new-app.php:266
+#: page-new-data-request.php:156
+#: page-new-discussion.php:226
+#: single-data.php:435
+#@ hri
 msgid "Lähetä"
 msgstr "Send"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions-secondary.php:1088
+#: functions-secondary.php:1116
+#@ hri
 msgid "Ilmoita tämä kommentti"
 msgstr "Report this comment"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions-secondary.php:1097
+#: functions-secondary.php:1125
+#@ hri
 msgid "Peruuta"
 msgstr "Cancel"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions-secondary.php:1170
+#: functions-secondary.php:1198
+#@ hri
 msgid "Virhe: Tyhjä tiedosto"
 msgstr "Error: empty file"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions-secondary.php:1171
+#: functions-secondary.php:1199
+#@ hri
 msgid "Virhe: Suurin sallittu koko ylittyi"
 msgstr "Error: max file size exceeded"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions-secondary.php:1172
+#: functions-secondary.php:1200
+#@ hri
 msgid "Virhe: Tiedoston prosessointi epäonnistui"
 msgstr "Error: file processing failed"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions-secondary.php:1173
+#: functions-secondary.php:1201
+#@ hri
 msgid "Kaikki kuvat vastaanotettu."
 msgstr "All images received"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions-secondary.php:1174
+#: functions-secondary.php:1202
+#@ hri
 msgid "Artikkelikuva"
 msgstr "Featured image"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions-secondary.php:1175
+#: functions-secondary.php:1203
+#@ hri
 msgid "Poista"
 msgstr "Delete"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions-secondary.php:1204
+#: functions-secondary.php:1232
+#@ hri
 msgid "Valitse kuvat"
 msgstr "Select images"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions-secondary.php:1239
+#: functions-secondary.php:1267
+#@ hri
 msgid "Kirjauduttu sisään käyttäjänä"
 msgstr "Logged in as"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions-secondary.php:1241
+#: functions-secondary.php:1269
+#@ hri
 msgid "Kirjaudu ulos?"
 msgstr "Log out?"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions-secondary.php:1261
+#: functions-secondary.php:1289
+#@ hri
 msgid "Siiry viimeiseen kommenttiin."
 msgstr "Move to the latest comment."
 
-#: /Volumes/Storage/Saitit/HRI Staging/wp-content/themes/hri2/functions.php:70
+#: functions.php:73
+#@ hri
 msgid "Päävalikko"
 msgstr "Main menu"
 
-#: /Volumes/Storage/Saitit/HRI Staging/wp-content/themes/hri2/functions.php:74
+#: functions.php:77
+#@ hri
 msgid "Alavalikko"
 msgstr "Sub menu"
 
-#: /Volumes/Storage/Saitit/HRI Staging/wp-content/themes/hri2/functions.php:78
+#: functions.php:81
+#@ hri
 msgid "Etusivu"
 msgstr "Home page"
 
-#: /Volumes/Storage/Saitit/HRI Staging/wp-content/themes/hri2/functions.php:87
+#: functions.php:98
+#@ hri
 msgid "Sivupalkki"
 msgstr "Side bar"
 
-#: /Volumes/Storage/Saitit/HRI Staging/wp-content/themes/hri2/functions.php:96
+#: functions.php:107
+#@ hri
 msgid "Sivupalkki Sivuille"
 msgstr "Side bar for pages"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions.php:105
+#: functions.php:116
+#@ hri
 msgid "Sivupalkki Datoille"
 msgstr "Side bar for datas"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions.php:114
+#: functions.php:125
+#@ hri
 msgid "Sivupalkki Artikkelilistauksille"
 msgstr "Side bar for article listings"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions.php:268
+#: functions.php:279
+#@ hri
 msgid "Sähköposti-ilmoitus kommenteista: tilaa tai peru tilaus"
 msgstr "Email notification on new comments: subscribe or unsubscribe"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions.php:277
-#: Staging/wp-content/themes/hri2/page-app-gallery.php:135
-#: Staging/wp-content/themes/hri2/single-data.php:130
+#: functions.php:288
+#: page-app-gallery.php:151
+#: single-data.php:130
+#@ hri
 msgid "Sulje"
 msgstr "Close"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions.php:286
+#: functions.php:297
+#@ hri
 msgid "Tilaa ilmoitukset uusista viesteistä tähän keskusteluun"
 msgstr "Subscribe to notifications on new messages to this thread"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions.php:287
+#: functions.php:298
+#@ hri
 msgid "Peru ilmoitukset tämän keskustelun viesteistä"
 msgstr "Unsubscribe from notifications on this thread"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/functions.php:288
+#: functions.php:299
+#@ hri
 msgid "Peru ilmoitukset kaikista HRI-keskusteluista"
 msgstr "Unsubscribe from notifications on all discussions on HRI"
 
-#: /Volumes/Storage/Saitit/HRI Staging/wp-content/themes/hri2/header.php:26
+#: header.php:26
 #, php-format
+#@ hri
 msgid "Sivu %s"
 msgstr "Page %s"
 
-#: /Volumes/Storage/Saitit/HRI Staging/wp-content/themes/hri2/header.php:83
+#: header.php:98
+#@ hri
 msgid "Etusivulle"
 msgstr "To home page"
 
-#: /Volumes/Storage/Saitit/HRI Staging/wp-content/themes/hri2/header.php:111
-msgid "Yhteensä"
-msgstr "Currently"
-
-#: /Volumes/Storage/Saitit/HRI Staging/wp-content/themes/hri2/header.php:119
-msgid "data-aineistoa"
-msgstr "datasets"
-
-#: /Volumes/Storage/Saitit/HRI Staging/wp-content/themes/hri2/header.php:139
-#, php-format
-msgid "Tuorein keskustelu on aiheesta %s"
-msgstr "Latest discussion is on %s"
-
-#: /Volumes/Storage/Saitit/HRI Staging/wp-content/themes/hri2/index.php:28
-#: Staging/wp-content/themes/hri2/page.php:28
-#: Staging/wp-content/themes/hri2/sidebar-data.php:43
-#: Staging/wp-content/themes/hri2/single-application.php:99
-#: Staging/wp-content/themes/hri2/single-help-page.php:34
+#: index.php:40
+#: page.php:28
+#: sidebar-data.php:198
+#: single-application.php:99
+#: single-help-page.php:34
+#@ hri
 msgid "Kategoriat"
 msgstr "Categories"
 
-#: /Volumes/Storage/Saitit/HRI Staging/wp-content/themes/hri2/infoboxes.php:3
-msgid "Mitä on avoin data?"
-msgstr "What is open data?"
-
-#: /Volumes/Storage/Saitit/HRI Staging/wp-content/themes/hri2/infoboxes.php:5
-msgid ""
-"Avoimella datalla tarkoitetaan erityisesti julkishallinnolle, mutta myös "
-"yrityksille, organisaatioille ja yksityishenkilöille kertynyttä "
-"jalostamatonta informaatiota, johon on avattu maksuton pääsy organisaation "
-"ulkopuolisille."
-msgstr ""
-
-#: /Volumes/Storage/Saitit/HRI Staging/wp-content/themes/hri2/infoboxes.php:11
-#: Staging/wp-content/themes/hri2/page-search-data.php:765
+#: page-avaadataa.php:135
+#: page-search-data.php:822
+#@ hri
 msgid "Keskustelut"
 msgstr "Discussions"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-app-gallery.php:113
-#: Staging/wp-content/themes/hri2/page-app-gallery.php:370
+#: page-app-gallery.php:127
+#: page-app-gallery.php:395
+#@ hri
 msgid "Näytä kaikki"
 msgstr "Show all"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-app-gallery.php:114
-#: Staging/wp-content/themes/hri2/page-app-gallery.php:348
+#: page-app-gallery.php:128
+#: page-app-gallery.php:375
+#@ hri
 msgid "Yleisimmät avainsanat"
 msgstr "Top keywords"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-app-gallery.php:136
+#: page-app-gallery.php:152
+#@ hri
 msgid "Kaikki avainsanat"
 msgstr "All keywords"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-app-gallery.php:293
-#: Staging/wp-content/themes/hri2/single-application.php:159
+#: page-app-gallery.php:312
+#: single-application.php:161
+#@ hri
 msgid "Tekijä"
 msgstr "Author"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-app-gallery.php:339
-#: Staging/wp-content/themes/hri2/single-application.php:187
+#: page-app-gallery.php:366
+#: single-application.php:203
+#@ hri
 msgid "Hae sovelluksia"
 msgstr "Search applications"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-app-gallery.php:382
+#: page-app-gallery.php:407
+#@ hri
 msgid "Sovellusgalleria"
 msgstr "Application gallery"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-app-gallery.php:385
+#: page-app-gallery.php:410
+#@ hri
 msgid "Järjestä"
 msgstr "Order by"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-app-gallery.php:386
-#: Staging/wp-content/themes/hri2/page-app-gallery.php:389
+#: page-app-gallery.php:411
+#: page-app-gallery.php:414
+#@ hri
 msgid "Julkaisuajan mukaan"
 msgstr "Date published"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-app-gallery.php:390
+#: page-app-gallery.php:415
+#@ hri
 msgid "Nimen mukaan"
 msgstr "Name"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-app-gallery.php:409
+#: page-app-gallery.php:434
+#@ hri
 msgid "Ilmoita oma sovelluksesi"
 msgstr "Submit your application"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-app-gallery.php:412
+#: page-app-gallery.php:437
+#@ hri
 msgid "Sovellusideat"
 msgstr "Application ideas"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-app-gallery.php:438
+#: page-app-gallery.php:463
+#@ hri
 msgid "Näytä kaikki sovellusideat"
 msgstr "Show all application ideas"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-app-gallery.php:439
+#: page-app-gallery.php:464
+#@ hri
 msgid "Onko sinulla idea sovelluksesta?"
 msgstr "Do you have an idea for an application?"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-app-gallery.php:460
-msgid "Sovelluksia maailmalta"
-msgstr "Applications from around the World"
-
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-app-gallery.php:464
-msgid "Ei syötteitä"
-msgstr "No feeds"
-
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-avaadataa.php:56
+#: page-avaadataa.php:48
+#@ hri
 msgid "Löydetään dataa"
 msgstr "Find data"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-avaadataa.php:59
+#: page-avaadataa.php:51
+#@ hri
 msgid "Varmistetaan julkaisukelpoisuus"
 msgstr "OK to publish"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-avaadataa.php:62
+#: page-avaadataa.php:54
+#@ hri
 msgid "Valmistellaan avattavaksi"
 msgstr "Prepare to be opened"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-avaadataa.php:65
+#: page-avaadataa.php:57
+#@ hri
 msgid "Julkaistaan HRI:ssä, keskustellaan ja sovelletaan"
 msgstr "Publish on HRI, discuss and utilize"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-discussions.php:171
-#: Staging/wp-content/themes/hri2/page-new-discussion.php:162
+#: page-discussions.php:171
+#: page-new-discussion.php:164
+#@ hri
 msgid "Aloita uusi keskustelu"
 msgstr "New discussion"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-discussions.php:174
-#: Staging/wp-content/themes/hri2/page-search-data.php:702
-#: Staging/wp-content/themes/hri2/page-search.php:103
+#: page-discussions.php:174
+#: page-search-data.php:759
+#: page-search.php:107
+#@ hri
 msgid "Syötä hakusanat..."
 msgstr "Enter search terms..."
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-discussions.php:189
+#: page-discussions.php:189
+#@ hri
 msgid "Liittyvä data"
 msgstr "Related data"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-discussions.php:238
-#: Staging/wp-content/themes/hri2/page-search-data.php:761
-#: Staging/wp-content/themes/hri2/page-search.php:120
+#: page-discussions.php:238
+#: page-search-data.php:818
+#: page-search.php:124
+#@ hri
 msgid "Otsikko"
 msgstr "Title"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-discussions.php:239
+#: page-discussions.php:239
+#@ hri
 msgid "Viestit"
 msgstr "Messages"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-discussions.php:240
+#: page-discussions.php:240
+#@ hri
 msgid "Viimeisin viesti"
 msgstr "Latest message"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-app-idea.php:10
+#: page-new-app-idea.php:10
+#@ hri
 msgid "Uusi sovellusidea luotiin onnistuneesti"
 msgstr "New application idea created"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-app-idea.php:10
+#: page-new-app-idea.php:10
+#@ hri
 msgid "Sovellusidea odottaa ylläpitäjien hyväksyntää ja julkaistaan pian."
 msgstr "Application idea is waiting for moderation and will be published soon."
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-app-idea.php:27
-#: Staging/wp-content/themes/hri2/page-new-app.php:30
-#: Staging/wp-content/themes/hri2/page-new-data-request.php:24
-#: Staging/wp-content/themes/hri2/page-new-discussion.php:32
+#: page-new-app-idea.php:27
+#: page-new-app.php:30
+#: page-new-data-request.php:24
+#: page-new-discussion.php:34
+#@ hri
 msgid "Nimen täytyy olla vähintään kolme merkkiä"
 msgstr "Name must be at least 3 characters"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-app-idea.php:28
-#: Staging/wp-content/themes/hri2/page-new-app.php:31
-#: Staging/wp-content/themes/hri2/page-new-data-request.php:25
-#: Staging/wp-content/themes/hri2/page-new-discussion.php:38
+#: page-new-app-idea.php:28
+#: page-new-app.php:31
+#: page-new-data-request.php:25
+#: page-new-discussion.php:40
+#@ hri
 msgid "Sähköpostiosoite vaaditaan"
 msgstr "Email is required"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-app-idea.php:55
-#: Staging/wp-content/themes/hri2/page-new-app.php:63
-#: Staging/wp-content/themes/hri2/page-new-app.php:66
-#: Staging/wp-content/themes/hri2/page-new-discussion.php:81
+#: page-new-app-idea.php:55
+#: page-new-app.php:63
+#: page-new-app.php:66
+#: page-new-discussion.php:83
+#@ hri
 msgid "Jokin epäonnistui"
 msgstr "Something went wrong"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-app-idea.php:112
+#: page-new-app-idea.php:114
+#@ hri
 msgid "Kaikki sovellusideat"
 msgstr "All application ideas"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-app-idea.php:125
+#: page-new-app-idea.php:127
+#@ hri
 msgid "Lähetä uusi sovellusidea"
 msgstr "Submit new application idea"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-app-idea.php:131
+#: page-new-app-idea.php:133
+#@ hri
 msgid "Idean nimi"
 msgstr "Idea title"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-app-idea.php:136
+#: page-new-app-idea.php:138
+#@ hri
 msgid "Idean kuvaus"
 msgstr "Idea description"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-app-idea.php:139
+#: page-new-app-idea.php:141
+#@ hri
 msgid "Kuvaile ideaasi mahdollisimman informatiivisesti."
 msgstr "Describe your idea as informatively as possible."
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-app-idea.php:143
-#: Staging/wp-content/themes/hri2/page-new-app.php:207
-#: Staging/wp-content/themes/hri2/page-new-app.php:212
-#: Staging/wp-content/themes/hri2/page-new-discussion.php:199
+#: page-new-app-idea.php:145
+#: page-new-app.php:207
+#: page-new-app.php:212
+#: page-new-discussion.php:201
+#@ twentyten
+#@ hri
 msgid "Data"
 msgstr "Data"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-app-idea.php:146
-#: Staging/wp-content/themes/hri2/page-new-discussion.php:202
+#: page-new-app-idea.php:148
+#: page-new-discussion.php:204
+#@ hri
 msgid "Liittyykö tämä keskustelu HRI-palvelussa julkaistuun dataan?"
 msgstr "Is this discussion related to data published on HRI?"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-app-idea.php:149
-#: Staging/wp-content/themes/hri2/page-new-discussion.php:205
+#: page-new-app-idea.php:151
+#: page-new-discussion.php:207
+#@ hri
 msgid "Hae datan nimellä"
 msgstr "Search data by title"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-app-idea.php:159
-#: Staging/wp-content/themes/hri2/page-new-discussion.php:215
-msgid ""
-"Etsi datan otsikolla. Voit liittää keskustelun useisiin data-aineistoihin "
-"tekemällä useita hakuja."
-msgstr ""
-"Search by dataset title. You can link this discussion to multiple datasets "
-"by performing consecutive searches."
+#: page-new-app-idea.php:161
+#: page-new-discussion.php:217
+#@ hri
+msgid "Etsi datan otsikolla. Voit liittää keskustelun useisiin data-aineistoihin tekemällä useita hakuja."
+msgstr "Search by dataset title. You can link this discussion to multiple datasets by performing consecutive searches."
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-app-idea.php:165
-#: Staging/wp-content/themes/hri2/page-new-app.php:241
+#: page-new-app-idea.php:167
+#: page-new-app.php:241
+#@ hri
 msgid "Omat tietosi"
 msgstr "Your details"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-app-idea.php:171
-#: Staging/wp-content/themes/hri2/page-new-discussion.php:186
+#: page-new-app-idea.php:173
+#: page-new-discussion.php:188
+#@ hri
 msgid "Nimesi julkaistaan keskustelunavauksen yhteydessä."
 msgstr "Your name will be published with your message."
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-app-idea.php:178
-#: Staging/wp-content/themes/hri2/page-new-app.php:253
-#: Staging/wp-content/themes/hri2/page-new-data-request.php:143
-#: Staging/wp-content/themes/hri2/page-new-discussion.php:194
+#: page-new-app-idea.php:180
+#: page-new-app.php:253
+#: page-new-data-request.php:145
+#: page-new-discussion.php:196
+#@ hri
 msgid "Sähköpostiosoitettasi ei julkaista."
 msgstr "Your email will not be published."
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-app-idea.php:183
-#: Staging/wp-content/themes/hri2/page-new-app.php:259
+#: page-new-app-idea.php:185
+#: page-new-app.php:259
+#@ hri
 msgid "Muuta / Terveisesi HRI-ylläpidolle"
 msgstr "Other / Your message to HRI maintenance"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-app-idea.php:186
+#: page-new-app-idea.php:188
+#@ hri
 msgid "Muuta ideaan liittyvää tietoa tai erityisohjeita julkaisuun liittyen."
-msgstr ""
-"Something else related to your idea or special instruction on how to publish "
-"it."
+msgstr "Something else related to your idea or special instruction on how to publish it."
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-app-idea.php:189
-msgid ""
-"Ilmoitustasi saatetaan muokata ja se saatetaan yhdistää muihin vastaaviin "
-"ideoihin. Valitut ideat julkaistaan tällä sivustolla."
-msgstr ""
-"Your idea may be edited or it may be merged with similar ideas. Selected "
-"ideas will be published on this web site."
+#: page-new-app-idea.php:191
+#@ hri
+msgid "Ilmoitustasi saatetaan muokata ja se saatetaan yhdistää muihin vastaaviin ideoihin. Valitut ideat julkaistaan tällä sivustolla."
+msgstr "Your idea may be edited or it may be merged with similar ideas. Selected ideas will be published on this web site."
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-app.php:13
+#: page-new-app.php:13
+#@ hri
 msgid "Uusi sovellus ilmoitettu onnistuneesti"
 msgstr "New application submitted"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-app.php:13
-msgid ""
-"HRI-ylläpito käy ilmoituksesi läpi ja ottaa tarvittaessa yhteyttä antamaasi "
-"sähköpostiosoitteeseen. Tavoitat ylläpidon osoitteesta <a href=\"mailto:hri-"
-"info@forumvirium.fi\">hri-info@forumvirium.fi</a>."
-msgstr ""
-"HRI maintenance will review your message and contact you via email if "
-"necessary. You can reach us with <a href=\"mailto:hri-info@forumvirium.fi"
-"\">hri-info@forumvirium.fi</a>."
-
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-app.php:165
+#: page-new-app.php:165
+#@ hri
 msgid "Kaikki sovellukset"
 msgstr "All applications"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-app.php:178
+#: front-page.php:147
+#: page-new-app.php:178
+#@ hri
 msgid "Ilmoita uusi sovellus"
 msgstr "Submit new application"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-app.php:184
+#: page-new-app.php:184
+#@ hri
 msgid "Sovelluksen nimi"
 msgstr "Application title"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-app.php:189
+#: page-new-app.php:189
+#@ hri
 msgid "Sovelluksen kuvaus"
 msgstr "Application description"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-app.php:192
-msgid ""
-"Kuvaile ideaasi mahdollisimman informatiivisesti. Pidäthän kuvauksen lyhyenä."
+#: page-new-app.php:192
+#@ hri
+msgid "Kuvaile ideaasi mahdollisimman informatiivisesti. Pidäthän kuvauksen lyhyenä."
 msgstr "Describe your application as informatively as possible. Keep it short."
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-app.php:200
-msgid ""
-"Hyväksytyt tiedosto tyypit: jpg, gif, png. Suurin sallittu koko 1 Mt. "
-"Kansikuva leikataan automaattisesti neliön muotoiseksi."
-msgstr ""
-"Valid file types: jpg, gif, png. Max size 1 M. Featured image will be "
-"cropped to square automatically."
+#: page-new-app.php:200
+#@ hri
+msgid "Hyväksytyt tiedosto tyypit: jpg, gif, png. Suurin sallittu koko 1 Mt. Kansikuva leikataan automaattisesti neliön muotoiseksi."
+msgstr "Valid file types: jpg, gif, png. Max size 1 M. Featured image will be cropped to square automatically."
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-app.php:204
-#: Staging/wp-content/themes/hri2/single-application.php:152
+#: page-new-app.php:204
+#: single-application.php:152
+#@ hri
 msgid "Sovelluksen www-osoite"
 msgstr "Application URL"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-app.php:208
+#: page-new-app.php:208
+#@ hri
 msgid "Liittyykö sovellus dataan?"
 msgstr "Is the application related to data?"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-app.php:223
-msgid ""
-"Etsi datan otsikolla. Voit liittää sovelluksen useisiin data-aineistoihin "
-"tekemällä useita hakuja."
-msgstr ""
-"Search data by title. You can link your application to multiple datasets by "
-"performing consecutive searches."
+#: page-new-app.php:223
+#@ hri
+msgid "Etsi datan otsikolla. Voit liittää sovelluksen useisiin data-aineistoihin tekemällä useita hakuja."
+msgstr "Search data by title. You can link your application to multiple datasets by performing consecutive searches."
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-app.php:226
-#: Staging/wp-content/themes/hri2/page-search-data.php:744
-#: Staging/wp-content/themes/hri2/single-data.php:272
+#: page-new-app.php:226
+#: page-search-data.php:801
+#: single-data.php:419
+#@ hri
 msgid "Ylläpitäjä"
 msgstr "Publisher"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-app.php:228
+#: page-new-app.php:228
+#@ hri
 msgid "Sovelluksen ylläpitäjä"
 msgstr "Application developer"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-app.php:232
+#: page-new-app.php:232
+#@ hri
 msgid "Sovelluksen ylläpitäjän www-osoite"
 msgstr "Application developer URL"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-app.php:262
-msgid ""
-"Muuta sovellukseen liittyvää tietoa tai erityisohjeita julkaisuun liittyen."
-msgstr ""
-"Other information related to the application or special instructions on the "
-"publication of this information."
+#: page-new-app.php:262
+#@ hri
+msgid "Muuta sovellukseen liittyvää tietoa tai erityisohjeita julkaisuun liittyen."
+msgstr "Other information related to the application or special instructions on the publication of this information."
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-data-request.php:9
+#: page-new-data-request.php:9
+#@ hri
 msgid "Uusi datatoive luotiin onnistuneesti"
 msgstr "New data request created"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-data-request.php:9
+#: page-new-data-request.php:9
+#@ hri
 msgid "Datatoive odottaa ylläpitäjien hyväksyntää ja julkaistaan pian."
 msgstr "Data request is waiting for moderation and will be published soon."
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-data-request.php:101
+#: page-new-data-request.php:101
+#@ hri
 msgid "Kaikki datatoiveet"
 msgstr "All data requests"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-data-request.php:113
+#: page-new-data-request.php:114
+#@ hri
 msgid "Lähetä uusi datatoive"
 msgstr "Submit new data request"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-data-request.php:119
-#: Staging/wp-content/themes/hri2/page-new-discussion.php:169
-#: Staging/wp-content/themes/hri2/single-data.php:281
+#: page-new-data-request.php:121
+#: page-new-discussion.php:171
+#: single-data.php:428
+#@ hri
 msgid "Aihe"
 msgstr "Subject"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-data-request.php:124
+#: page-new-data-request.php:126
+#@ hri
 msgid "Toiveesi"
 msgstr "Your request"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-data-request.php:135
-msgid "Nimesi julkaistaan datatoiveen yhteydessä."
-msgstr "Your name will be published with your data request."
+#: page-new-data-request.php:151
+#@ hri
+msgid "Datatoiveesi arvioidaan, sitä saatetaan muokata ja se saatetaan yhdistää muihin vastaaviin toiveisiin. Muokatut toiveet julkaistaan tällä sivustolla ja välitetään mahdollisuuksien mukaan datasta vastaavalle taholle."
+msgstr "Your data request may be edited or it may be merged with similar requests. Requests will be published on this web site and when possible, forwarded to the entity governing the data."
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-data-request.php:149
-msgid ""
-"Datatoiveesi arvioidaan, sitä saatetaan muokata ja se saatetaan yhdistää "
-"muihin vastaaviin toiveisiin. Muokatut toiveet julkaistaan tällä sivustolla "
-"ja välitetään mahdollisuuksien mukaan datasta vastaavalle taholle."
-msgstr ""
-"Your data request may be edited or it may be merged with similar requests. "
-"Requests will be published on this web site and when possible, forwarded to "
-"the entity governing the data."
-
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-discussion.php:12
+#: page-new-discussion.php:12
+#@ hri
 msgid "Uusi keskustelu aloitettu onnistuneesti"
 msgstr "New discussion started"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-discussion.php:13
+#: page-new-discussion.php:13
+#@ hri
 msgid "Keskustelu odottaa ylläpitäjien hyväksyntää ja julkaistaan pian"
 msgstr "Discussion is waiting for moderation and will be published soon"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-discussion.php:73
-#: Staging/wp-content/themes/hri2/page-new-discussion.php:79
+#: page-new-discussion.php:75
+#: page-new-discussion.php:81
+#@ hri
 msgid "Klikkaa tästä:"
 msgstr "Click here:"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-discussion.php:141
-#: Staging/wp-content/themes/hri2/single-discussion.php:34
+#: page-avaadataa.php:200
+#: page-new-discussion.php:143
+#: single-discussion.php:34
+#@ hri
 msgid "Kaikki keskustelut"
 msgstr "All discussions"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-discussion.php:153
+#: page-new-discussion.php:155
+#@ hri
 msgid "Takaisin"
 msgstr "Back"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-new-discussion.php:221
-msgid ""
-"Keskustelunavaukset arvioidaan ja niitä saatetaan muokata ennen julkaisua."
-msgstr ""
-"Discussions will be moderated and they might be edited before publication."
+#: page-new-discussion.php:223
+#@ hri
+msgid "Keskustelunavaukset arvioidaan ja niitä saatetaan muokata ennen julkaisua."
+msgstr "Discussions will be moderated and they might be edited before publication."
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-report.php:94
+#: page-report.php:94
+#@ hri
 msgid "Jokin epäonnistui."
 msgstr "Something went wrong"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-report.php:95
+#: page-report.php:95
+#@ hri
 msgid "Ilmoitus lähetetty ylläpitäjille."
 msgstr "Message sent to maintenance."
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-search-data.php:103
-#: Staging/wp-content/themes/hri2/page-search-data.php:476
-#: Staging/wp-content/themes/hri2/single-data.php:358
+#: page-search-data.php:116
+#: page-search-data.php:524
+#: single-data.php:525
+#@ hri
 msgid "Muuta"
 msgstr "Other"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-search-data.php:160
+#: page-search-data.php:178
+#: page-search-data.php:183
+#@ hri
 msgid "Toivo uutta dataa"
 msgstr "Request new data"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-search-data.php:480
-#: Staging/wp-content/themes/hri2/page-search-data.php:547
-#: Staging/wp-content/themes/hri2/page-search-data.php:721
-#: Staging/wp-content/themes/hri2/page-search-data.php:729
-#: Staging/wp-content/themes/hri2/page-search-data.php:737
-#: Staging/wp-content/themes/hri2/page-search-data.php:745
+#: page-search-data.php:528
+#: page-search-data.php:606
+#: page-search-data.php:778
+#: page-search-data.php:786
+#: page-search-data.php:794
+#: page-search-data.php:802
+#@ hri
 msgid "Ei suodatusta"
 msgstr "No filter"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-search-data.php:695
-#: Staging/wp-content/themes/hri2/sidebar-data.php:14
+#: page-search-data.php:752
+#: sidebar-data.php:26
+#@ hri
 msgid "Hae dataa"
 msgstr "Search data"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-search-data.php:699
+#: page-search-data.php:756
+#@ hri
 msgid "Tyhjennä kaikki hakukriteerit"
 msgstr "Reset all search terms"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-search-data.php:715
-#: Staging/wp-content/themes/hri2/sidebar-data.php:27
-#: Staging/wp-content/themes/hri2/single-application.php:119
+#: page-search-data.php:772
+#: sidebar-data.php:182
+#: single-application.php:119
+#@ hri
 msgid "Avainsanat"
 msgstr "Tags"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-search-data.php:720
+#: page-search-data.php:777
+#@ hri
 msgid "Alue"
 msgstr "Area"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-search-data.php:728
+#: page-search-data.php:785
+#@ hri
 msgid "Kategoria"
 msgstr "Category"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-search-data.php:736
+#: page-search-data.php:793
+#@ hri
 msgid "Tiedostomuoto"
 msgstr "File format"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-search-data.php:762
-#: Staging/wp-content/themes/hri2/page-search.php:121
+#: page-search-data.php:819
+#: page-search.php:125
+#@ hri
 msgid "Päivämäärä"
 msgstr "Date"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-search-data.php:763
+#: page-search-data.php:820
+#@ hri
 msgid "Arvosana"
 msgstr "Rating"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-search-data.php:766
+#: page-search-data.php:823
+#@ hri
 msgid "Viimeisin sovellus"
 msgstr "Latest application"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-search.php:98
-#: Staging/wp-content/themes/hri2/searchform.php:26
+#: page-search.php:102
+#: searchform.php:26
+#@ hri
 msgid "Hae"
 msgstr "Search"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-search.php:119
+#: page-search.php:123
+#@ hri
 msgid "Hakutulokset"
 msgstr "Search results"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-search.php:122
+#: page-search.php:126
+#@ hri
 msgid "Viimeisin kommentti"
 msgstr "Latest comment"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-search.php:133
+#: page-search.php:137
+#@ hri
 msgid "Hakutulokset datasta"
 msgstr "Data search results"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-sovelladataa.php:56
+#: page-sovelladataa.php:104
+#@ hri
 msgid "Löydä dataa"
 msgstr "Find data"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-sovelladataa.php:59
+#: page-sovelladataa.php:107
+#@ hri
 msgid "Keksi tai löydä sovellusidea"
 msgstr "Find an application idea"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-sovelladataa.php:62
+#: page-sovelladataa.php:110
+#@ hri
 msgid "Luo sovellus"
 msgstr "Create your application"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-sovelladataa.php:65
+#: page-sovelladataa.php:113
+#@ hri
 msgid "Julkaise sovellus verkossa"
 msgstr "Publish your application online"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-sovelladataa.php:68
+#: page-sovelladataa.php:116
+#@ hri
 msgid "Käyttäjät antavat palautetta ja keskustelevat"
 msgstr "Get feedback and participate in discussions"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-subscribe-to-comments.php:22
+#: page-subscribe-to-comments.php:22
+#@ hri
 msgid "Virheellinen sähköpostiosoite"
 msgstr "Error in email"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-subscribe-to-comments.php:27
+#: page-subscribe-to-comments.php:27
+#@ hri
 msgid "Virheellinen valinta"
 msgstr "Invalid selection"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-subscribe-to-comments.php:32
+#: page-subscribe-to-comments.php:32
+#@ hri
 msgid "Virhe"
 msgstr "Error"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-subscribe-to-comments.php:57
+#: page-subscribe-to-comments.php:57
+#@ hri
 msgid "Kommentit tilattu onnistuneesti"
 msgstr "Subscribe to comments successful"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/page-subscribe-to-comments.php:66
-#: Staging/wp-content/themes/hri2/page-subscribe-to-comments.php:76
+#: page-subscribe-to-comments.php:66
+#: page-subscribe-to-comments.php:76
+#@ hri
+#@ default
 msgid "Tilaus peruttu"
 msgstr "Unsubscribe successful"
 
-#: /Volumes/Storage/Saitit/HRI Staging/wp-content/themes/hri2/searchform.php:8
+#: searchform.php:8
+#@ hri
 msgid "Hae sivustolta..."
 msgstr "Search the site..."
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/sidebar-data.php:13
+#: sidebar-data.php:25
+#@ hri
 msgid "Takaisin hakutuloksiin"
 msgstr "Back to search results"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/sidebar-datarequests.php:3
+#: sidebar-datarequests.php:3
+#@ hri
 msgid "Uusi datatoive"
 msgstr "New data request"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/single-application.php:166
+#: single-application.php:182
+#@ hri
 msgid "Tekijän www-osoite"
 msgstr "Developer URL"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/single-application.php:212
+#: single-application.php:228
 #, php-format
+#@ hri
 msgid "Lisää sovelluksia tekijältä %s"
 msgstr "More applications by %s"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/single-data.php:129
+#: single-data.php:129
+#@ hri
 msgid "Arvostele"
 msgstr "Rate"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/single-data.php:177
+#: single-data.php:177
+#@ hri
 msgid "Anna kunnollinen sähköpostiosoite"
 msgstr "Please give a proper email"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/single-data.php:180
+#: single-data.php:180
+#@ hri
 msgid "Sähköpostiosoite"
 msgstr "Email"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/single-data.php:211
+#: single-data.php:217
+#@ hri
 msgid "Aloita uusi keskustelu tästä datasta"
 msgstr "New discussion on this data"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/single-data.php:212
+#: single-data.php:218
+#@ hri
 msgid "Ilmoita uusi sovellus tästä datasta"
 msgstr "New application based on this data"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/single-data.php:226
+#: single-data.php:234
+#@ hri
 msgid "Ladattavat tiedostot ja linkit"
 msgstr "Downloads and links"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/single-data.php:247
+#: single-data.php:368
+#@ hri
 msgid "Lataa"
 msgstr "Download"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/single-data.php:267
+#: single-data.php:414
+#@ hri
 msgid "Lisätiedot"
 msgstr "Additional information"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/single-data.php:272
+#: single-data.php:419
 #, php-format
+#@ hri
 msgid "Kaikki datat ylläpitäjältä %s"
 msgstr "All data from %s"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/single-data.php:272
+#: single-data.php:419
+#@ hri
 msgid "Ota yhteyttä ylläpitäjään"
 msgstr "Contact data publisher"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/single-data.php:283
+#: single-data.php:430
+#@ hri
 msgid "Viesti"
 msgstr "Message"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/single-data.php:296
+#: single-data.php:443
+#@ hri
 msgid "Viesti lähetty ylläpitäjälle."
 msgstr "Message sent to publisher."
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/single-data.php:302
+#: single-data.php:449
+#@ hri
 msgid "Viestin lähetys ei onnistunut."
 msgstr "Message sending failed."
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/single-data.php:309
+#: single-data.php:456
+#@ hri
 msgid "Luotu"
 msgstr "Created"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/single-data.php:310
+#: single-data.php:457
+#@ hri
 msgid "Muokattu"
 msgstr "Modified"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/single-data.php:312
+#: single-data.php:459
+#@ hri
 msgid "Lisenssi"
 msgstr "Licence"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/single-data.php:324
+#: single-data.php:471
+#@ hri
 msgid "Ylläpitäjän www-sivu"
 msgstr "Publisher URL"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/single-data.php:348
+#: single-data.php:515
+#@ hri
 msgid "Virasto"
 msgstr "Bureau"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/single-data.php:349
+#: single-data.php:516
+#@ hri
 msgid "\tViraston osasto"
 msgstr "\tBureau division"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/single-data.php:350
+#: single-data.php:517
+#@ hri
 msgid "Maantieteellinen alue"
 msgstr "Geographic area"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/single-data.php:351
+#: single-data.php:518
+#@ hri
 msgid "Maantieteellinen tarkkuus"
 msgstr "Geographic granularity"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/single-data.php:352
+#: single-data.php:519
+#@ hri
 msgid "Lähde"
 msgstr "Source"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/single-data.php:353
+#: single-data.php:520
+#@ hri
 msgid "Päivitysväli"
 msgstr "Update interval"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/single-data.php:354
+#: single-data.php:521
+#@ hri
 msgid "Aikajakson tarkkuus"
 msgstr "Temporal granularity"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/single-data.php:355
+#: single-data.php:522
+#@ hri
 msgid "Aikasarja alkaa"
 msgstr "Time series start"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/single-data.php:356
+#: single-data.php:523
+#@ hri
 msgid "Aikasarjan alku"
 msgstr "Time series start"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/single-data.php:357
+#: single-data.php:524
+#@ hri
 msgid "Aikasarjan loppu"
 msgstr "Time series end"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/single-data.php:364
+#: single-data.php:531
+#@ hri
 msgid "Ulkoinen linkki"
 msgstr "External link"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/single-discussion.php:33
+#: single-discussion.php:33
+#@ hri
 msgid "keskustelut"
 msgstr "discussions"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/single-discussion.php:33
+#: single-discussion.php:33
+#@ hri
 msgid "Takaisin keskusteluihin"
 msgstr "Back to discussions"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/single-discussion.php:40
+#: single-discussion.php:40
+#@ hri
 msgid "Uusi keskustelu"
 msgstr "New discussion"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/single-discussion.php:58
+#: single-application-idea.php:37
+#: single-discussion.php:58
+#@ hri
 msgid "Liittyvää dataa"
 msgstr "Related data"
 
-#: /Volumes/Storage/Saitit/HRI
-#: Staging/wp-content/themes/hri2/single-discussion.php:97
+#: single-discussion.php:97
+#@ hri
 msgid "Liittyvät sovellukset"
 msgstr "Related applications"
 
-#~ msgid "Käytännön kokemuksia"
-#~ msgstr "In practice"
+#: archive.php:61
+#: index.php:29
+#: page-sovelladataa.php:244
+#@ hri
+msgid "Visualisointiblogi"
+msgstr ""
+
+#: front-page.php:281
+#@ hri
+msgid "Avointa dataa pääkaupunkiseudulta vapaasti hyödynnettäväksesi"
+msgstr "Open data from the Helsinki Metropolitan Area for you to use freely"
+
+#: front-page.php:302
+#@ hri
+msgid "HAE DATAA"
+msgstr "SEARCH DATA"
+
+#: front-page.php:312
+#@ hri
+msgid "DATA-AINEISTOA"
+msgstr "DATASETS"
+
+#: front-page.php:318
+#@ hri
+msgid "TOIVO DATAA"
+msgstr "SUBMIT DATA REQUEST"
+
+#: front-page.php:319
+#@ hri
+msgid "SIIRRY TARKEMPAAN DATAHAKUUN"
+msgstr "USE ADVANCED DATA SEARCH"
+
+#: front-page.php:323
+#@ hri
+msgid "TAI SELAA KATEGORIOITTAIN"
+msgstr "OR SEARCH BY CATEGORY"
+
+#: front-page.php:382
+#@ hri
+msgid "KATSOTUIMMAT DATAT"
+msgstr "POPULAR DATASETS"
+
+#: front-page.php:415
+#@ hri
+msgid "UUSIMMAT DATAT"
+msgstr "NEWEST DATASETS"
+
+#: front-page.php:459
+#@ hri
+msgid "SOVELLUKSET"
+msgstr ""
+
+#: page-avaadataa.php:184
+#@ hri
+msgid "Liittyvä data:"
+msgstr ""
+
+#: page-avaadataa.php:216
+#@ hri
+msgid "Käytännön kokemuksia"
+msgstr ""
+
+#: page-avaadataa.php:241
+#@ hri
+msgid "Lisää käytännön kokemuksia"
+msgstr ""
+
+#: page-new-app.php:13
+#@ hri
+msgid "HRI-ylläpito käy ilmoituksesi läpi ja ottaa tarvittaessa yhteyttä antamaasi sähköpostiosoitteeseen. Tavoitat ylläpidon osoitteesta <a href=\"mailto:hri@hel.fi\">hri@hel.fi</a>."
+msgstr "The HRI team will go through your message and will contact the e-mail given if necessary. The HRI team can be reached through <a href=\"mailto:hri@hel.fi\">hri@hel.fi</a>."
+
+#: page-sovelladataa.php:197
+#@ hri
+msgid "Työkalut"
+msgstr ""
+
+#: page-sovelladataa.php:232
+#@ hri
+msgid "Lisää työkaluja"
+msgstr ""
+
+#: sidebar-data.php:110
+#@ hri
+msgid "Päivä"
+msgstr ""
+
+#: sidebar-data.php:110
+#@ hri
+msgid "Sivunäytöt"
+msgstr ""
+
+#: sidebar-data.php:110
+#@ hri
+msgid "Lataukset"
+msgstr ""
+
+#: sidebar-data.php:167
+#@ hri
+msgid "Sivunäytöt ja lataukset"
+msgstr ""
+
+#: sidebar-data.php:169
+#, php-format
+#@ hri
+msgid "Tätä sivua on katsottu viimeisten %s päivän aikana %s kertaa."
+msgstr ""
+
+#: sidebar-data.php:170
+#@ hri
+msgid "(Päivitetään kerran vuorokaudessa)."
+msgstr ""
+
+#: sidebar-data.php:237
+#@ hri
+msgid "Sovellukset tästä datasta"
+msgstr ""
+
+#: single-data.php:359
+#@ hri
+msgid "Tiedoston lataukset viimeisen 30 päivän aikana."
+msgstr ""
+
+#: single-data.php:540
+#, php-format
+#@ default
+msgid " ja alkuperäinen tekijä %s"
+msgstr ""
+
+#: single-data.php:548
+#, php-format
+#@ default
+msgid "Lähde: %s. Aineiston ylläpitäjä on %s%s. Aineisto on ladattu %s -palvelusta %s lisenssillä %s."
+msgstr ""
+
+#: single-data.php:556
+#@ default
+msgid "Lähdeviite aineistoon"
+msgstr ""
+
+#: front-page.php:445
+#@ hri
+msgid "Näytä lisää dataa"
+msgstr "Show more datasets"
+
+#: functions.php:89
+#@ hri
+msgid "Etusivu2"
+msgstr ""
+
+#: front-page.php:7
+#@ hri
+msgid "ASUMINEN"
+msgstr "HOUSING"
+
+#: front-page.php:8
+#@ hri
+msgid "KAAVAT JA KIINTEISTÖT"
+msgstr "CITY PLANNING AND REAL ESTATE"
+
+#: front-page.php:9
+#@ hri
+msgid "KARTAT JA PAIKKATIETO"
+msgstr "MAPS AND GEOGRAPHIC INFORMATION"
+
+#: front-page.php:10
+#@ hri
+msgid "LAKI JA OIKEUSTURVA"
+msgstr "LAW AND LEGAL PROTECTION"
+
+#: front-page.php:12
+#@ hri
+msgid "LIIKENNE"
+msgstr "TRAFFIC AND TRANSPORT"
+
+#: front-page.php:13
+#@ hri
+msgid "LIIKUNTA JA ULKOILU"
+msgstr "SPORTS AND OUTDOOR RECREATION"
+
+#: front-page.php:14
+#@ hri
+msgid "OPETUS JA KOULUTUS"
+msgstr "EDUCATION AND TRAINING"
+
+#: front-page.php:15
+#@ hri
+msgid "RAKENTAMINEN"
+msgstr "CONSTRUCTION"
+
+#: front-page.php:16
+#@ hri
+msgid "YMPÄRISTÖ JA LUONTO"
+msgstr "ENVIRONMENT AND NATURE"
+
+#: front-page.php:17
+#@ hri
+msgid "TURVALLISUUS"
+msgstr "SAFETY"
+
+#: front-page.php:18
+#@ hri
+msgid "KULTTUURI"
+msgstr "CULTURE"
+
+#: front-page.php:19
+#@ hri
+msgid "TALOUS JA VEROTUS"
+msgstr "ECONOMY AND TAXATION"
+
+#: front-page.php:20
+#@ hri
+msgid "TYÖ JA ELINKEINOT"
+msgstr "JOBS AND INDUSTRIES"
+
+#: front-page.php:21
+#@ hri
+msgid "HALLINTO"
+msgstr "LOCAL GOVERNMENT"
+
+#: front-page.php:22
+#@ hri
+msgid "VÄESTÖ"
+msgstr "POPULATION"
+
+#: front-page.php:23
+#@ hri
+msgid "MATKAILU"
+msgstr "TOURISM"
+
+#: front-page.php:24
+#@ hri
+msgid "TERVEYS"
+msgstr "HEALTH"
+
+#: front-page.php:25
+#@ hri
+msgid "NEUVONTA"
+msgstr "INFORMATION"
+
+#: front-page.php:26
+#@ hri
+msgid "TIETOTEKNIIKKA"
+msgstr "INFORMATION TECHNOLOGY"
+
+#: functions.php:413
+#, php-format
+#@ hri
+msgid "YHTEENSÄ %s"
+msgstr "%s AVAILABLE"
+
+#: functions.php:412
+#, php-format
+#@ hri
+msgid "%s DATA-AINEISTOA"
+msgstr "%s DATASETS"
+
+#: front-page.php:11
+#@ hri
+msgid "SOSIAALIPALVELUT"
+msgstr "SOCIAL SERVICES"
+
+#: front-page.php:317
+#@ hri
+msgid "ILMOITA UUSI DATA"
+msgstr "SUBMIT NEW DATA"
+
+#: front-page.php:488
+#@ hri
+msgid "Näytä lisää päivityksiä"
+msgstr "Show more updates"
+
+#: page-new-data-request.php:137
+#@ hri
+msgid "Nimeäsi ei julkaista datatoiveen yhteydessä."
+msgstr "Your name shall not be publified with your data request."
+
+#: front-page.php:129
+#@ hri
+msgid "Näytä lisää artikkeleita"
+msgstr "Show more articles"
+
+#: front-page.php:139
+#@ hri
+msgid "Näytä lisää sovelluksia"
+msgstr "Show more applications"
+
+#: front-page.php:217
+#: front-page.php:359
+#@ hri
+msgid "Näytä lisää kategorioita"
+msgstr "Show more categories"
+
+#: front-page.php:218
+#@ hri
+msgid "Näytä vähemmän kategorioita"
+msgstr "Show less categories"
+

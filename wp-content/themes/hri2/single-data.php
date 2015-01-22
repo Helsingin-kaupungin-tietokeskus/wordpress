@@ -1,5 +1,21 @@
 <?php
 
+if(have_posts()) {
+	
+	$lang = HRI_LANG;
+	
+	switch_to_blog(1);
+
+	the_post();
+
+	// Redirect to CKAN's dataset page by digging its URL from the metadata and stripping it from redundant info.
+	$ckan_url = get_post_meta($post->ID, 'ckan_url', true);
+	$dataset_position = strpos($ckan_url , "/dataset");
+	$target_url = '/' . $lang . substr($ckan_url, $dataset_position);
+
+	header("Location: {$target_url}");
+}
+
 restore_current_blog();
 
 global $wpdb;

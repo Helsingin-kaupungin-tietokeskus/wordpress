@@ -134,7 +134,7 @@ $(document).ready(function(){
 					<label for="newd_username"><?php _e('Nimi', 'hri'); ?></label><span class="required">*</span><span class="formerror" id="username_error"></span>
 					<input class="text" type="text" name="newd_username" id="newd_username" value="<?php if ( isset( $author['comment_author'] ) ) echo $author['comment_author']; ?>" />
 				</div>
-				<span class="helptext"><br /><?php _e('Nimesi julkaistaan datatoiveen yhteydessä.','hri'); ?></span>
+				<span class="helptext"><br /><?php _e('Nimeäsi ei julkaista datatoiveen yhteydessä.','hri'); ?></span>
 			</div>
 
 			<div class="input_with_helptext">

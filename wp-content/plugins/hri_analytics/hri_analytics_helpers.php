@@ -19,7 +19,7 @@ function hri_analytics_install() {
 	$table_name = "wp_hri_analytics_downloads_last_30d";
 
 	$sql = "
-	    CREATE TABLE `$table_name` (
+	    CREATE TABLE IF NOT EXISTS `$table_name` (
           `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
           `data_post_id` bigint(20) NOT NULL DEFAULT '0',
           `event_action` varchar(255) DEFAULT NULL,
@@ -34,7 +34,7 @@ function hri_analytics_install() {
 	$table_name = "wp_hri_analytics_pageviews_last_30d";
 
 	$sql = "
-	    CREATE TABLE `$table_name` (
+	    CREATE TABLE IF NOT EXISTS `$table_name` (
           `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   		  `data_post_id` BIGINT(20) NOT NULL DEFAULT 0,
           `page_lang` VARCHAR(50) NOT NULL DEFAULT '',
@@ -50,7 +50,7 @@ function hri_analytics_install() {
 	$table_name = "wp_hri_analytics_downloads_by_day";
 
 	$sql = "
-		CREATE TABLE $table_name (
+		CREATE TABLE IF NOT EXISTS $table_name (
 		id BIGINT(20) NOT NULL AUTO_INCREMENT,
 		event_date DATETIME DEFAULT '0000-00-00 00:00:00' NOT NULL,
 		data_post_id BIGINT(20) NOT NULL DEFAULT 0,
@@ -66,7 +66,7 @@ function hri_analytics_install() {
 	$table_name = "wp_hri_analytics_pageviews_by_day";
 
 	$sql = "
-		CREATE TABLE $table_name (
+		CREATE TABLE IF NOT EXISTS $table_name (
 		id BIGINT(20) NOT NULL AUTO_INCREMENT,
 		event_date DATETIME DEFAULT '0000-00-00 00:00:00' NOT NULL,
 		data_post_id BIGINT(20) NOT NULL DEFAULT 0,
