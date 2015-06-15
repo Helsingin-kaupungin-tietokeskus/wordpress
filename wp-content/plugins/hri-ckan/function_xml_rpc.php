@@ -106,7 +106,7 @@ function ckan_find_wordpress_post_id($args) {
 
 	global $wpdb;
 	
-	return $wpdb->get_results( "SELECT DISTINCT p.ID FROM {$wpdb->posts} p JOIN {$wpdb->postmeta} pm ON p.ID = pm.post_id WHERE p.post_type = 'data' AND pm.meta_key = 'ckan_url' AND p.guid LIKE 'http://www.hri.fi/blog/data/{$slug}/' OR p.post_name = '{$slug}' OR pm.meta_value LIKE '%/dataset/{$slug}';" );
+	return $wpdb->get_results( "SELECT DISTINCT p.ID FROM {$wpdb->posts} p JOIN {$wpdb->postmeta} pm ON p.ID = pm.post_id AND pm.meta_key = 'ckan_url' WHERE p.post_type = 'data' AND p.guid LIKE 'http://www.hri.fi/blog/data/{$slug}/' OR p.post_name = '{$slug}' OR pm.meta_value LIKE '%/dataset/{$slug}';" );
 }
 
 /**

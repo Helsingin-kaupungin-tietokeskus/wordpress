@@ -71,7 +71,8 @@ global $blogname, $switched;
 
 	if( isset( $body_class ) ) $body_classes .= $body_class . ' ';
 
-	$body_classes .= $blogname;
+	// $body_classes .= $blogname; // Does not work with WordPress 4.2.2 any more
+ 	$body_classes .= substr(get_bloginfo( 'language' ), 0, 2);
 
 	body_class( $body_classes );
 

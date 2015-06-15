@@ -3,8 +3,8 @@ Contributors: artstorm
 Donate link: http://johansteen.se/donate/
 Tags: post, admin, snippet, shortcode, html, custom, page, dynamic, editor, php, code
 Requires at least: 3.3
-Tested up to: 3.6
-Stable tag: 2.3.2
+Tested up to: 4.1
+Stable tag: 2.3.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,10 +13,10 @@ can be set for more flexibility. Inserts directly or as shortcodes.
 
 == Description ==
 
-This plugin lets you build a library with snippets of HTML, PHP code or 
+This plugin lets you build a library with snippets of HTML, PHP code or
 reoccurring text that you often use in your posts and pages. You can use
 predefined variables to replace parts of the snippet on insert. All snippets are
-available in the post editor via a button in the Visual and HTML modes. The 
+available in the post editor via a button in the Visual and HTML modes. The
 snippet can be inserted as defined, or as a shortcode to keep flexibility for
 updating the snippet. PHP code is supported for snippets inserted as shortcodes.
 
@@ -34,7 +34,7 @@ updating the snippet. PHP code is supported for snippets inserted as shortcodes.
   which can be used on insert.
 * **Import/Export** Snippets can be imported and exported between sites.
 * **Uninstall** If you delete the plugin from your plugins panel it cleans up
-  all data it has created in the Wordpress database. 
+  all data it has created in the Wordpress database.
 
 = Related Links =
 
@@ -62,7 +62,7 @@ updating the snippet. PHP code is supported for snippets inserted as shortcodes.
 = Uninstall =
 
 1. Deactivate Post Snippets in the 'Plugins' menu in Wordpress.
-2. Select Post Snippets in the 'Recently Active Plugins' section and select 
+2. Select Post Snippets in the 'Recently Active Plugins' section and select
    'Delete' from the 'Bulk Actions' drop down menu.
 3. This will delete all the plugin files from the server as well as erasing all
    options the plugin has stored in the database.
@@ -76,7 +76,7 @@ Settings -> Upload Settings -> Upload file types.
 
 = How can I use the content in an enclosed shortcode? =
 
-If the shortcode is enclosed and contains content between the tags in a post. 
+If the shortcode is enclosed and contains content between the tags in a post.
 Example: `[shortcode]Some text[/shortcode]` the text within will be availble in
 a variable called content. So in your snippet use {content} to display it. Don't
 enter 'content' in the variable field, it's automatically assigned.
@@ -91,13 +91,13 @@ Please create an issue that conforms with
 
 = Where can I get support? =
 
-Please visit the [Support Forum](http://wordpress.org/tags/post-snippets?forum_id=10 "Use this for support and feature requests") 
+Please visit the [Support Forum](http://wordpress.org/tags/post-snippets?forum_id=10 "Use this for support and feature requests")
 for questions, answers, support and feature requests.
 
 = How can I disable the PHP Code Execution feature? =
 
 ﻿To disable the "PHP Code" execution feature in this plugin, add the following
-code your theme's functions.php or to wp-config.php:  
+code your theme's functions.php or to wp-config.php:
 `define('POST_SNIPPETS_DISABLE_PHP', true);`
 
 This is useful if you are using this plugin for client sites, and don't want
@@ -121,6 +121,22 @@ Contributions are appreciated and encouraged.
 
 == Changelog ==
 
+= Version 2.3.5 - 18 Jan 2015 =
+ * Adds new developer filter, `post_snippets_snippets_list`.
+ * Integrates plugin doc to the post editor help tab.
+ * Adds complete plugin usage documentation to the settings help tab.
+
+= Version 2.3.4 - 20 Sep 2014 =
+ * Tested up to WordPress v4.0.
+ * Update Swedish translation.
+ * Add Ukrainian translation.
+
+= Version 2.3.3 - 12 Apr 2014 =
+ * Updates Post Snippets admin screen to not let Chrome XSS Auditor preventing
+   snippets containg form elements to be saved.
+ * Adds Serbo-Croatian translation.
+ * Updated Polish translation.
+
 = Version 2.3.2 - 5 Aug 2013 =
  * Updates insert snippets into the editor to be compatible with jQuery 1.9+
    (which makes it compatible with WordPress 3.6).
@@ -137,8 +153,8 @@ Contributions are appreciated and encouraged.
    [issue #22](https://github.com/artstorm/post-snippets/issues/22).
  * Removes `get_post_snippet()` which was deprecated in version 2.1.
  * Adds POST_SNIPPETS_DISABLE_PHP constant to easy disable the PHP code
-   execution in snippets. Add  
-   `define('POST_SNIPPETS_DISABLE_PHP', true);`  
+   execution in snippets. Add
+   `define('POST_SNIPPETS_DISABLE_PHP', true);`
    to wp-config.php or the theme's functions.php to disable PHP execution in the
    plugin.
 
@@ -151,8 +167,8 @@ Contributions are appreciated and encouraged.
 
 = Version 2.2.1 - 1 May 2013 =
  * Added an option to give users with `edit_posts` capability access to the
-   Post Snippets Admin. Add  
-   `define('POST_SNIPPETS_ALLOW_EDIT_POSTS', true);`  
+   Post Snippets Admin. Add
+   `define('POST_SNIPPETS_ALLOW_EDIT_POSTS', true);`
    to wp-config.php to enable access for those users. Fixes
    [issue #12](https://github.com/artstorm/post-snippets/issues/12).
  * Optimizes code for the admin section.
@@ -180,7 +196,7 @@ Contributions are appreciated and encouraged.
    function. `get_post_snippet()` will be removed in a future version. Most
    users are not affected by this change.
  * Refactored code to comply with the PSR-0 standard.
- * Migrated to GitHub to maintain the code in development. 
+ * Migrated to GitHub to maintain the code in development.
    [Post Snippets at GitHub](https://github.com/artstorm/post-snippets).
  * Included Polish translation (pl_PL) by Tomasz Wesołowski.
  * Included Slovak translation (sk_SK) by Branco Radenovich.
@@ -195,7 +211,7 @@ Contributions are appreciated and encouraged.
 = Version 1.9.7 - 22 Mar 2012 =
  * Updated the styling for the snippet insert window in the post editor. This
    fixes the visual glitch with tabs spanning multiple rows.
- * Users without `manage_options` but with `edit_posts` capability (authors, 
+ * Users without `manage_options` but with `edit_posts` capability (authors,
    contributors, editors) can now see a read-only list of available snippets and
    related info.
  * Users with read-only access can toggle if they want to see their snippets
@@ -208,7 +224,7 @@ Contributions are appreciated and encouraged.
    [Read more](http://wpstorm.net/wordpress-plugins/post-snippets/#filters).
 
 = Version 1.9.5 - 17 Mar 2012 =
- * The HTML and scripts for the popup window in the post editor is now only 
+ * The HTML and scripts for the popup window in the post editor is now only
    generated on the screens where it's needed.
 
 = Version 1.9.4 - 8 Feb 2012 =
@@ -222,7 +238,7 @@ Contributions are appreciated and encouraged.
  * A variable can now be assigned a default value that will be used in the
    insert window. Use the = sign to give a variable a default value. Ie.
    var1,var2=default,var3.
- * Added versioning to the admin jQuery dialog CSS and the TinyMCE plugin 
+ * Added versioning to the admin jQuery dialog CSS and the TinyMCE plugin
    JavaScript to prevent browser caching of older versions on update.
 
 = Version 1.9.1 - 22 Jan 2012 =
@@ -240,7 +256,7 @@ Contributions are appreciated and encouraged.
 
 = Version 1.8.9.1 - 11 Jan 2012 =
  * A bug fixed with get_post_snippets() that were introduced in the last update.
- * Unit test for get_post_snippets() added to automate testing that it won't 
+ * Unit test for get_post_snippets() added to automate testing that it won't
    break in future updates.
 
 = Version 1.8.9 - 10 Jan 2012 =
@@ -263,7 +279,7 @@ Contributions are appreciated and encouraged.
    3.3.
 
 = Version 1.8.6 - 15 Dec 2011 =
- * The Post Snippets HTML editor button is updated to be compatible with 
+ * The Post Snippets HTML editor button is updated to be compatible with
    WordPress 3.3 refactored QuickTags.
 
 = Version 1.8.5 - 22 Nov 2011 =
@@ -332,13 +348,13 @@ Contributions are appreciated and encouraged.
 
 = Version 1.5.4 - 26 Jan 2011 =
  * Included Turkish translation by Ersan Özdil.
- 
+
 = Version 1.5.3 - 19 Sep 2010 =
  * Included Spanish translation by Melvis E. Leon Lopez.
 
 = Version 1.5.2 - 17 Sep 2010 =
  * The plugin now keeps linefeed formatting when inserting a snippet directly
-   with a quicktag in the HTML editor. 
+   with a quicktag in the HTML editor.
  * Updated the code to not generate warnings when running WordPress in debug
    mode.
 
@@ -354,12 +370,12 @@ Contributions are appreciated and encouraged.
 
 = Version 1.4.9 - 10 Aug 2009 =
  * Included Russian translation by FatCow.
- 
+
 = Version 1.4.8 - 9 May 2009 =
  * Changed the handling of the TinyMCE button as some server configurations had
    problems finding the correct path.
  * Fixed a problem that didn't let a snippet contain a </script> tag.
- 
+
 = Version 1.4.7 - 27 Apr 2009 =
  * Added a workaround for a bug in WordPress 2.7.x wp-includes/compat.php that
    prevented the plugin to work correctly on webservers running with PHP below
@@ -383,7 +399,7 @@ Contributions are appreciated and encouraged.
 = Version 1.4.4 - 19 Apr 2009 =
  * Minor fix with quicktags and certain snippets that was left out in the last
    update.
- 
+
 = Version 1.4.3 - 16 Apr 2009 =
  * Fixed an escaping problem with the recently implemented shortcode function,
    that could cause problems on certain strings.
@@ -407,13 +423,13 @@ Contributions are appreciated and encouraged.
  * Added a checkbox for Quicktags (QT) in the admin panel, so Quicktags are
    optional. Speeds up loading of the post editor if you don't need the quicktag
    support, and only use the visual editor. Defaults to off.
- 
+
 = Version 1.3.5 - 9 Apr 2009 =
  * Fixed so the TinyMCE window adds a scrollbar if there is more variables for a
    snippet than fits in the window.
  * Fixed a bug that snippets didn't get inserted when using the visual editor in
    fullscreen mode.
- 
+
 = Version 1.3 - 2 Apr 2009 =
  * Fixed a problem with the regular expressions that prohibited variables
    consisting of just a single number to work.
@@ -423,7 +439,7 @@ Contributions are appreciated and encouraged.
 = Version 1.2 - 1 Apr 2009 =
  * Added support for Quicktags so the snippets can be made available in the HTML
    editor as well.
- 
+
 = Version 1.1 - 24 Mar 2009 =
  * Included Swedish translation.
  * Added TextDomain functionality for I18n.
@@ -440,8 +456,8 @@ required to run Post Snippets.
 = 2.1 =
 The function `get_post_snippet()` used to retrieve snippets from other places in
 WordPress has been deprecated. Please update any code you might have modified
-that uses this function to use `PostSnippets::getSnippet()` instead, which 
-replaces the old function. `get_post_snippet()` will be removed in a future 
+that uses this function to use `PostSnippets::getSnippet()` instead, which
+replaces the old function. `get_post_snippet()` will be removed in a future
 version.
 
 Most users are not affected by this change.

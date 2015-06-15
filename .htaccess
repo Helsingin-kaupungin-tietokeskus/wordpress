@@ -1,4 +1,5 @@
 RewriteEngine On
+RewriteRule ^((fi/|en/|sv/)?(packages|package|dataset|resource|related|revision|licenses|rating|ckan-admin|user|login_generic|harvest|activity|dashboard|api|storage|feeds|fanstatic|images|base|organization|group|multiedit)(.*))$ http://ckan.hri.fi/$1  [L,P]
 RewriteBase /
 
 RedirectMatch permanent ^/$ /fi/

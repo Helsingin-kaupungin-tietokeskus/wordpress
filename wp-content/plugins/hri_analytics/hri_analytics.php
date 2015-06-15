@@ -303,10 +303,9 @@ class hri_analytics
 
     	    $post_id = 0;
             $post_arr = $wpdb->get_results("
-                SELECT post.id from wp_posts post 
-                JOIN wp_postmeta meta on post.ID = meta.post_id 
-                WHERE meta.meta_key = 'ckan_url'
-                AND post.post_name = '{$page_name}' OR meta.meta_value LIKE '%{$page_name}'
+                SELECT post.id FROM wp_posts post 
+                JOIN wp_postmeta meta ON post.ID = meta.post_id AND meta.meta_key = 'ckan_url'
+                WHERE post.post_name = '{$page_name}' OR meta.meta_value LIKE '%{$page_name}'
                 AND post.post_type = 'data' 
                 AND post.post_status = 'publish';
             ");
@@ -605,10 +604,9 @@ class hri_analytics
     	    
     	    $post_id = 0;
             $post_arr = $wpdb->get_results("
-                SELECT post.id from wp_posts post 
-                JOIN wp_postmeta meta on post.ID = meta.post_id 
-                WHERE meta.meta_key = 'ckan_url'
-                AND post.post_name = '{$page_name}' OR meta.meta_value LIKE '%{$page_name}'
+                SELECT post.id FROM wp_posts post 
+                JOIN wp_postmeta meta ON post.ID = meta.post_id AND meta.meta_key = 'ckan_url'
+                WHERE post.post_name = '{$page_name}' OR meta.meta_value LIKE '%{$page_name}'
                 AND post.post_type = 'data' 
                 AND post.post_status = 'publish';
             ");

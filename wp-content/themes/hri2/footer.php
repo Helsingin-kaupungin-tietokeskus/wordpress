@@ -47,7 +47,7 @@
 
 				if( ORIGINAL_BLOG_ID != 3 && ORIGINAL_BLOG_ID != 4 ) {
 
-					?><li><a href="<?php echo home_url() . '/' . HRI_LANG; ?>/uutiskirje" class="a-email"><?php _e('Uutiskirje', 'hri'); ?></a></li><?php
+					?><li><a href="<?php echo home_url(); ?>/uutiskirje" class="a-email"><?php _e('Uutiskirje', 'hri'); ?></a></li><?php
 
 				}
 

@@ -91,7 +91,10 @@ get_header(); ?>
 
 	<p><?php
 
-		if( isset( $failed ) ) _e('Jokin epäonnistui.','hri');
+		if( isset( $failed ) ) { 
+			_e('Jokin epäonnistui.','hri');
+			echo "<br><br>Debug data: <br>" . $_POST['comment_ID'] . "<br>" . $email . "<br>" . $reporttext . "<br>mailed: " . absint($mailed);
+		}
 		if( isset( $_GET['success'] ) ) _e('Ilmoitus lähetetty ylläpitäjille.','hri');
 
 	?></p>

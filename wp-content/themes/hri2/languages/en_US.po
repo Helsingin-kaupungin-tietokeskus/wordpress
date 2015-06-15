@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: HRI 2 v2.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-09-12 22:49+0200\n"
-"PO-Revision-Date: 2014-12-16 08:42:05+0000\n"
+"PO-Revision-Date: 2015-06-04 06:38:49+0000\n"
 "Last-Translator: Timo Sillander <timo.sillander@joynery.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -43,11 +43,12 @@ msgid "%s kommenttia"
 msgstr "%s comments"
 
 #: archive.php:90
-#: functions-secondary.php:1147
+#: functions-secondary.php:1167
 #: page-avaadataa.php:104
 #: page-avaadataa.php:240
 #: page-sovelladataa.php:231
 #: page-sovelladataa.php:268
+#: single-discussion.php:85
 #@ hri
 msgid "Lue lisää"
 msgstr "Read more"
@@ -61,12 +62,12 @@ msgstr "Reply"
 #: comments-ratings.php:38
 #: comments.php:31
 #: page-new-app-idea.php:170
-#: page-new-app.php:244
+#: page-new-app.php:255
 #: page-new-data-request.php:134
 #: page-new-discussion.php:185
-#: single-data.php:165
-#: single-data.php:168
-#: single-data.php:424
+#: single-data.php:181
+#: single-data.php:184
+#: single-data.php:440
 #@ hri
 msgid "Nimi"
 msgstr "Name"
@@ -77,11 +78,11 @@ msgstr "Name"
 #: functions-secondary.php:554
 #: functions.php:290
 #: page-new-app-idea.php:177
-#: page-new-app.php:250
+#: page-new-app.php:261
 #: page-new-data-request.php:142
 #: page-new-discussion.php:193
-#: single-data.php:171
-#: single-data.php:177
+#: single-data.php:187
+#: single-data.php:193
 #@ hri
 msgid "Sähköposti"
 msgstr "Email"
@@ -104,8 +105,8 @@ msgid "Kommentoi"
 msgstr "Comment"
 
 #: comments-ratings.php:44
-#: single-data.php:156
-#: single-data.php:159
+#: single-data.php:172
+#: single-data.php:175
 #@ hri
 msgid "Kommentti"
 msgstr "Comment"
@@ -116,13 +117,13 @@ msgid "Sähköpostiasi ei julkaista. Vaaditut kentät ovat merkitty *-merkillä.
 msgstr "Your email will not be published. Required fields are marked with *"
 
 #: comments-ratings.php:63
-#: single-data.php:124
+#: single-data.php:140
 #@ hri
 msgid "Lisää myös arvostelu"
 msgstr "Add a rating"
 
 #: comments-ratings.php:64
-#: single-data.php:125
+#: single-data.php:141
 #@ hri
 msgid "Avaa"
 msgstr "Open"
@@ -168,17 +169,17 @@ msgid "Antamiesi arvosanojen keskiarvo"
 msgstr "Overall based on your ratings"
 
 #: comments.php:12
-#: page-search-data.php:821
 #@ hri
 msgid "Kommentit"
 msgstr "Comments"
 
-#: front-page.php:305
+#: front-page.php:380
 #@ hri
 msgid "Hae dataa..."
 msgstr "Search data…"
 
 #: front-page.php:110
+#: front-page.php:177
 #, php-format
 #@ hri
 msgid "Lue artikkeli %s"
@@ -204,17 +205,12 @@ msgstr "More applications"
 msgid "Joitakin oikeuksia pidätetään."
 msgstr "Some rights reserved."
 
-#: footer.php:36
+#: footer.php:44
 #@ hri
 msgid "Seuraa HRI:tä"
 msgstr "Follow HRI"
 
-#: footer.php:47
-#@ hri
-msgid "Sähköpostilista"
-msgstr "Subscribe to emails"
-
-#: footer.php:53
+#: footer.php:56
 #@ hri
 msgid "RSS-syötteet"
 msgstr "RSS feeds"
@@ -306,9 +302,9 @@ msgstr "No matches found"
 #: functions-secondary.php:217
 #: functions-secondary.php:223
 #: functions-secondary.php:227
-#: single-data.php:156
-#: single-data.php:165
-#: single-data.php:171
+#: single-data.php:172
+#: single-data.php:181
+#: single-data.php:187
 #@ hri
 msgid "Täytä kenttä"
 msgstr "Fill in the field"
@@ -318,122 +314,122 @@ msgstr "Fill in the field"
 msgid "sitten"
 msgstr "ago"
 
-#: functions-secondary.php:736
+#: functions-secondary.php:758
 #@ hri
 msgid "<span class=\"meta-nav\">&larr;</span> Vanhemmat kommentit"
 msgstr "<span class=\"meta-nav\">&larr;</span> Older comments"
 
-#: functions-secondary.php:737
+#: functions-secondary.php:759
 #@ hri
 msgid "Uudemmat kommentit <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Newer comments <span class=\"meta-nav\">&rarr;</span>"
 
-#: functions-secondary.php:767
-#: functions-secondary.php:843
+#: functions-secondary.php:789
+#: functions-secondary.php:865
 #@ hri
 msgid "Kommenttisi odottaa hyväksyntää."
 msgstr "Your comment is waiting for moderation."
 
-#: functions-secondary.php:775
-#: functions-secondary.php:851
+#: functions-secondary.php:797
+#: functions-secondary.php:873
 #@ hri
 msgid "Muokkaa"
 msgstr "Edit"
 
-#: functions-secondary.php:782
-#: functions-secondary.php:856
+#: functions-secondary.php:804
+#: functions-secondary.php:878
 #@ hri
 msgid "Ilmoita asiaton kommentti"
 msgstr "Report "
 
-#: functions-secondary.php:957
+#: functions-secondary.php:977
 #@ hri
 msgid "Kirjoittaja"
 msgstr "Author"
 
-#: functions-secondary.php:1105
+#: functions-secondary.php:1125
 #@ hri
 msgid "Ilmoita epäasiallinen sisältö"
 msgstr "Report inappropriate content"
 
-#: functions-secondary.php:1105
+#: functions-secondary.php:1125
 #@ hri
 msgid "Kerro, miksi tämä sisältö pitäisi mielestäsi poistaa."
 msgstr "Tell us why you think this content should be removed."
 
-#: functions-secondary.php:1105
-#: single-data.php:426
+#: functions-secondary.php:1125
+#: single-data.php:442
 #@ hri
 msgid "Sähköpostiosoitteesi"
 msgstr "Your email"
 
-#: functions-secondary.php:1105
+#: functions-secondary.php:1125
 #: functions.php:301
 #: page-new-app-idea.php:195
-#: page-new-app.php:266
+#: page-new-app.php:277
 #: page-new-data-request.php:156
 #: page-new-discussion.php:226
-#: single-data.php:435
+#: single-data.php:451
 #@ hri
 msgid "Lähetä"
 msgstr "Send"
 
-#: functions-secondary.php:1116
+#: functions-secondary.php:1136
 #@ hri
 msgid "Ilmoita tämä kommentti"
 msgstr "Report this comment"
 
-#: functions-secondary.php:1125
+#: functions-secondary.php:1145
 #@ hri
 msgid "Peruuta"
 msgstr "Cancel"
 
-#: functions-secondary.php:1198
+#: functions-secondary.php:1218
 #@ hri
 msgid "Virhe: Tyhjä tiedosto"
 msgstr "Error: empty file"
 
-#: functions-secondary.php:1199
+#: functions-secondary.php:1219
 #@ hri
 msgid "Virhe: Suurin sallittu koko ylittyi"
 msgstr "Error: max file size exceeded"
 
-#: functions-secondary.php:1200
+#: functions-secondary.php:1220
 #@ hri
 msgid "Virhe: Tiedoston prosessointi epäonnistui"
 msgstr "Error: file processing failed"
 
-#: functions-secondary.php:1201
+#: functions-secondary.php:1221
 #@ hri
 msgid "Kaikki kuvat vastaanotettu."
 msgstr "All images received"
 
-#: functions-secondary.php:1202
+#: functions-secondary.php:1222
 #@ hri
 msgid "Artikkelikuva"
 msgstr "Featured image"
 
-#: functions-secondary.php:1203
+#: functions-secondary.php:1223
 #@ hri
 msgid "Poista"
 msgstr "Delete"
 
-#: functions-secondary.php:1232
+#: functions-secondary.php:1252
 #@ hri
 msgid "Valitse kuvat"
 msgstr "Select images"
 
-#: functions-secondary.php:1267
+#: functions-secondary.php:1287
 #@ hri
 msgid "Kirjauduttu sisään käyttäjänä"
 msgstr "Logged in as"
 
-#: functions-secondary.php:1269
+#: functions-secondary.php:1289
 #@ hri
 msgid "Kirjaudu ulos?"
 msgstr "Log out?"
 
-#: functions-secondary.php:1289
+#: functions-secondary.php:1309
 #@ hri
 msgid "Siiry viimeiseen kommenttiin."
 msgstr "Move to the latest comment."
@@ -480,7 +476,7 @@ msgstr "Email notification on new comments: subscribe or unsubscribe"
 
 #: functions.php:288
 #: page-app-gallery.php:151
-#: single-data.php:130
+#: single-data.php:146
 #@ hri
 msgid "Sulje"
 msgstr "Close"
@@ -521,7 +517,6 @@ msgid "Kategoriat"
 msgstr "Categories"
 
 #: page-avaadataa.php:135
-#: page-search-data.php:822
 #@ hri
 msgid "Keskustelut"
 msgstr "Discussions"
@@ -555,43 +550,43 @@ msgstr "Author"
 msgid "Hae sovelluksia"
 msgstr "Search applications"
 
-#: page-app-gallery.php:407
+#: page-app-gallery.php:414
 #@ hri
 msgid "Sovellusgalleria"
 msgstr "Application gallery"
 
-#: page-app-gallery.php:410
+#: page-app-gallery.php:417
 #@ hri
 msgid "Järjestä"
 msgstr "Order by"
 
-#: page-app-gallery.php:411
-#: page-app-gallery.php:414
+#: page-app-gallery.php:418
+#: page-app-gallery.php:421
 #@ hri
 msgid "Julkaisuajan mukaan"
 msgstr "Date published"
 
-#: page-app-gallery.php:415
+#: page-app-gallery.php:422
 #@ hri
 msgid "Nimen mukaan"
 msgstr "Name"
 
-#: page-app-gallery.php:434
+#: page-app-gallery.php:441
 #@ hri
 msgid "Ilmoita oma sovelluksesi"
 msgstr "Submit your application"
 
-#: page-app-gallery.php:437
+#: page-app-gallery.php:445
 #@ hri
 msgid "Sovellusideat"
 msgstr "Application ideas"
 
-#: page-app-gallery.php:463
+#: page-app-gallery.php:471
 #@ hri
 msgid "Näytä kaikki sovellusideat"
 msgstr "Show all application ideas"
 
-#: page-app-gallery.php:464
+#: page-app-gallery.php:472
 #@ hri
 msgid "Onko sinulla idea sovelluksesta?"
 msgstr "Do you have an idea for an application?"
@@ -623,7 +618,6 @@ msgid "Aloita uusi keskustelu"
 msgstr "New discussion"
 
 #: page-discussions.php:174
-#: page-search-data.php:759
 #: page-search.php:107
 #@ hri
 msgid "Syötä hakusanat..."
@@ -635,7 +629,6 @@ msgid "Liittyvä data"
 msgstr "Related data"
 
 #: page-discussions.php:238
-#: page-search-data.php:818
 #: page-search.php:124
 #@ hri
 msgid "Otsikko"
@@ -711,8 +704,8 @@ msgid "Kuvaile ideaasi mahdollisimman informatiivisesti."
 msgstr "Describe your idea as informatively as possible."
 
 #: page-new-app-idea.php:145
-#: page-new-app.php:207
-#: page-new-app.php:212
+#: page-new-app.php:218
+#: page-new-app.php:223
 #: page-new-discussion.php:201
 #@ twentyten
 #@ hri
@@ -738,7 +731,7 @@ msgid "Etsi datan otsikolla. Voit liittää keskustelun useisiin data-aineistoih
 msgstr "Search by dataset title. You can link this discussion to multiple datasets by performing consecutive searches."
 
 #: page-new-app-idea.php:167
-#: page-new-app.php:241
+#: page-new-app.php:252
 #@ hri
 msgid "Omat tietosi"
 msgstr "Your details"
@@ -750,7 +743,7 @@ msgid "Nimesi julkaistaan keskustelunavauksen yhteydessä."
 msgstr "Your name will be published with your message."
 
 #: page-new-app-idea.php:180
-#: page-new-app.php:253
+#: page-new-app.php:264
 #: page-new-data-request.php:145
 #: page-new-discussion.php:196
 #@ hri
@@ -758,7 +751,7 @@ msgid "Sähköpostiosoitettasi ei julkaista."
 msgstr "Your email will not be published."
 
 #: page-new-app-idea.php:185
-#: page-new-app.php:259
+#: page-new-app.php:270
 #@ hri
 msgid "Muuta / Terveisesi HRI-ylläpidolle"
 msgstr "Other / Your message to HRI maintenance"
@@ -783,66 +776,65 @@ msgstr "New application submitted"
 msgid "Kaikki sovellukset"
 msgstr "All applications"
 
-#: front-page.php:147
-#: page-new-app.php:178
+#: front-page.php:200
+#: page-new-app.php:189
 #@ hri
 msgid "Ilmoita uusi sovellus"
 msgstr "Submit new application"
 
-#: page-new-app.php:184
+#: page-new-app.php:195
 #@ hri
 msgid "Sovelluksen nimi"
 msgstr "Application title"
 
-#: page-new-app.php:189
+#: page-new-app.php:200
 #@ hri
 msgid "Sovelluksen kuvaus"
 msgstr "Application description"
 
-#: page-new-app.php:192
+#: page-new-app.php:203
 #@ hri
 msgid "Kuvaile ideaasi mahdollisimman informatiivisesti. Pidäthän kuvauksen lyhyenä."
 msgstr "Describe your application as informatively as possible. Keep it short."
 
-#: page-new-app.php:200
+#: page-new-app.php:211
 #@ hri
 msgid "Hyväksytyt tiedosto tyypit: jpg, gif, png. Suurin sallittu koko 1 Mt. Kansikuva leikataan automaattisesti neliön muotoiseksi."
 msgstr "Valid file types: jpg, gif, png. Max size 1 M. Featured image will be cropped to square automatically."
 
-#: page-new-app.php:204
+#: page-new-app.php:215
 #: single-application.php:152
 #@ hri
 msgid "Sovelluksen www-osoite"
 msgstr "Application URL"
 
-#: page-new-app.php:208
+#: page-new-app.php:219
 #@ hri
 msgid "Liittyykö sovellus dataan?"
 msgstr "Is the application related to data?"
 
-#: page-new-app.php:223
+#: page-new-app.php:234
 #@ hri
 msgid "Etsi datan otsikolla. Voit liittää sovelluksen useisiin data-aineistoihin tekemällä useita hakuja."
 msgstr "Search data by title. You can link your application to multiple datasets by performing consecutive searches."
 
-#: page-new-app.php:226
-#: page-search-data.php:801
-#: single-data.php:419
+#: page-new-app.php:237
+#: single-data.php:435
 #@ hri
 msgid "Ylläpitäjä"
 msgstr "Publisher"
 
-#: page-new-app.php:228
+#: page-new-app.php:239
 #@ hri
 msgid "Sovelluksen ylläpitäjä"
 msgstr "Application developer"
 
-#: page-new-app.php:232
+#: page-new-app.php:243
 #@ hri
 msgid "Sovelluksen ylläpitäjän www-osoite"
 msgstr "Application developer URL"
 
-#: page-new-app.php:262
+#: page-new-app.php:273
 #@ hri
 msgid "Muuta sovellukseen liittyvää tietoa tai erityisohjeita julkaisuun liittyen."
 msgstr "Other information related to the application or special instructions on the publication of this information."
@@ -869,7 +861,7 @@ msgstr "Submit new data request"
 
 #: page-new-data-request.php:121
 #: page-new-discussion.php:171
-#: single-data.php:428
+#: single-data.php:444
 #@ hri
 msgid "Aihe"
 msgstr "Subject"
@@ -902,7 +894,7 @@ msgstr "Click here:"
 
 #: page-avaadataa.php:200
 #: page-new-discussion.php:143
-#: single-discussion.php:34
+#: single-discussion.php:35
 #@ hri
 msgid "Kaikki keskustelut"
 msgstr "All discussions"
@@ -927,77 +919,26 @@ msgstr "Something went wrong"
 msgid "Ilmoitus lähetetty ylläpitäjille."
 msgstr "Message sent to maintenance."
 
-#: page-search-data.php:116
-#: page-search-data.php:524
-#: single-data.php:525
+#: single-data.php:541
 #@ hri
 msgid "Muuta"
 msgstr "Other"
 
-#: page-search-data.php:178
-#: page-search-data.php:183
-#@ hri
-msgid "Toivo uutta dataa"
-msgstr "Request new data"
-
-#: page-search-data.php:528
-#: page-search-data.php:606
-#: page-search-data.php:778
-#: page-search-data.php:786
-#: page-search-data.php:794
-#: page-search-data.php:802
-#@ hri
-msgid "Ei suodatusta"
-msgstr "No filter"
-
-#: page-search-data.php:752
 #: sidebar-data.php:26
 #@ hri
 msgid "Hae dataa"
 msgstr "Search data"
 
-#: page-search-data.php:756
-#@ hri
-msgid "Tyhjennä kaikki hakukriteerit"
-msgstr "Reset all search terms"
-
-#: page-search-data.php:772
 #: sidebar-data.php:182
 #: single-application.php:119
 #@ hri
 msgid "Avainsanat"
 msgstr "Tags"
 
-#: page-search-data.php:777
-#@ hri
-msgid "Alue"
-msgstr "Area"
-
-#: page-search-data.php:785
-#@ hri
-msgid "Kategoria"
-msgstr "Category"
-
-#: page-search-data.php:793
-#@ hri
-msgid "Tiedostomuoto"
-msgstr "File format"
-
-#: page-search-data.php:819
 #: page-search.php:125
 #@ hri
 msgid "Päivämäärä"
 msgstr "Date"
-
-#: page-search-data.php:820
-#@ hri
-msgid "Arvosana"
-msgstr "Rating"
-
-#: page-search-data.php:823
-#@ hri
-msgid "Viimeisin sovellus"
-msgstr "Latest application"
 
 #: page-search.php:102
 #: searchform.php:26
@@ -1072,6 +1013,7 @@ msgstr "Subscribe to comments successful"
 msgid "Tilaus peruttu"
 msgstr "Unsubscribe successful"
 
+#: footer.php:23
 #: searchform.php:8
 #@ hri
 msgid "Hae sivustolta..."
@@ -1098,169 +1040,169 @@ msgstr "Developer URL"
 msgid "Lisää sovelluksia tekijältä %s"
 msgstr "More applications by %s"
 
-#: single-data.php:129
+#: single-data.php:145
 #@ hri
 msgid "Arvostele"
 msgstr "Rate"
 
-#: single-data.php:177
+#: single-data.php:193
 #@ hri
 msgid "Anna kunnollinen sähköpostiosoite"
 msgstr "Please give a proper email"
 
-#: single-data.php:180
+#: single-data.php:196
 #@ hri
 msgid "Sähköpostiosoite"
 msgstr "Email"
 
-#: single-data.php:217
+#: single-data.php:233
 #@ hri
 msgid "Aloita uusi keskustelu tästä datasta"
 msgstr "New discussion on this data"
 
-#: single-data.php:218
+#: single-data.php:234
 #@ hri
 msgid "Ilmoita uusi sovellus tästä datasta"
 msgstr "New application based on this data"
 
-#: single-data.php:234
+#: single-data.php:250
 #@ hri
 msgid "Ladattavat tiedostot ja linkit"
 msgstr "Downloads and links"
 
-#: single-data.php:368
+#: single-data.php:384
 #@ hri
 msgid "Lataa"
 msgstr "Download"
 
-#: single-data.php:414
+#: single-data.php:430
 #@ hri
 msgid "Lisätiedot"
 msgstr "Additional information"
 
-#: single-data.php:419
+#: single-data.php:435
 #, php-format
 #@ hri
 msgid "Kaikki datat ylläpitäjältä %s"
 msgstr "All data from %s"
 
-#: single-data.php:419
+#: single-data.php:435
 #@ hri
 msgid "Ota yhteyttä ylläpitäjään"
 msgstr "Contact data publisher"
 
-#: single-data.php:430
+#: single-data.php:446
 #@ hri
 msgid "Viesti"
 msgstr "Message"
 
-#: single-data.php:443
+#: single-data.php:459
 #@ hri
 msgid "Viesti lähetty ylläpitäjälle."
 msgstr "Message sent to publisher."
 
-#: single-data.php:449
+#: single-data.php:465
 #@ hri
 msgid "Viestin lähetys ei onnistunut."
 msgstr "Message sending failed."
 
-#: single-data.php:456
+#: single-data.php:472
 #@ hri
 msgid "Luotu"
 msgstr "Created"
 
-#: single-data.php:457
+#: single-data.php:473
 #@ hri
 msgid "Muokattu"
 msgstr "Modified"
 
-#: single-data.php:459
+#: single-data.php:475
 #@ hri
 msgid "Lisenssi"
 msgstr "Licence"
 
-#: single-data.php:471
+#: single-data.php:487
 #@ hri
 msgid "Ylläpitäjän www-sivu"
 msgstr "Publisher URL"
 
-#: single-data.php:515
+#: single-data.php:531
 #@ hri
 msgid "Virasto"
 msgstr "Bureau"
 
-#: single-data.php:516
+#: single-data.php:532
 #@ hri
 msgid "\tViraston osasto"
 msgstr "\tBureau division"
 
-#: single-data.php:517
+#: single-data.php:533
 #@ hri
 msgid "Maantieteellinen alue"
 msgstr "Geographic area"
 
-#: single-data.php:518
+#: single-data.php:534
 #@ hri
 msgid "Maantieteellinen tarkkuus"
 msgstr "Geographic granularity"
 
-#: single-data.php:519
+#: single-data.php:535
 #@ hri
 msgid "Lähde"
 msgstr "Source"
 
-#: single-data.php:520
+#: single-data.php:536
 #@ hri
 msgid "Päivitysväli"
 msgstr "Update interval"
 
-#: single-data.php:521
+#: single-data.php:537
 #@ hri
 msgid "Aikajakson tarkkuus"
 msgstr "Temporal granularity"
 
-#: single-data.php:522
+#: single-data.php:538
 #@ hri
 msgid "Aikasarja alkaa"
 msgstr "Time series start"
 
-#: single-data.php:523
+#: single-data.php:539
 #@ hri
 msgid "Aikasarjan alku"
 msgstr "Time series start"
 
-#: single-data.php:524
+#: single-data.php:540
 #@ hri
 msgid "Aikasarjan loppu"
 msgstr "Time series end"
 
-#: single-data.php:531
+#: single-data.php:547
 #@ hri
 msgid "Ulkoinen linkki"
 msgstr "External link"
 
-#: single-discussion.php:33
+#: single-discussion.php:34
 #@ hri
 msgid "keskustelut"
 msgstr "discussions"
 
-#: single-discussion.php:33
+#: single-discussion.php:34
 #@ hri
 msgid "Takaisin keskusteluihin"
 msgstr "Back to discussions"
 
-#: single-discussion.php:40
+#: single-discussion.php:45
 #@ hri
 msgid "Uusi keskustelu"
 msgstr "New discussion"
 
 #: single-application-idea.php:37
-#: single-discussion.php:58
+#: single-discussion.php:68
 #@ hri
 msgid "Liittyvää dataa"
 msgstr "Related data"
 
-#: single-discussion.php:97
+#: single-discussion.php:121
 #@ hri
 msgid "Liittyvät sovellukset"
 msgstr "Related applications"
@@ -1272,47 +1214,42 @@ msgstr "Related applications"
 msgid "Visualisointiblogi"
 msgstr ""
 
-#: front-page.php:281
+#: front-page.php:352
 #@ hri
 msgid "Avointa dataa pääkaupunkiseudulta vapaasti hyödynnettäväksesi"
 msgstr "Open data from the Helsinki Metropolitan Area for you to use freely"
 
-#: front-page.php:302
+#: front-page.php:377
 #@ hri
 msgid "HAE DATAA"
 msgstr "SEARCH DATA"
 
-#: front-page.php:312
-#@ hri
-msgid "DATA-AINEISTOA"
-msgstr "DATASETS"
-
-#: front-page.php:318
+#: front-page.php:397
 #@ hri
 msgid "TOIVO DATAA"
 msgstr "SUBMIT DATA REQUEST"
 
-#: front-page.php:319
+#: front-page.php:396
 #@ hri
 msgid "SIIRRY TARKEMPAAN DATAHAKUUN"
 msgstr "USE ADVANCED DATA SEARCH"
 
-#: front-page.php:323
+#: front-page.php:402
 #@ hri
 msgid "TAI SELAA KATEGORIOITTAIN"
 msgstr "OR SEARCH BY CATEGORY"
 
-#: front-page.php:382
+#: front-page.php:466
 #@ hri
 msgid "KATSOTUIMMAT DATAT"
 msgstr "POPULAR DATASETS"
 
-#: front-page.php:415
+#: front-page.php:499
 #@ hri
 msgid "UUSIMMAT DATAT"
 msgstr "NEWEST DATASETS"
 
-#: front-page.php:459
+#: front-page.php:545
 #@ hri
 msgid "SOVELLUKSET"
 msgstr ""
@@ -1378,34 +1315,35 @@ msgstr ""
 msgid "(Päivitetään kerran vuorokaudessa)."
 msgstr ""
 
+#: functions.php:609
 #: sidebar-data.php:237
 #@ hri
 msgid "Sovellukset tästä datasta"
 msgstr ""
 
-#: single-data.php:359
+#: single-data.php:375
 #@ hri
 msgid "Tiedoston lataukset viimeisen 30 päivän aikana."
 msgstr ""
 
-#: single-data.php:540
+#: single-data.php:556
 #, php-format
 #@ default
 msgid " ja alkuperäinen tekijä %s"
 msgstr ""
 
-#: single-data.php:548
+#: single-data.php:564
 #, php-format
 #@ default
 msgid "Lähde: %s. Aineiston ylläpitäjä on %s%s. Aineisto on ladattu %s -palvelusta %s lisenssillä %s."
 msgstr ""
 
-#: single-data.php:556
+#: single-data.php:572
 #@ default
 msgid "Lähdeviite aineistoon"
 msgstr ""
 
-#: front-page.php:445
+#: front-page.php:531
 #@ hri
 msgid "Näytä lisää dataa"
 msgstr "Show more datasets"
@@ -1510,13 +1448,13 @@ msgstr "INFORMATION"
 msgid "TIETOTEKNIIKKA"
 msgstr "INFORMATION TECHNOLOGY"
 
-#: functions.php:413
+#: functions.php:417
 #, php-format
 #@ hri
 msgid "YHTEENSÄ %s"
 msgstr "%s AVAILABLE"
 
-#: functions.php:412
+#: functions.php:416
 #, php-format
 #@ hri
 msgid "%s DATA-AINEISTOA"
@@ -1527,12 +1465,12 @@ msgstr "%s DATASETS"
 msgid "SOSIAALIPALVELUT"
 msgstr "SOCIAL SERVICES"
 
-#: front-page.php:317
+#: front-page.php:398
 #@ hri
 msgid "ILMOITA UUSI DATA"
 msgstr "SUBMIT NEW DATA"
 
-#: front-page.php:488
+#: front-page.php:577
 #@ hri
 msgid "Näytä lisää päivityksiä"
 msgstr "Show more updates"
@@ -1547,19 +1485,29 @@ msgstr "Your name shall not be publified with your data request."
 msgid "Näytä lisää artikkeleita"
 msgstr "Show more articles"
 
-#: front-page.php:139
+#: front-page.php:192
 #@ hri
 msgid "Näytä lisää sovelluksia"
 msgstr "Show more applications"
 
-#: front-page.php:217
-#: front-page.php:359
+#: front-page.php:288
+#: front-page.php:439
 #@ hri
 msgid "Näytä lisää kategorioita"
 msgstr "Show more categories"
 
-#: front-page.php:218
+#: front-page.php:289
 #@ hri
 msgid "Näytä vähemmän kategorioita"
 msgstr "Show less categories"
+
+#: footer.php:50
+#@ hri
+msgid "Uutiskirje"
+msgstr ""
+
+#: front-page.php:389
+#@ hri
+msgid "TIETOAINEISTOA"
+msgstr "DATASETS"
 

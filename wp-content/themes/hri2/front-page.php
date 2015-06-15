@@ -103,7 +103,19 @@ function produceNews($nostot) {
 				post_class( $class );
 	
 				?>>
-				<?php the_post_thumbnail( 'square' ); ?>
+				<?php // the_post_thumbnail( 'square' ); ?>
+				<?php
+				// Because users' pictures do not have a thumbnail generated, we cannot simply call the_post_thumbnail()
+				// here as it retains aspect ratio instead of resizing to given dimensions. 
+				// instead we have get go through this below process to hardcode dimensions by hand ><
+				// Consider disabling WordPress auto-cropping from Admin panel somewhere...
+				$post_thumb = get_the_post_thumbnail( $page->ID, 'square' );
+
+				$post_thumb = htmlOverwriteAttributeValue($post_thumb, 'width', 235);
+				$post_thumb = htmlOverwriteAttributeValue($post_thumb, 'height', 235);
+
+				echo $post_thumb;
+				?>
 				<div class="image-overlay"></div>
 				<div class="inner">
 					<?php if( !$thumb ) { ?><h2><?php the_title(); ?></h2><?php } ?>
@@ -386,7 +398,7 @@ if ( ORIGINAL_BLOG_ID != 4 ) { // not sv_SE
 				<div class="column no-tb data-count">
 					<center>
 						<div class="row"><font class="data-count-number"><b><?php echo getDataCount(); ?></b></font></div>
-						<font class="row data-count-text"><?php echo __('DATA-AINEISTOA', 'hri'); ?></font>
+						<font class="row data-count-text"><?php echo __('TIETOAINEISTOA', 'hri'); ?></font>
 					</center>
 				</div>
 			</a>
