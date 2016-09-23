@@ -198,7 +198,6 @@ function add_hidden_lang() {
 	global $blog_id, $post;
 
  	echo '<input type="hidden" name="lang" value="' . HRI_LANG . '" />
-	<input type="hidden" name="redirect_to" value="' . hri_link( get_permalink( $post->ID ), HRI_LANG, 'dataset' ) . '" />
 	<input type="hidden" id="hri-blog" value="' . $blog_id . '" />';
 
 	return true;

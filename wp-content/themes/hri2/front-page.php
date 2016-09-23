@@ -26,6 +26,14 @@ $categories = array(
 	array(__('TIETOTEKNIIKKA', 'hri'), 'Tietotekniikka')
 );
 
+/** HRI-165: 2. solve the upcoming data URL depending on user's language. */
+if(ORIGINAL_BLOG_ID == 3) {
+	$UPCOMING_DATA_URL = 'http://www.hri.fi/en/about/open-data-pipeline/';
+}
+else {
+	$UPCOMING_DATA_URL = 'http://www.hri.fi/fi/hri-projekti/tyon-alla/';
+}
+
 # Sort the categories based on the translated title.
 function cmpCategories($a, $b) { return ($a[0] < $b[0]) ? -1 : 1; }
 
@@ -405,7 +413,7 @@ if ( ORIGINAL_BLOG_ID != 4 ) { // not sv_SE
 			<div class="column no-tb arrow-right">&nbsp;</div>
 		</div>
 		<div class="clear"></div>
-		<a class="arrow right" href="<?php echo DATA_SEARCH_URL; ?>"><?php echo __('SIIRRY TARKEMPAAN DATAHAKUUN', 'hri'); ?></a>
+		<a class="arrow right" href="<?php echo $UPCOMING_DATA_URL; ?>"><?php echo __('TULEVAT AVAUKSET', 'hri'); ?></a>
 		<a class="arrow right" href="<?php echo ROOT_URL . '/' . 'fi' . '/uusi-datatoive/'; ?>"><?php echo __('TOIVO DATAA', 'hri'); ?></a>
 		<a class="arrow right" href="<?php echo ROOT_URL . '/' . 'fi' . '/avaa-dataa/ilmoita-tietoaineisto'; ?>"><?php echo __('ILMOITA UUSI DATA', 'hri'); ?></a>
 
@@ -475,7 +483,7 @@ if ( ORIGINAL_BLOG_ID != 4 ) { // not sv_SE
 
 			if( $results ) {
 
-				?><div class="h4-c" style="margin-top: 11px; padding: 11px 11px;"><h4 class="icon icon-small-downloads" style="font-size: 26px; color: #084169;">&nbsp;<?php echo __('KATSOTUIMMAT DATAT', 'hri'); ?></h4>
+				?><div class="h4-c" style="margin-top: 11px; padding: 11px 11px;"><h4 class="icon icon-small-downloads" style="font-size: 26px; color: #084169;">&nbsp;<?php echo __('KUUKAUDEN TOP 10', 'hri'); ?></h4>
 				</div>
 				<ul class="dash-list"><?php
 

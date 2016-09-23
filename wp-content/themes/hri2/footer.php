@@ -13,8 +13,24 @@
 	<div class="footer-col footer-col-1st">
 		<div id="copyright">
 			<img id="logo-footer" src="<?php bloginfo('template_url'); ?>/img/logo-footer.png" alt="Helsinki Region Infoshare"/>
+			<?php // HRI-165: Add language specific suffix to all city URLs.
+			$url_suffix = '';
+			$espoo_url = 'http://www.espoo.fi';
+			if(HRI_LANG != 'fi') {
+				$url_suffix = "/" . HRI_LANG;
+				if(HRI_LANG == 'en') {
+					$espoo_url .= '/en-US';
+				}
+				else if(HRI_LANG == 'sv') {
+					$espoo_url .= '/sv-FI';
+				}
+			}
+			?>
 			<div>
-				<em>© Helsinki Region Infoshare</em><?php _e('Joitakin oikeuksia pidätetään.', 'hri'); ?>
+				<a href="http://www.hel.fi<?php echo $url_suffix; ?>"><img src="/wp-content/uploads/2016/01/Helsingin_Vaakuna_RGB_png_62254.png" height="48" /></a>
+				<a href="<?php echo $espoo_url; ?>"><img src="/wp-content/uploads/2016/01/Espoo_vaakuna.png" height="48" /></a>
+				<a href="http://www.vantaa.fi<?php echo $url_suffix; ?>"><img src="/wp-content/uploads/2016/01/Vantaa_vaakuna.png" height="48" /></a>
+				<a href="http://www.kauniainen.fi<?php echo $url_suffix; ?>"><img src="/wp-content/uploads/2016/01/Kauniainen_vaakuna.png" height="48" /></a>
 			</div>
 		</div>
 		<?php if(HRI_LANG == 'fi' || HRI_LANG == 'en'): ?>
@@ -43,6 +59,21 @@
 			<ul>
 				<li><em><?php _e('Seuraa HRI:tä', 'hri'); ?></em></li>
 				
+				<li><a href="http://www.facebook.com/helsinkiregioninfoshare" class="a-facebook">Facebook</a></li>
+				<li><a href="https://github.com/Helsingin-kaupungin-tietokeskus" class="a-github">Github</a></li>
+				<?php
+
+				if ( ORIGINAL_BLOG_ID != 4 ) {
+
+					?><li><a href="<?php echo home_url('/feed'); ?>" class="a-rss"><?php _e('RSS-syötteet', 'hri'); ?></a></li><?php
+
+				}
+
+				?>
+
+				<li><a href="http://www.slideshare.net/helsinkiregioninfoshare" class="a-slideshare">Slideshare</a></li>
+				<li><a href="https://twitter.com/HRInfoshare" class="a-twitter">Twitter</a></li>
+				
 				<?php
 
 				if( ORIGINAL_BLOG_ID != 3 && ORIGINAL_BLOG_ID != 4 ) {
@@ -51,20 +82,19 @@
 
 				}
 
-				if ( ORIGINAL_BLOG_ID != 4 ) {
-
-				?><li><a href="<?php echo home_url('/feed'); ?>" class="a-rss"><?php _e('RSS-syötteet', 'hri'); ?></a></li><?php
-
-				}
-
 				?>
-				<li><a href="http://www.facebook.com/helsinkiregioninfoshare" class="a-facebook">Facebook</a></li>
-				<li><a href="https://twitter.com/HRInfoshare" class="a-twitter">Twitter</a></li>
-				<li><a href="http://www.slideshare.net/helsinkiregioninfoshare" class="a-slideshare">Slideshare</a></li>
 				<li><a href="https://www.youtube.com/user/HRInfoshare" class="a-youtube">Youtube</a></li>
-				<li><a href="https://github.com/Helsingin-kaupungin-tietokeskus" class="a-github">Github</a></li>
 			</ul>
 		</nav>
+
+		<span style="float: right; margin-top: -25px;"><em>© Helsinki Region Infoshare</em><?php _e('Joitakin oikeuksia pidätetään.', 'hri'); ?></span>
+
+		<?php
+		if(HRI_LANG == 'sv') {
+			// Add a little dummy element to push the copyright text above to the same level as other languages.
+			?><span style="height: 39px; width: 100%;"><br><br></span><?php
+		}
+		?>
 	</div>
 	<div class="clear"></div>
 </footer>

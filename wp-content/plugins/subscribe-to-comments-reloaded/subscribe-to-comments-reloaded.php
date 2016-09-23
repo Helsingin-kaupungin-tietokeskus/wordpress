@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Subscribe to Comments Reloaded
+Plugin Name: Subscribe to Comments Reloaded - modified by BaraBra and HiQ
 
 Version: 140220
 Stable tag: 140220
@@ -78,7 +78,8 @@ function subscribe_reloaded_show() {
 			'[subscribe_link]', "$manager_link&amp;sra=s",
 			__( html_entity_decode( stripslashes( get_option( 'subscribe_reloaded_checkbox_label', "Notify me of followup comments via e-mail. You can also <a href='[subscribe_link]'>subscribe</a> without commenting." ) ), ENT_COMPAT, 'UTF-8' ), 'subscribe-reloaded' )
 		);*/
-		$checkbox_label = __("Notify me of followup comments via e-mail.",'subscribe-reloaded');
+		//$checkbox_label = __("Notify me of followup comments via e-mail.",'subscribe-reloaded');
+        $checkbox_label = __("Tilaa uudet kommentit sähköpostiisi.", 'hri');
 		
 		$checkbox_inline_style = get_option( 'subscribe_reloaded_checkbox_inline_style', 'width:30px' );
 		if ( ! empty( $checkbox_inline_style ) ) {

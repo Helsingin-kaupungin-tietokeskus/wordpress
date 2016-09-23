@@ -2,6 +2,9 @@
 /**
  * Template name: Subscribe to comments
  */
+ 
+// HRI-165: Dummy translation added here, so we can use it over at subscribe-to-comments-reloaded.php
+__("Tilaa uudet kommentit sähköpostiisi.", 'hri');
 
 if ( !isset($_POST['hri_subscribe_submit']) ) {
 

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: HRI 2 v2.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-09-12 22:49+0200\n"
-"PO-Revision-Date: 2015-06-04 06:38:49+0000\n"
+"PO-Revision-Date: 2016-01-12 09:54:42+0000\n"
 "Last-Translator: Timo Sillander <timo.sillander@joynery.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -76,7 +76,7 @@ msgstr "Name"
 #: comments-ratings.php:40
 #: comments.php:32
 #: functions-secondary.php:554
-#: functions.php:290
+#: functions.php:289
 #: page-new-app-idea.php:177
 #: page-new-app.php:261
 #: page-new-data-request.php:142
@@ -173,13 +173,13 @@ msgstr "Overall based on your ratings"
 msgid "Kommentit"
 msgstr "Comments"
 
-#: front-page.php:380
+#: front-page.php:400
 #@ hri
 msgid "Hae dataa..."
 msgstr "Search data…"
 
-#: front-page.php:110
-#: front-page.php:177
+#: front-page.php:130
+#: front-page.php:197
 #, php-format
 #@ hri
 msgid "Lue artikkeli %s"
@@ -210,7 +210,7 @@ msgstr "Some rights reserved."
 msgid "Seuraa HRI:tä"
 msgstr "Follow HRI"
 
-#: footer.php:56
+#: footer.php:52
 #@ hri
 msgid "RSS-syötteet"
 msgstr "RSS feeds"
@@ -364,7 +364,7 @@ msgid "Sähköpostiosoitteesi"
 msgstr "Your email"
 
 #: functions-secondary.php:1125
-#: functions.php:301
+#: functions.php:300
 #: page-new-app-idea.php:195
 #: page-new-app.php:277
 #: page-new-data-request.php:156
@@ -469,29 +469,29 @@ msgstr "Side bar for datas"
 msgid "Sivupalkki Artikkelilistauksille"
 msgstr "Side bar for article listings"
 
-#: functions.php:279
+#: functions.php:278
 #@ hri
 msgid "Sähköposti-ilmoitus kommenteista: tilaa tai peru tilaus"
 msgstr "Email notification on new comments: subscribe or unsubscribe"
 
-#: functions.php:288
+#: functions.php:287
 #: page-app-gallery.php:151
 #: single-data.php:146
 #@ hri
 msgid "Sulje"
 msgstr "Close"
 
-#: functions.php:297
+#: functions.php:296
 #@ hri
 msgid "Tilaa ilmoitukset uusista viesteistä tähän keskusteluun"
 msgstr "Subscribe to notifications on new messages to this thread"
 
-#: functions.php:298
+#: functions.php:297
 #@ hri
 msgid "Peru ilmoitukset tämän keskustelun viesteistä"
 msgstr "Unsubscribe from notifications on this thread"
 
-#: functions.php:299
+#: functions.php:298
 #@ hri
 msgid "Peru ilmoitukset kaikista HRI-keskusteluista"
 msgstr "Unsubscribe from notifications on all discussions on HRI"
@@ -502,7 +502,7 @@ msgstr "Unsubscribe from notifications on all discussions on HRI"
 msgid "Sivu %s"
 msgstr "Page %s"
 
-#: header.php:98
+#: header.php:99
 #@ hri
 msgid "Etusivulle"
 msgstr "To home page"
@@ -776,7 +776,7 @@ msgstr "New application submitted"
 msgid "Kaikki sovellukset"
 msgstr "All applications"
 
-#: front-page.php:200
+#: front-page.php:220
 #: page-new-app.php:189
 #@ hri
 msgid "Ilmoita uusi sovellus"
@@ -909,12 +909,12 @@ msgstr "Back"
 msgid "Keskustelunavaukset arvioidaan ja niitä saatetaan muokata ennen julkaisua."
 msgstr "Discussions will be moderated and they might be edited before publication."
 
-#: page-report.php:94
+#: page-report.php:95
 #@ hri
 msgid "Jokin epäonnistui."
 msgstr "Something went wrong"
 
-#: page-report.php:95
+#: page-report.php:98
 #@ hri
 msgid "Ilmoitus lähetetty ylläpitäjille."
 msgstr "Message sent to maintenance."
@@ -986,28 +986,28 @@ msgstr "Publish your application online"
 msgid "Käyttäjät antavat palautetta ja keskustelevat"
 msgstr "Get feedback and participate in discussions"
 
-#: page-subscribe-to-comments.php:22
+#: page-subscribe-to-comments.php:25
 #@ hri
 msgid "Virheellinen sähköpostiosoite"
 msgstr "Error in email"
 
-#: page-subscribe-to-comments.php:27
+#: page-subscribe-to-comments.php:30
 #@ hri
 msgid "Virheellinen valinta"
 msgstr "Invalid selection"
 
-#: page-subscribe-to-comments.php:32
+#: page-subscribe-to-comments.php:35
 #@ hri
 msgid "Virhe"
 msgstr "Error"
 
-#: page-subscribe-to-comments.php:57
+#: page-subscribe-to-comments.php:60
 #@ hri
 msgid "Kommentit tilattu onnistuneesti"
 msgstr "Subscribe to comments successful"
 
-#: page-subscribe-to-comments.php:66
-#: page-subscribe-to-comments.php:76
+#: page-subscribe-to-comments.php:69
+#: page-subscribe-to-comments.php:79
 #@ hri
 #@ default
 msgid "Tilaus peruttu"
@@ -1214,42 +1214,32 @@ msgstr "Related applications"
 msgid "Visualisointiblogi"
 msgstr ""
 
-#: front-page.php:352
+#: front-page.php:372
 #@ hri
 msgid "Avointa dataa pääkaupunkiseudulta vapaasti hyödynnettäväksesi"
 msgstr "Open data from the Helsinki Metropolitan Area for you to use freely"
 
-#: front-page.php:377
+#: front-page.php:397
 #@ hri
 msgid "HAE DATAA"
 msgstr "SEARCH DATA"
 
-#: front-page.php:397
+#: front-page.php:417
 #@ hri
 msgid "TOIVO DATAA"
 msgstr "SUBMIT DATA REQUEST"
 
-#: front-page.php:396
-#@ hri
-msgid "SIIRRY TARKEMPAAN DATAHAKUUN"
-msgstr "USE ADVANCED DATA SEARCH"
-
-#: front-page.php:402
+#: front-page.php:422
 #@ hri
 msgid "TAI SELAA KATEGORIOITTAIN"
 msgstr "OR SEARCH BY CATEGORY"
 
-#: front-page.php:466
-#@ hri
-msgid "KATSOTUIMMAT DATAT"
-msgstr "POPULAR DATASETS"
-
-#: front-page.php:499
+#: front-page.php:519
 #@ hri
 msgid "UUSIMMAT DATAT"
 msgstr "NEWEST DATASETS"
 
-#: front-page.php:545
+#: front-page.php:565
 #@ hri
 msgid "SOVELLUKSET"
 msgstr ""
@@ -1315,7 +1305,7 @@ msgstr ""
 msgid "(Päivitetään kerran vuorokaudessa)."
 msgstr ""
 
-#: functions.php:609
+#: functions.php:608
 #: sidebar-data.php:237
 #@ hri
 msgid "Sovellukset tästä datasta"
@@ -1343,7 +1333,7 @@ msgstr ""
 msgid "Lähdeviite aineistoon"
 msgstr ""
 
-#: front-page.php:531
+#: front-page.php:551
 #@ hri
 msgid "Näytä lisää dataa"
 msgstr "Show more datasets"
@@ -1448,13 +1438,13 @@ msgstr "INFORMATION"
 msgid "TIETOTEKNIIKKA"
 msgstr "INFORMATION TECHNOLOGY"
 
-#: functions.php:417
+#: functions.php:416
 #, php-format
 #@ hri
 msgid "YHTEENSÄ %s"
 msgstr "%s AVAILABLE"
 
-#: functions.php:416
+#: functions.php:415
 #, php-format
 #@ hri
 msgid "%s DATA-AINEISTOA"
@@ -1465,12 +1455,12 @@ msgstr "%s DATASETS"
 msgid "SOSIAALIPALVELUT"
 msgstr "SOCIAL SERVICES"
 
-#: front-page.php:398
+#: front-page.php:418
 #@ hri
 msgid "ILMOITA UUSI DATA"
 msgstr "SUBMIT NEW DATA"
 
-#: front-page.php:577
+#: front-page.php:597
 #@ hri
 msgid "Näytä lisää päivityksiä"
 msgstr "Show more updates"
@@ -1480,34 +1470,49 @@ msgstr "Show more updates"
 msgid "Nimeäsi ei julkaista datatoiveen yhteydessä."
 msgstr "Your name shall not be publified with your data request."
 
-#: front-page.php:129
+#: front-page.php:149
 #@ hri
 msgid "Näytä lisää artikkeleita"
 msgstr "Show more articles"
 
-#: front-page.php:192
+#: front-page.php:212
 #@ hri
 msgid "Näytä lisää sovelluksia"
 msgstr "Show more applications"
 
-#: front-page.php:288
-#: front-page.php:439
+#: front-page.php:308
+#: front-page.php:459
 #@ hri
 msgid "Näytä lisää kategorioita"
 msgstr "Show more categories"
 
-#: front-page.php:289
+#: front-page.php:309
 #@ hri
 msgid "Näytä vähemmän kategorioita"
 msgstr "Show less categories"
 
-#: footer.php:50
+#: footer.php:65
 #@ hri
 msgid "Uutiskirje"
 msgstr ""
 
-#: front-page.php:389
+#: front-page.php:409
 #@ hri
 msgid "TIETOAINEISTOA"
 msgstr "DATASETS"
+
+#: front-page.php:416
+#@ hri
+msgid "TULEVAT AVAUKSET"
+msgstr "UPCOMING DATA"
+
+#: front-page.php:486
+#@ hri
+msgid "KUUKAUDEN TOP 10"
+msgstr "MONTHLY TOP 10"
+
+#: page-subscribe-to-comments.php:7
+#@ hri
+msgid "Tilaa uudet kommentit sähköpostiisi."
+msgstr "Notify me of followup comments via e-mail."
 

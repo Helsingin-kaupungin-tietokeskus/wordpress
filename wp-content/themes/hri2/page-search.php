@@ -10,10 +10,12 @@ get_header(); ?>
 
 var clickSleep = false;
 var page = <?php
-	if(!isset($_GET['page']) || empty($_GET['page']) || !ctype_digit($_GET['page'])) {
+	// HRI-165: Bugfix - the URL parameter is searchpage, not page...?
+	if(!isset($_GET['searchpage']) || empty($_GET['searchpage']) || !ctype_digit($_GET['searchpage'])) {
 		echo 1;
 	} else {
-		echo $_GET['page'];
+		$searchpage = (int) $_GET['searchpage'];
+		echo $_GET['searchpage'];		
 	}
 ?>;
 
@@ -26,7 +28,8 @@ $(document).ready( function($) {
 	
 		// Create searchString for AJAX request
 		var searchString = 'search_text=' + $('#search').val();
-		searchString += "&page="+page;
+		// HRI-165: Bugfix - the URL parameter is searchpage, not page...?
+		searchString += "&searchpage=" + page;
 
 		var sort_sel = $('.asc, .desc');
 
@@ -91,7 +94,9 @@ $(document).ready( function($) {
 		doSearch();
 	});
 
-	$('.hri-submit').click( function() { doSearch(); return false; });
+	// HRI-165: Disable this as it's interfering with the footer search as well as page structure 
+	//          (search word does not get updated to the URL.)
+	//$('.hri-submit').click( function() { doSearch(); return false; });
 
 	<?php hri_js_sort_options(); ?>
 
@@ -101,16 +106,16 @@ $(document).ready( function($) {
 <div class="column full">
 	<h1><?php _e( 'Hae', 'hri' ); ?></h1>
 
-	<form id="full-search">
+	<form action="<?php echo home_url() . '/' . HRI_LANG; ?>" id="full-search" method="get" role="search">
 				
 		<div class="hri-search">
 			<input id="search" class="hri-input" type="text" placeholder="<?php _e( 'Syötä hakusanat...', 'hri' ); ?>" value="<?php
 
 				if( isset( $_GET['words'] ) ) echo esc_html( $_GET['words'] );
 
-			?>" />
+			?>" name="s" />
 			<a class="hri-cancel"></a>
-			<input class="hri-submit" type="submit" />
+			<input type="submit" value="Hae" class="hri-submit">
 		</div>
 
 	</form>

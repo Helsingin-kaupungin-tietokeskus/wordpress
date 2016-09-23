@@ -403,11 +403,11 @@ class hri_analytics
         	    
         	}
         	
-            $tmp_data = $wpdb->get_row('
-				SELECT id FROM ' . $table_name . '
-				WHERE event_date = "' . $dateSQL . '"
-				AND event_label =  "' . $row[2] . '"
-			;');
+            $tmp_data = $wpdb->get_row("
+				SELECT id FROM '" . $table_name . "'
+				WHERE event_date = '" . $dateSQL . "'
+				AND event_label =  '" . $row[2] . "'
+			;");
 
             if (isset($tmp_data)
                 && isset($tmp_data->id)
@@ -618,12 +618,12 @@ class hri_analytics
             
             $post_id = $post_arr[0]->id;
             
-            $tmp_data = $wpdb->get_row('
-				SELECT id FROM ' . $table_name . '
-				WHERE event_date = "' . $dateSQL . '"
-				AND data_post_id =  ' . $post_id . '
-				AND page_lang =  "' . $page_lang . '"
-			;');
+            $tmp_data = $wpdb->get_row("
+				SELECT id FROM " . $table_name . "
+				WHERE event_date = '" . $dateSQL . "'
+				AND data_post_id =  " . $post_id . "
+				AND page_lang =  '" . $page_lang . "'
+			;");
 			
 
 
